@@ -2,7 +2,7 @@
  "storeHouse": [
   {
    "sourceName": "本地仓库",
-   "sourceUrl": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/mstoredc.json"
+   "sourceUrl": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/mstoredc.json"
   }
  ]
 }

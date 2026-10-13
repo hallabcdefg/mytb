@@ -18,7 +18,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "XYQaL_4kHDR",
@@ -45,7 +45,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "PanSearch",
@@ -55,7 +55,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "Upyunso",
@@ -65,7 +65,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "Alips",
@@ -75,7 +75,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "Yisou",
@@ -85,7 +85,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "Zhaozy",
@@ -95,7 +95,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   },
   {
    "key": "js_企鹅",
@@ -155,7 +155,7 @@
    "searchable": 1,
    "filterable": 0,
    "switchable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
   }
  ],
  "rules": [
