@@ -21,54 +21,11 @@
       "api": "csp_LiteApple"
     },
     {
-      "key": "csp_Czsapp",
-      "name": "🏭厂长┃影视",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Czsapp",
-      "ext": "https://www.czzy.art"
-    },
-    {
-      "key": "cjzy_快看",
-      "name": "👁️‍🗨️快看┃影视",
-      "type": 1,
-      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "国产动漫",
-        "日韩剧",
-        "欧美剧",
-        "海外剧",
-        "动作片",
-        "爱情片",
-        "剧情片",
-        "科幻片",
-        "奇幻片",
-        "战争片",
-        "犯罪片",
-        "恐怖片",
-        "悬疑片",
-        "惊悚片",
-        "冒险片"
-      ]
-    },
-    {
       "key": "drpy_哔哩影视",
       "name": "👨‍💻哔哩┃影视",
       "type": 3,
       "api": "./js/drpy.min.js",
       "ext": "./js/哔哩影视.js"
-    },
-    {
-      "key": "app_影视之光",
-      "name": "🖼8K┃影视",
-      "type": 1,
-      "api": "http://tvappjsonapi.8kvod.com/8kvodapilgxcsssss.php/provide/vod/from/chuyu/"
     },
     {
       "key": "drpy_动漫巴士",
@@ -99,14 +56,6 @@
       "ext": "./json/1686224372.json"
     },
     {
-      "key": "drpy_农民",
-      "name": "🌾农民┃影视",
-      "type": 3,
-      "api": "csp_Nmys",
-      "ext": "http://饭太硬.top/x/json/nmys.json",
-      "jar": "./txt/fan.jar"
-    },
-    {
       "key": "drpy_A8音乐",
       "name": "🎵A8┃MV",
       "type": 3,
@@ -115,52 +64,11 @@
       "ext": "./json/1687339319.json"
     },
     {
-      "key": "歌手_MV",
-      "name": "🎵歌手┃MV",
-      "type": 1,
-      "api": "https://tvbox-mv--leosam2048.repl.co/mv/vod",
-      "searchable": 0
-    },
-    {
-      "key": "apv2_黄黄",
-      "name": "🔴红红┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
-    },
-    {
       "key": "drpy_爱迪",
       "name": "  🆔爱迪┃影视",
       "type": 3,
       "api": "csp_AppYsV2",
       "ext": "https://aidiapp.xyz/xgapp.php/v2/"
-    },
-    {
-      "key": "drpy_爱迪tv",
-      "name": "🎯爱迪┃影院",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://aidi.tv/xgapp.php/v1/"
-    },
-    {
-      "key": "apv2_聚合",
-      "name": "🏕聚合┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://117.175.212.198:8088/api.php/app/"
-    },
-    {
-      "key": "apv2_飞速",
-      "name": "🛣飞速┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://longfei.lfytyl.com/api.php/app/"
-    },
-    {
-      "key": "app_轻简",
-      "name": "🏖沙河┃影院",
-      "type": 1,
-      "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/"
     },
     {
       "key": "cjzy_暴风资源",
@@ -189,20 +97,6 @@
       ]
     },
     {
-      "key": "drpy_影探",
-      "name": "🌘影探┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://longfei.lfytyl.com/api.php/app/"
-    },
-    {
-      "key": "apv2_速看100",
-      "name": "🚤速看┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://sk100.tv/api.php/app/"
-    },
-    {
       "key": "XBPQ_飞云",
       "name": "♈白嫖┃几天",
       "type": 3,
@@ -215,13 +109,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./json/1687192148.json"
-    },
-    {
-      "key": "apv2_COKEMV",
-      "name": "🥤可乐┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://cokemv.me/xgapp.php/v2/"
     },
     {
       "key": "XBPQ_饭团",
@@ -239,53 +126,11 @@
       "ext": "https://www.icio.cc/api.php/app/"
     },
     {
-      "key": "apv2_HG",
-      "name": "🌵HG┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://bbq.1006.tk/api.php/v1.vod"
-    },
-    {
-      "key": "apv2_F7好看剧",
-      "name": "🏁F7┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://www.f7hkj.cc/api.php/app/"
-    },
-    {
-      "key": "apv2_映迷",
-      "name": "🌅映迷┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://www.inmi.app/xgapp.php/v1/"
-    },
-    {
-      "key": "apv2_空气屋",
-      "name": "🏠空屋┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://www.airfun.fun/xgapp.php/v2/"
-    },
-    {
       "key": "apv2_迷你库",
       "name": "🗃迷你库┃影视",
       "type": 3,
       "api": "csp_AppYsV2",
       "ext": "http://www.miniku.cc/xgapp.php/v1/"
-    },
-    {
-      "key": "apv2_鸭奈飞",
-      "name": "🦆丫丫┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
-    },
-    {
-      "key": "apv2_旧欢如梦",
-      "name": "🕊旧梦┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://43.139.139.17:4433/api.php/app/"
     },
     {
       "key": "cjzy_优质",
@@ -312,26 +157,6 @@
         "喜剧片",
         "战争片"
       ]
-    },
-    {
-      "key": "drpy_多米",
-      "name": "  🗺多米┃影视",
-      "type": 1,
-      "api": "http://v.dmdh.top/api.php/app/"
-    },
-    {
-      "key": "drpy_如意",
-      "name": "🎋如意┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://cms.maoyingshi.cc/api.php/app/"
-    },
-    {
-      "key": "apv2_玩酷",
-      "name": "🏄玩酷┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://cms.wbsys.top:9835/api.php/app/"
     },
     {
       "key": "XYQaL_玩偶哥哥",
@@ -394,13 +219,6 @@
       "ext": "./json/1687259506.json"
     },
     {
-      "key": "apv2_阿里",
-      "name": "🦊阿里┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://aliys.cn:91/api.php/v1.vod"
-    },
-    {
       "key": "XYQH_臭蛋蛋",
       "name": "🐣蛋蛋┃影视",
       "type": 3,
@@ -427,20 +245,6 @@
       "type": 3,
       "api": "csp_XYQHiker",
       "ext": "./json/1687294363.json"
-    },
-    {
-      "key": "drpy_创艺蓝光",
-      "name": "🍥创艺┃含广告",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://www.30dian.cn/api.php/v1.vod"
-    },
-    {
-      "key": "drpy_555",
-      "name": "5️⃣555┃含广告",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://www.stuo-express.com/api.php/app/"
     },
     {
       "key": "drpy_创艺V2",
@@ -632,46 +436,11 @@
       "api": "csp_Kuaikan"
     },
     {
-      "key": "cjzy_映迷",
-      "name": "🌄映迷┃影视",
-      "type": 1,
-      "api": "https://www.inmi.app/api.php/provide/vod/",
-      "playUrl": "json:https://jf.icucloud.vip/api/jsonindex.php/?key=ahNCgSypVOi9W5aloR&url=",
-      "categories": [
-        "電視劇",
-        "電影",
-        "綜藝",
-        "動漫",
-        "直播"
-      ]
-    },
-    {
-      "key": "apv2_酷影",
-      "name": "👖酷影┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "https://www.tvkuys.xyz/api.php/app/"
-    },
-    {
       "key": "apv2_瑞丰",
       "name": "⛄瑞丰┃影视",
       "type": 3,
       "api": "csp_AppYsV2",
       "ext": "http://www.miniku.cc/xgapp.php/v2/"
-    },
-    {
-      "key": "apv2_酷囧",
-      "name": "🤪酷囧┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://124.222.175.111:89/api.php/app/"
-    },
-    {
-      "key": "apv2_玩偶",
-      "name": "🤩玩偶┃影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://xn--yeta099v.online:66/api.php/app/"
     },
     {
       "key": "drpy_搜苟",
@@ -915,20 +684,6 @@
       "ext": "./js/DJ音乐.js"
     },
     {
-      "key": "drpy_音乐mv",
-      "name": "🎵音乐┃MV",
-      "type": 4,
-      "searchable": 0,
-      "api": "http://120.53.102.254/dsp/"
-    },
-    {
-      "key": "drpy_音乐mv",
-      "name": "🎵音乐┃视频",
-      "type": 4,
-      "searchable": 0,
-      "api": "http://120.53.102.254/live?url=https://notabug.org/qizhen15800/My9394/raw/master/live/DIY.txt"
-    },
-    {
       "key": "sp_纸条",
       "name": " 😣纸条┃搜索",
       "type": 3,
@@ -1009,38 +764,6 @@
       "jar": "./XC.jar"
     },
     {
-      "key": "csp_Zhaozy",
-      "name": "🔎找资源搜索",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_Zhaozy",
-      "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php$$$yingshi$$$abcd1234"
-    },
-    {
-      "key": "csp_AliPS",
-      "name": "📀喵狸┃搜索",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_AliPS",
-      "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
-    },
-    {
-      "key": "csp_Yisou",
-      "name": "📧易搜┃搜索",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_Yisou",
-      "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
-    },
-    {
-      "key": "csp_Upyunso",
-      "name": "🆙UP云┃搜索",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_Upyunso",
-      "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
-    },
-    {
       "key": "XYQH_土狗",
       "name": "🐕土狗┃搜索",
       "type": 3,
@@ -1119,22 +842,6 @@
       "playerType": 1,
       "api": "csp_XYQHikerAL",
       "ext": "./json/1687324845.json"
-    },
-    {
-      "key": "push_agent",
-      "name": "📤推送┃视频",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_PushAgent",
-      "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
-    },
-    {
-      "key": "Gitcafe",
-      "name": "🎟纸条┃阿狸",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_Gitcafe",
-      "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
     },
     {
       "key": "XYQH_双十",
