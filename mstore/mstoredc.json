@@ -1,8 +1,12 @@
 {
   "urls": [
     {
-      "name": "🌟整合仓库·优化版（已清理失效+提速）",
-      "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/all.json"
+      "name": "超玩家·精选线路(84站)",
+      "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ref/cwj.json"
+    },
+    {
+      "name": "盒子迷·精选线路(91站)",
+      "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ref/hzm.json"
     }
   ]
 }
