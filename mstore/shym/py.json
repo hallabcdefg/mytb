@@ -1,5 +1,5 @@
 {
- "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/shym/custom_spider.jar",
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/shym/custom_spider.jar",
  "lives": [
   {
    "group": "redirect",
@@ -148,7 +148,7 @@
    "filterable": 1,
    "changeable": 0,
    "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yygf.txt",
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/shym/aggsp.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/shym/aggsp.jar"
   },
   {
    "key": "盘搜",

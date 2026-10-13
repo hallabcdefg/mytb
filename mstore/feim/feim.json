@@ -29,7 +29,7 @@
    "type": 3,
    "api": "csp_XBPQ",
    "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E4%BA%91%E4%BA%91.json",
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/feim/jars/%E8%82%A5%E7%8C%AB.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/jars/%E8%82%A5%E7%8C%AB.jar"
   },
   {
    "key": "爱迪",
@@ -38,7 +38,7 @@
    "api": "csp_AppYsV2",
    "playerType": "2",
    "ext": "https://api123.adys.app/xgapp.php/v3/",
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/feim/jars/%E7%88%B1%E8%BF%AA.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/jars/%E7%88%B1%E8%BF%AA.jar"
   },
   {
    "key": "csp_apple",
@@ -832,5 +832,5 @@
  ],
  "wallpaper": "https://picsum.photos/1280/720/?blur=2",
  "warningText": "接口完全免费，切勿付费购买。",
- "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/feim/spider.jar"
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/spider.jar"
 }

@@ -1,5 +1,5 @@
 {
- "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/spider.jar",
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/spider.jar",
  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
  "lives": [
   {
@@ -83,7 +83,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "影探4K",
@@ -653,7 +653,7 @@
    "searchable": 1,
    "filterable": 1,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "阿里云盘",
@@ -663,7 +663,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "易搜",
@@ -673,7 +673,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "盘搜",
@@ -683,7 +683,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "UP云搜",
@@ -693,7 +693,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "找资源",
@@ -704,7 +704,7 @@
    "filterable": 0,
    "changeable": 0,
    "ext": "null$$$yunshuche$$$11223344",
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "网盘搜索",
@@ -714,7 +714,7 @@
    "searchable": 1,
    "filterable": 1,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "土狗",
@@ -723,7 +723,7 @@
    "api": "csp_TuGou",
    "searchable": 1,
    "changeable": 0,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/ysc/jars/csp_WoGG.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ysc/jars/csp_WoGG.jar"
   },
   {
    "key": "土拨鼠",

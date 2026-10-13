@@ -77,7 +77,7 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/yyds/XYQHiker/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json",
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/yyds/aggsp.jar"
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/yyds/aggsp.jar"
   },
   {
    "key": "py_baby",
@@ -164,7 +164,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/yyds/aggsp.jar",
+   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/yyds/aggsp.jar",
    "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/yyds/XYQHiker/%E5%B8%83%E8%95%BE%E8%93%9D%E5%85%89.json"
   },
   {
@@ -1827,5 +1827,5 @@
  ],
  "wallpaper": "https://yydsys.top/bg.php",
  "warningText": "接口免费整理维护，请勿付费购买",
- "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/yyds/spider.jar"
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/yyds/spider.jar"
 }
