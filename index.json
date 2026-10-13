@@ -1,5 +1,5 @@
 {
- "spider": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/spider.jar",
+ "spider": "https://hallabcdefg.github.io/mytb/TVBox/spider.jar",
  "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
  "logo": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/img/logo500x200.png",
  "sites": [
@@ -48,7 +48,7 @@
     "type": "rect",
     "ratio": 1.597
    },
-   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/wex.jar"
+   "jar": "https://hallabcdefg.github.io/mytb/TVBox/wex.jar"
   },
   {
    "key": "厂长弹幕",
@@ -517,7 +517,7 @@
    "api": "csp_Wexleijing",
    "searchable": 1,
    "changeable": 1,
-   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/wex.jar"
+   "jar": "https://hallabcdefg.github.io/mytb/TVBox/wex.jar"
   },
   {
    "key": "天翼",
@@ -526,7 +526,7 @@
    "api": "csp_Wextyso",
    "searchable": 1,
    "changeable": 0,
-   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/wex.jar"
+   "jar": "https://hallabcdefg.github.io/mytb/TVBox/wex.jar"
   },
   {
    "key": "盘他",
@@ -535,7 +535,7 @@
    "api": "csp_WexYDpanta",
    "searchable": 1,
    "changeable": 1,
-   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/wex.jar"
+   "jar": "https://hallabcdefg.github.io/mytb/TVBox/wex.jar"
   },
   {
    "key": "Emby",
@@ -544,7 +544,7 @@
    "api": "csp_Wexemby",
    "searchable": 1,
    "changeable": 1,
-   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/wex.jar"
+   "jar": "https://hallabcdefg.github.io/mytb/TVBox/wex.jar"
   },
   {
    "key": "星芽短剧",

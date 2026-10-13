@@ -3,7 +3,7 @@ globalThis.getRandomItem = function(items) {
 }
 var rule = {
     title: '采集之王[合]',
-    author: '道长',
+    author: '',
     version: '20240706 beta17',
     update_info: ``.trim(),
     host: '',
@@ -172,7 +172,7 @@ var rule = {
                 type_name: '更新日志',
                 vod_pic: 'https://resource-cdn.tuxiaobei.com/video/FtWhs2mewX_7nEuE51_k6zvg6awl.png',
                 vod_remarks: `版本:${rule.version}`,
-                vod_play_from: '道长在线',
+                vod_play_from: '在线',
                 vod_play_url: '随机小视频$http://api.yujn.cn/api/zzxjj.php',
             };
         } else {

@@ -7,10 +7,6 @@ import './pako.min.js';
 import 模板 from './模板.js'
 import {gbkTool} from './gbk.js'
 
-// import cheerio from "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/cheerio.min.js";
-// import "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/crypto-js.js";
-// import 模板 from"https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/模板.js";
-// import {gbkTool} from 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/gbk.js'
 
 function init_test() {
     // console.log(typeof(CryptoJS));
@@ -853,7 +849,6 @@ function decodeStr(input, encoding) {
 }
 
 function getCryptoJS() {
-    // return request('https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/crypto-hiker.js');
     return 'console.log("CryptoJS已装载");'
 }
 
@@ -1131,7 +1126,7 @@ function forceOrder(lists, key, option) {
 
 let VODS = [];// 一级或者搜索需要的数据列表
 let VOD = {};// 二级的单个数据
-let TABS = [];// 二级的自定义线路列表 如: TABS=['道长在线','道长在线2']
+let TABS = [];// 二级的自定义线路列表 如: TABS=['在线','在线2']
 let LISTS = [];// 二级的自定义选集播放列表 如: LISTS=[['第1集$http://1.mp4','第2集$http://2.mp4'],['第3集$http://1.mp4','第4集$http://2.mp4']]
 
 /**
@@ -2295,7 +2290,7 @@ function categoryParse(cateObj) {
             vod_name: '无数据,防无限请求',
             vod_id: 'no_data',
             vod_remarks: '不要点,会崩的',
-            vod_pic: 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/404.jpg'
+            vod_pic: 'https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/assets/404.jpg'
         }],
         total: 1, pagecount: 1, page: 1, limit: 1
     };
@@ -2558,7 +2553,7 @@ function detailParse(detailObj) {
     // console.log(MY_URL);
     // setItem('MY_URL',MY_URL);
     if (p === '*') {
-        vod.vod_play_from = '道长在线';
+        vod.vod_play_from = '在线';
         vod.vod_remarks = detailUrl;
         vod.vod_actor = '没有二级,只有一级链接直接嗅探播放';
         vod.vod_content = MY_URL;
@@ -2676,7 +2671,7 @@ function detailParse(detailObj) {
             }
             console.log(JSON.stringify(playFrom));
         } else {
-            playFrom = ['道长在线']
+            playFrom = ['在线']
         }
         vod.vod_play_from = playFrom.join(vod_play_from);
 
@@ -3097,7 +3092,6 @@ function init(ext) {
     try {
         // make shared jsContext happy muban不能import,不然会造成换源继承后变量被篡改
         // if (typeof (globalThis.mubanJs) === 'undefined') {
-        //     let mubanJs = request('https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/模板.js', { 'User-Agent': MOBILE_UA });
         //     mubanJs = mubanJs.replace('export default', '(function() {return muban;}()) // export default');
         //     // console.log(mubanJs);
         //     globalThis.mubanJs = mubanJs;

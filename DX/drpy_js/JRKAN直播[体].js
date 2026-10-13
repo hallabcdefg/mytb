@@ -1,4 +1,3 @@
-// 道长 hipy仓库 https://github.com/hjdhnx/hipy-server
 
 var rule = {
     title: 'JRKAN直播',

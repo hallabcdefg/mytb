@@ -5,7 +5,7 @@
 
 var rule = {
     title: 'APPV2[模板]',
-    author: '道长',
+    author: '',
     version: '20241012 beta1',
     update_info: `
 20241012:

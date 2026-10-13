@@ -1,0 +1,8 @@
+{
+ "storeHouse": [
+  {
+   "sourceName": "本地仓库",
+   "sourceUrl": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/mstoredc.json"
+  }
+ ]
+}
