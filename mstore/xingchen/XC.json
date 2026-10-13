@@ -986,7 +986,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/tvbox.txt",
+      "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/tvbox.txt",
       "jar": "./XC.jar"
     },
     {

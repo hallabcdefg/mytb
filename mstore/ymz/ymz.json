@@ -6,21 +6,21 @@
    "key": "dr_77",
    "name": "🛩️┃酷云秒播┃",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E9%85%B7%E4%BA%9177.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E9%85%B7%E4%BA%9177.js"
   },
   {
    "key": "dr_hqu",
    "name": "🦚️好趣直播",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A5%BD%E8%B6%A3%E7%BD%91.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A5%BD%E8%B6%A3%E7%BD%91.js"
   },
   {
    "key": "csp_SP33",
@@ -36,8 +36,8 @@
    "key": "drpy_js_腾云驾雾",
    "name": "🐧|官源",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%85%BE%E8%AE%AF.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%85%BE%E8%AE%AF.js"
   },
   {
    "key": "Qtv",
@@ -54,8 +54,8 @@
    "key": "drpy_js_百忙无果",
    "name": "官源 | 🥭",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"
   },
   {
    "key": "Mtv",
@@ -72,8 +72,8 @@
    "key": "drpy_js_奇珍异兽",
    "name": "官源 |🥝",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"
   },
   {
    "key": "Itv",
@@ -90,15 +90,15 @@
    "key": "drpy_yh",
    "name": "官源 | ⛽",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E4%BC%98%E9%85%B7.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E4%BC%98%E9%85%B7.js"
   },
   {
    "key": "drpy_js_菜狗",
    "name": "官源 | 🐕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%8F%9C%E7%8B%97.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%8F%9C%E7%8B%97.js"
   },
   {
    "key": "聚合",
@@ -114,11 +114,11 @@
    "key": "dr_ruyi",
    "name": "👑夜猫如意4K👑",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A6%82%E6%84%8F_V2_.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A6%82%E6%84%8F_V2_.js"
   },
   {
    "key": "csp_WoGG",
@@ -128,7 +128,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
    "jar": "https://hallabcdefg.github.io/mytb/mstore/ymz/jars/csp_WoGG.jar"
   },
   {
@@ -140,7 +140,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%8E%A9%E5%81%B6%E5%93%A5%E5%93%A5.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%8E%A9%E5%81%B6%E5%93%A5%E5%93%A5.json"
   },
   {
    "key": "csp_XYQHikerlg4k",
@@ -150,7 +150,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/4KHDR.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/4KHDR.json"
   },
   {
    "key": "csp_XYQHiker4klg",
@@ -160,7 +160,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E4%B8%AD%E5%9B%BD%E8%93%9D%E5%85%89%E7%BD%91.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E4%B8%AD%E5%9B%BD%E8%93%9D%E5%85%89%E7%BD%91.json"
   },
   {
    "key": "csp_饭团",
@@ -170,7 +170,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%A5%AD%E5%9B%A2.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%A5%AD%E5%9B%A2.json"
   },
   {
    "key": "csp_dbg",
@@ -180,7 +180,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A4%A7%E8%A1%A8%E5%93%A5%E5%BD%B1%E9%99%A2.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A4%A7%E8%A1%A8%E5%93%A5%E5%BD%B1%E9%99%A2.json"
   },
   {
    "key": "csp_XYQHikerysw",
@@ -190,7 +190,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%BD%B1%E8%A7%86wang.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%BD%B1%E8%A7%86wang.json"
   },
   {
    "key": "csp_XYQHiker_‍dyx",
@@ -200,7 +200,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%94%B5%E5%BD%B1%E6%B8%AF.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%94%B5%E5%BD%B1%E6%B8%AF.json"
   },
   {
    "key": "csp_xpath_yinfans",
@@ -210,7 +210,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%9F%B3%E8%8C%83%E4%B8%9D.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%9F%B3%E8%8C%83%E4%B8%9D.json"
   },
   {
    "key": "ity",
@@ -233,7 +233,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9C%8B%E7%9C%8B%E5%89%A7.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9C%8B%E7%9C%8B%E5%89%A7.json"
   },
   {
    "key": "csp_slgq",
@@ -243,7 +243,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9F%B3%E6%A6%B4%E9%AB%98%E6%B8%85.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9F%B3%E6%A6%B4%E9%AB%98%E6%B8%85.json"
   },
   {
    "key": "csp_dz",
@@ -253,7 +253,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%9D%B6%E4%BC%97%E9%AB%98%E6%B8%85.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%9D%B6%E4%BC%97%E9%AB%98%E6%B8%85.json"
   },
   {
    "key": "csp_kdb",
@@ -263,7 +263,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9C%8B%E7%82%B9%E6%92%AD.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9C%8B%E7%82%B9%E6%92%AD.json"
   },
   {
    "key": "csp_kc",
@@ -273,7 +273,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%85%B7%E8%8C%B6%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%85%B7%E8%8C%B6%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_fk",
@@ -283,7 +283,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%8F%B2%E5%85%8B%E9%AB%98%E6%B8%85.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%8F%B2%E5%85%8B%E9%AB%98%E6%B8%85.json"
   },
   {
    "key": "鸭奈飞",
@@ -366,7 +366,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%83%AD%E6%92%AD%E4%B9%8B%E5%AE%B6.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%83%AD%E6%92%AD%E4%B9%8B%E5%AE%B6.json"
   },
   {
    "key": "csp_htl",
@@ -376,7 +376,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%81%B0%E5%A4%AA%E7%8B%BC%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%81%B0%E5%A4%AA%E7%8B%BC%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "app_快看",
@@ -414,7 +414,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%AD%96%E9%A9%B0%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%AD%96%E9%A9%B0%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_mingd",
@@ -424,34 +424,34 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%98%8E%E5%B8%9D.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%98%8E%E5%B8%9D.json"
   },
   {
    "key": "bei",
    "name": "🚢北川高清",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%8C%97%E5%B7%9D%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%8C%97%E5%B7%9D%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "dr_cz",
    "name": "🚚厂长蓝光",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%8E%82%E9%95%BF%E8%B5%84%E6%BA%90.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%8E%82%E9%95%BF%E8%B5%84%E6%BA%90.js"
   },
   {
    "key": "dr_qif",
    "name": "🛫起飞影院",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%B5%B7%E9%A3%9E%E5%BD%B1%E9%99%A2.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%B5%B7%E9%A3%9E%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "csp_热播剧",
@@ -461,7 +461,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%83%AD%E6%92%AD%E5%BA%93.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%83%AD%E6%92%AD%E5%BA%93.json"
   },
   {
    "key": "csp_55",
@@ -471,7 +471,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/555%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/555%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_xgyy",
@@ -481,7 +481,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%B0%8F%E7%8B%97%E5%BD%B1%E9%99%A2.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%B0%8F%E7%8B%97%E5%BD%B1%E9%99%A2.json"
   },
   {
    "key": "csp_ggun",
@@ -491,7 +491,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%85%89%E6%A3%8D%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%85%89%E6%A3%8D%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_miai",
@@ -501,7 +501,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%B1%B3%E7%88%B1%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%B1%B3%E7%88%B1%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_bt",
@@ -511,7 +511,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%BC%BB%E6%B6%95%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%BC%BB%E6%B6%95%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XBPQ007",
@@ -521,7 +521,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/007%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/007%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XYQHiker_ssou",
@@ -531,7 +531,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/Vidhub%E8%A7%86%E9%A2%91%E5%BA%93.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/Vidhub%E8%A7%86%E9%A2%91%E5%BA%93.json"
   },
   {
    "key": "初雨",
@@ -564,7 +564,7 @@
    "filterable": 1,
    "quickSearch": 1,
    "searchable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/6080.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/6080.json"
   },
   {
    "key": "XBPQ_ph",
@@ -574,7 +574,7 @@
    "filterable": 1,
    "quickSearch": 1,
    "searchable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%83%96%E8%99%8E%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%83%96%E8%99%8E%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_dmxq",
@@ -584,7 +584,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A4%A7%E7%B1%B3%E6%98%9F%E7%90%83.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A4%A7%E7%B1%B3%E6%98%9F%E7%90%83.json"
   },
   {
    "key": "csp_lb",
@@ -594,7 +594,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%85%B0%E5%8D%9A%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%85%B0%E5%8D%9A%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_vo",
@@ -604,7 +604,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%91%9E%E6%AC%A7%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%91%9E%E6%AC%A7%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_66",
@@ -614,7 +614,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/66%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/66%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_91",
@@ -624,14 +624,14 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/91%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/91%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "drpy_101",
    "name": "🐽来欧来蓝光",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/l0l.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/l0l.js"
   },
   {
    "key": "csp_ttys",
@@ -641,7 +641,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A4%A9%E5%A4%A9%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A4%A9%E5%A4%A9%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XBPQ_nmys",
@@ -651,7 +651,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XBPQ_ml",
@@ -661,7 +661,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%AD%94%E5%8A%9B%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%AD%94%E5%8A%9B%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XBPQ_yl影院",
@@ -671,7 +671,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%BE%A1%E9%BE%99%E9%AB%98%E6%B8%85.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%BE%A1%E9%BE%99%E9%AB%98%E6%B8%85.json"
   },
   {
    "key": "csp_AppMr",
@@ -728,7 +728,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%9C%9F%E8%B1%AA%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%9C%9F%E8%B1%AA%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XBPQqiy",
@@ -738,7 +738,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A5%87%E4%BC%98%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%A5%87%E4%BC%98%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_xBPQssi",
@@ -748,7 +748,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%8F%8C%E5%8D%81%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%8F%8C%E5%8D%81%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_XYQHiker_臭蛋蛋影视",
@@ -758,7 +758,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/1681153396.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/1681153396.json"
   },
   {
    "key": "csp_58",
@@ -768,7 +768,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/58%E5%8A%A8%E6%BC%AB.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/58%E5%8A%A8%E6%BC%AB.json"
   },
   {
    "key": "csp_XBPQ",
@@ -778,7 +778,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%97%A0%E5%90%8D%E5%B0%8F%E7%AB%99.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%97%A0%E5%90%8D%E5%B0%8F%E7%AB%99.json"
   },
   {
    "key": "csp_xml_量子资源",
@@ -860,22 +860,22 @@
    "key": "drpy_qy",
    "name": "🐵奇优影院",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "drpy_yak",
    "name": "😻粤爱看",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E7%B2%A4%E7%88%B1%E7%9C%8B.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E7%B2%A4%E7%88%B1%E7%9C%8B.js"
   },
   {
    "key": "drpy_tvb",
    "name": "☁️云播",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E4%BA%91%E6%92%AD.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E4%BA%91%E6%92%AD.js"
   },
   {
    "key": "csp_Nbys",
@@ -890,8 +890,8 @@
    "key": "drpy_xb",
    "name": "🛫小宝影视(墙外)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%B0%8F%E5%AE%9D%E5%BD%B1%E9%99%A2.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%B0%8F%E5%AE%9D%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "csp_XBPQaol",
@@ -901,69 +901,69 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%88%B1%E6%AC%A7%E4%B9%90%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%88%B1%E6%AC%A7%E4%B9%90%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "drpy_trj",
    "name": "🛫唐人街(墙外)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%94%90%E4%BA%BA%E8%A1%97%E5%BD%B1%E8%A7%86%5B%E9%A3%9E%5D.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E5%94%90%E4%BA%BA%E8%A1%97%E5%BD%B1%E8%A7%86%5B%E9%A3%9E%5D.js"
   },
   {
    "key": "drpy_hh",
    "name": "🛫吼吼影视(墙外)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/HoHo%E5%BD%B1%E8%A7%86.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/HoHo%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "drpy_od",
    "name": "🛫欧帝影视(墙外)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%AC%A7%E5%B8%9D%E5%BD%B1%E9%99%A2.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%AC%A7%E5%B8%9D%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "drpy_dbk",
    "name": "🛫独播影视(墙外)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E7%8B%AC%E6%92%AD%E5%BA%93%5B%E9%A3%9E%5D.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E7%8B%AC%E6%92%AD%E5%BA%93%5B%E9%A3%9E%5D.js"
   },
   {
    "key": "drpy_js_楚门影院.js]",
    "name": " 🛫| 楚门影院.js",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%A5%9A%E9%97%A8%E5%BD%B1%E9%99%A2.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%A5%9A%E9%97%A8%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "drpy_kb",
    "name": "🛫酷播影视(墙外)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/KUBO%E5%BD%B1%E8%A7%86%5B%E9%A3%9E%5D.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/KUBO%E5%BD%B1%E8%A7%86%5B%E9%A3%9E%5D.js"
   },
   {
    "key": "dr_htu",
    "name": "✈️海兔影院[飞]",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%B5%B7%E5%85%94%E5%BD%B1%E9%99%A2_%E9%A3%9E_.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%B5%B7%E5%85%94%E5%BD%B1%E9%99%A2_%E9%A3%9E_.js"
   },
   {
    "key": "dr_flin",
    "name": "✈️枫林影院[飞]",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%9E%AB%E6%9E%97%E7%BD%91_%E9%A3%9E_.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%9E%AB%E6%9E%97%E7%BD%91_%E9%A3%9E_.js"
   },
   {
    "key": "Gitcafe",
@@ -974,7 +974,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_Zhaozy",
@@ -985,7 +985,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_AliPS",
@@ -996,7 +996,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_Yisou",
@@ -1007,7 +1007,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_Upyunso",
@@ -1018,7 +1018,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_XYQHiker_土拨鼠",
@@ -1029,7 +1029,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%9C%9F%E6%8B%A8%E9%BC%A0%E6%90%9C%E7%B4%A2.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%9C%9F%E6%8B%A8%E9%BC%A0%E6%90%9C%E7%B4%A2.json"
   },
   {
    "key": "csp_XYQHikerAL_我的小站",
@@ -1040,7 +1040,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%88%91%E7%9A%84%E5%B0%8F%E7%AB%99.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%88%91%E7%9A%84%E5%B0%8F%E7%AB%99.json"
   },
   {
    "key": "csp_XYQHikerAL_阿里云盘网",
@@ -1051,7 +1051,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98.json"
   },
   {
    "key": "csp_XYQHikerAL_豆豆飞",
@@ -1062,7 +1062,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%B1%86%E8%B1%86%E9%A3%9E.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%B1%86%E8%B1%86%E9%A3%9E.json"
   },
   {
    "key": "csp_XYQHikerAL_橘子盘搜",
@@ -1073,7 +1073,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%A9%98%E5%AD%90%E7%9B%98%E6%90%9C_1.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E6%A9%98%E5%AD%90%E7%9B%98%E6%90%9C_1.json"
   },
   {
    "key": "csp_XYQHiker_DOVX搜索",
@@ -1084,7 +1084,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/DOVX%E6%90%9C%E7%B4%A2.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/DOVX%E6%90%9C%E7%B4%A2.json"
   },
   {
    "key": "csp_XYQBiu_云盘分享",
@@ -1095,7 +1095,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E4%BA%91%E7%9B%98%E5%88%86%E4%BA%AB.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E4%BA%91%E7%9B%98%E5%88%86%E4%BA%AB.json"
   },
   {
    "key": "csp_XYQHiker_盘搜索",
@@ -1106,7 +1106,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9B%98%E6%90%9C%E7%B4%A2.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E7%9B%98%E6%90%9C%E7%B4%A2.json"
   },
   {
    "key": "csp_KungFu404",
@@ -1177,8 +1177,8 @@
    "key": "网络直播2点播",
    "name": "💻电视 | 直播",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/live2cms.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/live2mv.json"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/live2cms.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/live2mv.json"
   },
   {
    "key": "csp_XYQHiker_虎牙直播",
@@ -1188,14 +1188,14 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.json"
   },
   {
    "key": "drpy_douy",
    "name": "🐅虎牙js",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js"
   },
   {
    "key": "Bili",
@@ -1206,7 +1206,7 @@
    "quickSearch": 0,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%93%94%E7%AB%99.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/%E5%93%94%E7%AB%99.json"
   },
   {
    "key": "企鹅体育",
@@ -1216,14 +1216,14 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/ty.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/ty.json"
   },
   {
    "key": "MTV转点播",
    "name": "🎶万首| MTV",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/lf_live_min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/txt/mv.txt"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/lf_live_min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/txt/mv.txt"
   },
   {
    "key": "PQ_ry",
@@ -1244,21 +1244,21 @@
    "key": "dr_263",
    "name": "🌺高清MV",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/MV263.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/MV263.js"
   },
   {
    "key": "dr_pgdj",
    "name": "🍎苹果dj",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%8B%B9%E6%9E%9CDJ.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E8%8B%B9%E6%9E%9CDJ.js"
   },
   {
    "key": "da_ry",
@@ -1273,16 +1273,16 @@
    "key": "js_DJ",
    "name": "🎧DJ┃摇摆吧",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/DJ%E9%9F%B3%E4%B9%90.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/DJ%E9%9F%B3%E4%B9%90.js",
    "playerType": "2"
   },
   {
    "key": "drpy_qf",
    "name": "🍃清风DJ",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%B8%85%E9%A3%8EDJ.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/js/%E6%B8%85%E9%A3%8EDJ.js"
   },
   {
    "key": "csp_ts",
@@ -1292,7 +1292,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/230.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/ymz/json/230.json"
   },
   {
    "key": "push_agent",
@@ -1302,7 +1302,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
   }
  ],
  "parses": [

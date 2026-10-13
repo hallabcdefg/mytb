@@ -1,7 +1,7 @@
 {
  "spider": "https://hallabcdefg.github.io/mytb/TVBox/spider.jar",
  "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
- "logo": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/img/logo500x200.png",
+ "logo": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/img/logo500x200.png",
  "sites": [
   {
    "key": "豆瓣",
@@ -138,7 +138,7 @@
     "ratio": 1.597
    },
    "ext": {
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/bilibili.txt"
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/bilibili.txt"
    },
    "timeout": 10
   },
@@ -155,8 +155,8 @@
     "ratio": 1.597
    },
    "ext": {
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/bilibili.txt",
-    "json": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JSON/%E5%93%94%E5%93%A9%E5%90%88%E9%9B%86.json"
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/bilibili.txt",
+    "json": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JSON/%E5%93%94%E5%93%A9%E5%90%88%E9%9B%86.json"
    },
    "timeout": 10
   },
@@ -169,9 +169,9 @@
    "filterable": 1,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://www.libvio.cc",
     "danmu": true
    }
@@ -180,71 +180,71 @@
    "key": "腾讯弹幕",
    "name": "腾讯｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "优酷弹幕",
    "name": "优酷｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E4%BC%98%E9%85%B7%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E4%BC%98%E9%85%B7%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "芒果弹幕",
    "name": "芒果｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%8A%92%E6%9E%9C%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%8A%92%E6%9E%9C%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "爱奇艺弹幕",
    "name": "爱奇艺｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%88%B1%E5%A5%87%E8%89%BA%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%88%B1%E5%A5%87%E8%89%BA%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "米兔弹幕",
    "name": "米兔｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%B1%B3%E5%85%94%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%B1%B3%E5%85%94%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "小熊弹幕",
    "name": "小熊｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%B0%8F%E7%86%8A%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%B0%8F%E7%86%8A%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "巨人弹幕",
    "name": "巨人｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%B7%A8%E4%BA%BA%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%B7%A8%E4%BA%BA%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "追剧弹幕",
    "name": "追剧｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%BF%BD%E5%89%A7%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%BF%BD%E5%89%A7%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "梦米弹幕",
    "name": "梦米｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%A2%A6%E7%B1%B3%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%A2%A6%E7%B1%B3%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "小虎斑弹幕",
    "name": "小虎斑｜弹幕",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%B0%8F%E8%99%8E%E6%96%91%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%B0%8F%E8%99%8E%E6%96%91%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "三六零弹幕",
@@ -291,9 +291,9 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "wogg": true,
     "danmu": true
    }
@@ -308,9 +308,9 @@
    "filterable": 1,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://1.95.79.193",
     "danmu": true
    }
@@ -325,9 +325,9 @@
    "filterable": 1,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://woog.nxog.eu.org",
     "danmu": true
    }
@@ -341,9 +341,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://ucmi.fun",
     "danmu": true
    }
@@ -357,9 +357,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://tv.yydsys.top",
     "danmu": true
    }
@@ -373,9 +373,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://feimaoai.site",
     "danmu": true
    }
@@ -389,9 +389,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://xiaomiai.site",
     "danmu": true
    }
@@ -405,9 +405,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://dcyun.cc",
     "danmu": true
    }
@@ -421,9 +421,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://www.muoupan.top",
     "danmu": true
    }
@@ -438,9 +438,9 @@
    "filterable": 1,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://wp.0v.fit",
     "danmu": true
    }
@@ -455,9 +455,9 @@
    "filterable": 1,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "https://vip.omii.top",
     "danmu": true
    }
@@ -471,9 +471,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://失眠的夜.top",
     "danmu": true
    }
@@ -487,9 +487,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://45.207.212.215:12121",
     "danmu": true
    }
@@ -503,9 +503,9 @@
    "changeable": 1,
    "filterable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "site": "http://txfyyds.top",
     "danmu": true
    }
@@ -570,7 +570,7 @@
    "name": "吉吉｜短剧",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%90%89%E5%90%89%E7%9F%AD%E5%89%A7.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%90%89%E5%90%89%E7%9F%AD%E5%89%A7.json"
   },
   {
    "key": "爱我短剧",
@@ -580,14 +580,14 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E7%88%B1%E6%88%91%E7%9F%AD%E5%89%A7.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E7%88%B1%E6%88%91%E7%9F%AD%E5%89%A7.json"
   },
   {
    "key": "短剧网",
    "name": "短剧网｜短剧",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E7%9F%AD%E5%89%A7%E7%BD%91.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E7%9F%AD%E5%89%A7%E7%BD%91.json"
   },
   {
    "key": "短剧屋",
@@ -597,7 +597,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E7%9F%AD%E5%89%A7%E5%B1%8B.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E7%9F%AD%E5%89%A7%E5%B1%8B.json"
   },
   {
    "key": "韩小圈",
@@ -612,7 +612,7 @@
    "key": "新视觉影视",
    "name": "新视觉｜APP",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/PY/%E6%96%B0%E8%A7%86%E8%A7%89.py",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/PY/%E6%96%B0%E8%A7%86%E8%A7%89.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -643,7 +643,7 @@
    "key": "九龙影视",
    "name": "九龙｜APP",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/PY/%E4%B9%9D%E9%BE%99%E5%BD%B1%E8%A7%86.py",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/PY/%E4%B9%9D%E9%BE%99%E5%BD%B1%E8%A7%86.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -654,7 +654,7 @@
    "key": "猎手影视",
    "name": "猎手｜APP",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/PY/%E7%8C%8E%E6%89%8B%E5%BD%B1%E8%A7%86.py",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/PY/%E7%8C%8E%E6%89%8B%E5%BD%B1%E8%A7%86.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -831,8 +831,8 @@
    "key": "采集之王",
    "name": "采集｜合集",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B.js?type=url&params=https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JSON/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json$1$1"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B.js?type=url&params=https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JSON/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json$1$1"
   },
   {
    "key": "厂长资源",
@@ -925,7 +925,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "海纳影视",
@@ -935,35 +935,35 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E6%B5%B7%E7%BA%B3%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E6%B5%B7%E7%BA%B3%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "面包影视",
    "name": "面包｜影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E9%9D%A2%E5%8C%85%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E9%9D%A2%E5%8C%85%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "永乐影视",
    "name": "永乐｜影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E6%B0%B8%E4%B9%90%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E6%B0%B8%E4%B9%90%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "雪糕影视",
    "name": "雪糕｜影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E9%9B%AA%E7%B3%95%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E9%9B%AA%E7%B3%95%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "流光影视",
    "name": "流光｜影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E6%B5%81%E5%85%89%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E6%B5%81%E5%85%89%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "金牌影视",
@@ -1002,63 +1002,63 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E7%94%B5%E5%BD%B1%E7%89%9B.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E7%94%B5%E5%BD%B1%E7%89%9B.json"
   },
   {
    "key": "素白白",
    "name": "素白白｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%B4%A0%E7%99%BD%E7%99%BD.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%B4%A0%E7%99%BD%E7%99%BD.js"
   },
   {
    "key": "剧圈圈",
    "name": "剧圈圈｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%89%A7%E5%9C%88%E5%9C%88.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%89%A7%E5%9C%88%E5%9C%88.js"
   },
   {
    "key": "追剧迷",
    "name": "追剧迷｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%BF%BD%E5%89%A7%E8%BF%B7.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%BF%BD%E5%89%A7%E8%BF%B7.js"
   },
   {
    "key": "看了么",
    "name": "看了么｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%9C%8B%E4%BA%86%E4%B9%88.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%9C%8B%E4%BA%86%E4%B9%88.js"
   },
   {
    "key": "茶杯狐",
    "name": "茶杯狐｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%8C%B6%E6%9D%AF%E7%8B%90.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%8C%B6%E6%9D%AF%E7%8B%90.js"
   },
   {
    "key": "思古影视",
    "name": "思古｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%80%9D%E5%8F%A4%E5%BD%B1%E8%A7%86.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%80%9D%E5%8F%A4%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "魔力高清",
    "name": "魔力｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E9%AD%94%E5%8A%9B%E9%AB%98%E6%B8%85.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E9%AD%94%E5%8A%9B%E9%AB%98%E6%B8%85.js"
   },
   {
    "key": "碟调影视",
    "name": "碟调｜影视",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%A2%9F%E8%B0%83%E5%BD%B1%E8%A7%86.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%A2%9F%E8%B0%83%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "奇趣影视",
@@ -1068,7 +1068,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E5%A5%87%E8%B6%A3%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E5%A5%87%E8%B6%A3%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "1905",
@@ -1316,28 +1316,28 @@
    "style": {
     "type": "list"
    },
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%93%86%E5%95%A6%E6%96%B0%E7%95%AA%E7%A4%BE.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%93%86%E5%95%A6%E6%96%B0%E7%95%AA%E7%A4%BE.json"
   },
   {
    "key": "56动漫",
    "name": "56｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/56%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/56%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "NT动漫",
    "name": "NT｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/NT%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/NT%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "Anime1",
    "name": "Anime1｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/Anime1.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/Anime1.js"
   },
   {
    "key": "DFun动漫",
@@ -1373,85 +1373,85 @@
    "key": "动画片",
    "name": "动画片｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8A%A8%E7%94%BB%E7%89%87%E5%A4%A7%E5%85%A8.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8A%A8%E7%94%BB%E7%89%87%E5%A4%A7%E5%85%A8.js"
   },
   {
    "key": "路漫漫",
    "name": "路漫漫｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%B7%AF%E6%BC%AB%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%B7%AF%E6%BC%AB%E6%BC%AB.js"
   },
   {
    "key": "动漫岛",
    "name": "动漫岛｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8A%A8%E6%BC%AB%E5%B2%9B.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8A%A8%E6%BC%AB%E5%B2%9B.js"
   },
   {
    "key": "去看吧",
    "name": "去看吧｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8E%BB%E7%9C%8B%E5%90%A7.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8E%BB%E7%9C%8B%E5%90%A7.js"
   },
   {
    "key": "爱弹幕",
    "name": "爱弹幕｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%88%B1%E5%BC%B9%E5%B9%95.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%88%B1%E5%BC%B9%E5%B9%95.js"
   },
   {
    "key": "异世界",
    "name": "异世界｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%BC%82%E4%B8%96%E7%95%8C.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%BC%82%E4%B8%96%E7%95%8C.js"
   },
   {
    "key": "好看动漫",
    "name": "好看｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%A5%BD%E7%9C%8B%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%A5%BD%E7%9C%8B%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "奇米动漫",
    "name": "奇米｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%A5%87%E7%B1%B3%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%A5%87%E7%B1%B3%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "怡萱动漫",
    "name": "怡萱｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%80%A1%E8%90%B1%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%80%A1%E8%90%B1%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "花子动漫",
    "name": "花子｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%8A%B1%E5%AD%90%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E8%8A%B1%E5%AD%90%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "动漫巴士",
    "name": "巴士｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8A%A8%E6%BC%AB%E5%B7%B4%E5%A3%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E5%8A%A8%E6%BC%AB%E5%B7%B4%E5%A3%AB.js"
   },
   {
    "key": "樱花动漫",
    "name": "樱花｜动漫",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%A8%B1%E8%8A%B1%E5%8A%A8%E6%BC%AB.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E6%A8%B1%E8%8A%B1%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "搜索弹幕",
@@ -1462,7 +1462,7 @@
    "filterable": 0,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
     "danmu": true
    }
   },
@@ -1475,7 +1475,7 @@
    "filterable": 0,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
     "danmu": true,
     "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
    }
@@ -1489,8 +1489,8 @@
    "filterable": 0,
    "changeable": 1,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
     "danmu": true
    }
   },
@@ -1503,7 +1503,7 @@
    "filterable": 1,
    "changeable": 0,
    "ext": {
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
     "danmu": true
    }
   },
@@ -1516,7 +1516,7 @@
    "filterable": 1,
    "changeable": 0,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
     "danmu": true
    }
   },
@@ -1530,7 +1530,7 @@
    "filterable": 1,
    "changeable": 1,
    "ext": {
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
     "danmu": true
    }
   },
@@ -1543,7 +1543,7 @@
    "filterable": 1,
    "changeable": 0,
    "ext": {
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
     "danmu": true
    }
   },
@@ -1555,7 +1555,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E4%BF%AE%E7%BD%97%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E4%BF%AE%E7%BD%97%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "80S",
@@ -1590,8 +1590,8 @@
    "key": "磁力熊",
    "name": "磁力熊｜磁力",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%A3%81%E5%8A%9B%E7%86%8A.js"
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%A3%81%E5%8A%9B%E7%86%8A.js"
   },
   {
    "key": "美剧迷",
@@ -1619,7 +1619,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E7%94%B5%E5%BD%B1%E6%B8%AF.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/%E7%94%B5%E5%BD%B1%E6%B8%AF.json"
   },
   {
    "key": "布谷TV",
@@ -1629,7 +1629,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%B8%83%E8%B0%B7TV.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XBPQ/%E5%B8%83%E8%B0%B7TV.json"
   },
   {
    "key": "BT天堂",
@@ -1639,7 +1639,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/BT%E5%A4%A9%E5%A0%82.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/XYQHiker/BT%E5%A4%A9%E5%A0%82.json"
   },
   {
    "key": "Mp4电影",
@@ -1678,7 +1678,7 @@
    "filterable": 0,
    "indexs": 0,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt"
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt"
    },
    "style": {
     "type": "list"
@@ -1694,7 +1694,7 @@
    "filterable": 0,
    "indexs": 0,
    "ext": {
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt"
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt"
    },
    "style": {
     "type": "list"
@@ -1710,7 +1710,7 @@
    "filterable": 0,
    "indexs": 0,
    "ext": {
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt"
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt"
    },
    "style": {
     "type": "list"
@@ -1726,8 +1726,8 @@
    "filterable": 0,
    "indexs": 0,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "share": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/alishare.txt"
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "share": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/alishare.txt"
    },
    "style": {
     "type": "list"
@@ -1737,8 +1737,8 @@
    "key": "短剧合集",
    "name": "短剧｜合集",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/quark.min.js",
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%9F%AD%E5%89%A7%E5%90%88%E9%9B%86.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/quark.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/JS/%E7%9F%AD%E5%89%A7%E5%90%88%E9%9B%86.js",
    "style": {
     "type": "list"
    }
@@ -1762,9 +1762,9 @@
    "filterable": 0,
    "changeable": 0,
    "ext": {
-    "token": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
-    "cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
-    "uc_cookie": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
+    "token": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/token.txt",
+    "cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/quark.txt",
+    "uc_cookie": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/uc.txt",
     "danmu": true
    }
   },
@@ -1772,595 +1772,595 @@
    "key": "hipy_js_爱你短剧",
    "name": "爱你短剧(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%88%B1%E4%BD%A0%E7%9F%AD%E5%89%A7.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%88%B1%E4%BD%A0%E7%9F%AD%E5%89%A7.js"
   },
   {
    "key": "hipy_js_策驰影院",
    "name": "策驰影院(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%AD%96%E9%A9%B0%E5%BD%B1%E9%99%A2.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%AD%96%E9%A9%B0%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "hipy_js_大师兄",
    "name": "大师兄(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A4%A7%E5%B8%88%E5%85%84.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A4%A7%E5%B8%88%E5%85%84.js"
   },
   {
    "key": "hipy_js_嘀哩嘀哩",
    "name": "嘀哩嘀哩(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%98%80%E5%93%A9%E5%98%80%E5%93%A9.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%98%80%E5%93%A9%E5%98%80%E5%93%A9.js"
   },
   {
    "key": "hipy_js_电影先生[自]",
    "name": "电影先生[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_毒舌电影[优]",
    "name": "毒舌电影[优](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%AF%92%E8%88%8C%E7%94%B5%E5%BD%B1%5B%E4%BC%98%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%AF%92%E8%88%8C%E7%94%B5%E5%BD%B1%5B%E4%BC%98%5D.js"
   },
   {
    "key": "hipy_js_短剧天堂",
    "name": "短剧天堂(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9F%AD%E5%89%A7%E5%A4%A9%E5%A0%82.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9F%AD%E5%89%A7%E5%A4%A9%E5%A0%82.js"
   },
   {
    "key": "hipy_js_短剧网[短]",
    "name": "短剧网[短](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9F%AD%E5%89%A7%E7%BD%91%5B%E7%9F%AD%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9F%AD%E5%89%A7%E7%BD%91%5B%E7%9F%AD%5D.js"
   },
   {
    "key": "hipy_js_饭团影视",
    "name": "饭团影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_冠建影视",
    "name": "冠建影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%86%A0%E5%BB%BA%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%86%A0%E5%BB%BA%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_黑狐影院",
    "name": "黑狐影院(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%BB%91%E7%8B%90%E5%BD%B1%E9%99%A2.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%BB%91%E7%8B%90%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "hipy_js_饺子影院",
    "name": "饺子影院(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%A5%BA%E5%AD%90%E5%BD%B1%E9%99%A2.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%A5%BA%E5%AD%90%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "hipy_js_九牛电影",
    "name": "九牛电影(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B9%9D%E7%89%9B%E7%94%B5%E5%BD%B1.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B9%9D%E7%89%9B%E7%94%B5%E5%BD%B1.js"
   },
   {
    "key": "hipy_js_剧集TV",
    "name": "剧集TV(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%89%A7%E9%9B%86TV.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%89%A7%E9%9B%86TV.js"
   },
   {
    "key": "hipy_js_剧迷[自]",
    "name": "剧迷[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%89%A7%E8%BF%B7%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%89%A7%E8%BF%B7%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_剧耶耶",
    "name": "剧耶耶(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%89%A7%E8%80%B6%E8%80%B6.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%89%A7%E8%80%B6%E8%80%B6.js"
   },
   {
    "key": "hipy_js_看戏网",
    "name": "看戏网(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9C%8B%E6%88%8F%E7%BD%91.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9C%8B%E6%88%8F%E7%BD%91.js"
   },
   {
    "key": "hipy_js_来看点播[自]0",
    "name": "来看点播[自]0(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD%5B%E8%87%AA%5D.js?type=url&params=https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/json/live2cms.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD%5B%E8%87%AA%5D.js?type=url&params=https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/TVBox/json/live2cms.json"
   },
   {
    "key": "hipy_js_来看点播[自]1",
    "name": "来看点播[自]1(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 1,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD%5B%E8%87%AA%5D.js?type=url&params=./json/OK.json"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD%5B%E8%87%AA%5D.js?type=url&params=./json/OK.json"
   },
   {
    "key": "hipy_js_猫视界",
    "name": "猫视界(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%8C%AB%E8%A7%86%E7%95%8C.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%8C%AB%E8%A7%86%E7%95%8C.js"
   },
   {
    "key": "hipy_js_萌番动漫",
    "name": "萌番动漫(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E8%90%8C%E7%95%AA%E5%8A%A8%E6%BC%AB.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E8%90%8C%E7%95%AA%E5%8A%A8%E6%BC%AB.js"
   },
   {
    "key": "hipy_js_蘑菇影视",
    "name": "蘑菇影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E8%98%91%E8%8F%87%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E8%98%91%E8%8F%87%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_奶狗影视",
    "name": "奶狗影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A5%B6%E7%8B%97%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A5%B6%E7%8B%97%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_奈飞中文[自]",
    "name": "奈飞中文[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A5%88%E9%A3%9E%E4%B8%AD%E6%96%87%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A5%88%E9%A3%9E%E4%B8%AD%E6%96%87%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_你好帅",
    "name": "你好帅(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%BD%A0%E5%A5%BD%E5%B8%85.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%BD%A0%E5%A5%BD%E5%B8%85.js"
   },
   {
    "key": "hipy_js_皮皮虾[自]",
    "name": "皮皮虾[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9A%AE%E7%9A%AE%E8%99%BE%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%9A%AE%E7%9A%AE%E8%99%BE%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_七新电影网",
    "name": "七新电影网(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%83%E6%96%B0%E7%94%B5%E5%BD%B1%E7%BD%91.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%83%E6%96%B0%E7%94%B5%E5%BD%B1%E7%BD%91.js"
   },
   {
    "key": "hipy_js_奇趣影院",
    "name": "奇趣影院(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A5%87%E8%B6%A3%E5%BD%B1%E9%99%A2.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A5%87%E8%B6%A3%E5%BD%B1%E9%99%A2.js"
   },
   {
    "key": "hipy_js_清风DJ",
    "name": "清风DJ(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%B8%85%E9%A3%8EDJ.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%B8%85%E9%A3%8EDJ.js"
   },
   {
    "key": "hipy_js_三集电影[自动]",
    "name": "三集电影[自动](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%89%E9%9B%86%E7%94%B5%E5%BD%B1%5B%E8%87%AA%E5%8A%A8%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%89%E9%9B%86%E7%94%B5%E5%BD%B1%5B%E8%87%AA%E5%8A%A8%5D.js"
   },
   {
    "key": "hipy_js_刷剧网",
    "name": "刷剧网(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%88%B7%E5%89%A7%E7%BD%91.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%88%B7%E5%89%A7%E7%BD%91.js"
   },
   {
    "key": "hipy_js_速播小屋",
    "name": "速播小屋(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%80%9F%E6%92%AD%E5%B0%8F%E5%B1%8B.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E9%80%9F%E6%92%AD%E5%B0%8F%E5%B1%8B.js"
   },
   {
    "key": "hipy_js_天天影视[№]",
    "name": "天天影视[№](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A4%A9%E5%A4%A9%E5%BD%B1%E8%A7%86%5B%E2%84%96%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%A4%A9%E5%A4%A9%E5%BD%B1%E8%A7%86%5B%E2%84%96%5D.js"
   },
   {
    "key": "hipy_js_网飞la[自]",
    "name": "网飞la[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%BD%91%E9%A3%9Ela%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%BD%91%E9%A3%9Ela%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_网飞TV",
    "name": "网飞TV(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%BD%91%E9%A3%9ETV.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E7%BD%91%E9%A3%9ETV.js"
   },
   {
    "key": "hipy_js_无忧影视",
    "name": "无忧影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%97%A0%E5%BF%A7%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%97%A0%E5%BF%A7%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_喜马拉雅",
    "name": "喜马拉雅(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85.js"
   },
   {
    "key": "hipy_js_星河影视",
    "name": "星河影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%9F%E6%B2%B3%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%9F%E6%B2%B3%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_星月",
    "name": "星月(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%9F%E6%9C%88.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%9F%E6%9C%88.js"
   },
   {
    "key": "hipy_js_一起看",
    "name": "一起看(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%80%E8%B5%B7%E7%9C%8B.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%80%E8%B5%B7%E7%9C%8B.js"
   },
   {
    "key": "hipy_js_一曲肝肠断",
    "name": "一曲肝肠断(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%80%E6%9B%B2%E8%82%9D%E8%82%A0%E6%96%AD.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E4%B8%80%E6%9B%B2%E8%82%9D%E8%82%A0%E6%96%AD.js"
   },
   {
    "key": "hipy_js_易点看影院[自]",
    "name": "易点看影院[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%93%E7%82%B9%E7%9C%8B%E5%BD%B1%E9%99%A2%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%93%E7%82%B9%E7%9C%8B%E5%BD%B1%E9%99%A2%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_影剧星球",
    "name": "影剧星球(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E5%89%A7%E6%98%9F%E7%90%83.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E5%89%A7%E6%98%9F%E7%90%83.js"
   },
   {
    "key": "hipy_js_影视大全1",
    "name": "影视大全1(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E8%A7%86%E5%A4%A7%E5%85%A81.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E8%A7%86%E5%A4%A7%E5%85%A81.js"
   },
   {
    "key": "hipy_js_影视大全2",
    "name": "影视大全2(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E8%A7%86%E5%A4%A7%E5%85%A82.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E8%A7%86%E5%A4%A7%E5%85%A82.js"
   },
   {
    "key": "hipy_js_影渣渣",
    "name": "影渣渣(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E6%B8%A3%E6%B8%A3.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%BD%B1%E6%B8%A3%E6%B8%A3.js"
   },
   {
    "key": "hipy_js_映播",
    "name": "映播(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%A0%E6%92%AD.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%98%A0%E6%92%AD.js"
   },
   {
    "key": "hipy_js_悠悠影视",
    "name": "悠悠影视(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%82%A0%E6%82%A0%E5%BD%B1%E8%A7%86.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%82%A0%E6%82%A0%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "hipy_js_宇航影视[自]",
    "name": "宇航影视[自](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%AE%87%E8%88%AA%E5%BD%B1%E8%A7%86%5B%E8%87%AA%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E5%AE%87%E8%88%AA%E5%BD%B1%E8%A7%86%5B%E8%87%AA%5D.js"
   },
   {
    "key": "hipy_js_追剧兔",
    "name": "追剧兔(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E8%BF%BD%E5%89%A7%E5%85%94.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E8%BF%BD%E5%89%A7%E5%85%94.js"
   },
   {
    "key": "hipy_js_最新4K",
    "name": "最新4K(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%9C%80%E6%96%B04K.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/%E6%9C%80%E6%96%B04K.js"
   },
   {
    "key": "hipy_js_JRKAN直播[体]",
    "name": "JRKAN直播[体](T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/JRKAN%E7%9B%B4%E6%92%AD%5B%E4%BD%93%5D.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/JRKAN%E7%9B%B4%E6%92%AD%5B%E4%BD%93%5D.js"
   },
   {
    "key": "hipy_js_OuoFun",
    "name": "OuoFun(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/OuoFun.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/OuoFun.js"
   },
   {
    "key": "hipy_js_PPXDM",
    "name": "PPXDM(T3)",
    "type": 3,
-   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
+   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/PPXDM.js"
+   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@main/DX/drpy_js/PPXDM.js"
   }
  ],
  "parses": [
