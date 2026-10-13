@@ -1,0 +1,28 @@
+var rule = {
+  title: '饺子影院',
+  host: 'https://www.jiaozi.me',
+  url: '/mlist/fyclass-fypage.html',
+  searchUrl: '/search.php?page=fypage&searchword=**&searchtype=',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers: {
+    'User-Agent': 'MOBILE_UA',
+  },
+  class_parse: '.myui-header__menu&&li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
+  play_parse: true,
+  lazy: '',
+  limit: 6,
+  推荐: 'ul.myui-vodlist.clearfix;li;*;*;*;*',
+  double: true,
+  一级: 'ul.myui-vodlist.clearfix&&li;a&&title;a&&data-original;.pic-text&&Text;a&&href',
+  二级: {
+    title: '.myui-content__detail .title&&Text;.myui-content__detail&&p:eq(1)--span&&Text',
+    img: '.myui-content__thumb .lazyload&&data-original',
+    desc: ';.myui-content__detail&&p:eq(1)--span&&Text;.myui-content__detail&&p:eq(1)--span&&Text;.myui-content__detail&&p:eq(2)--span&&Text;.myui-content__detail p:eq(3)&&Text',
+    content: '.myui-panel-box&&p&&Text',
+    tabs: '.nav-tabs:eq(0) li',
+    lists: '.myui-content__list:eq(#id) li',
+  },
+  搜索: '#searchList li;*;.lazyload&&data-original;.text-right&&Text;*',
+}

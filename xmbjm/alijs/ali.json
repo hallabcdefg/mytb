@@ -1,0 +1,171 @@
+{
+ "spider": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/xyq.jar",
+ "sites": [
+  {
+   "key": "drpy_js_ddys",
+   "name": "豆瓣荐片",
+   "type": 3,
+   "api": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/libs/drpy2.min.js",
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/js/ddys.js"
+  },
+  {
+   "key": "csp_LocalFile",
+   "name": "💻本地视频",
+   "type": 3,
+   "api": "csp_LocalFile",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0,
+   "type_flag": 0
+  },
+  {
+   "key": "csp_WoGG",
+   "name": "👽玩偶哥哥┃4K",
+   "type": 3,
+   "api": "csp_WoGG",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "YiSo",
+   "name": "😹易搜┃搜索",
+   "type": 3,
+   "api": "csp_YiSo",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "Zhaozy",
+   "name": "😽找资源┃搜索",
+   "type": 3,
+   "api": "csp_Zhaozy",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/tvfan.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "PanSou",
+   "name": "🦊盘搜┃搜索",
+   "type": 3,
+   "api": "csp_PanSou",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "UpYun",
+   "name": "😻Up搜┃搜索",
+   "type": 3,
+   "api": "csp_UpYun",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "PanSearch",
+   "name": "🙀盘Se┃搜索",
+   "type": 3,
+   "api": "csp_PanSearch",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "七夜",
+   "name": "😾七夜┃搜索",
+   "type": 3,
+   "api": "csp_Dovx",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt",
+   "jar": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/alijs/fan.jar"
+  },
+  {
+   "key": "Gitcafe",
+   "name": "📀小纸条(搜索)",
+   "type": 3,
+   "api": "csp_Gitcafe",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt"
+  },
+  {
+   "key": "csp_Zhaozy",
+   "name": "📀找资源(搜索)",
+   "type": 3,
+   "api": "csp_Zhaozy",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt"
+  },
+  {
+   "key": "csp_AliPS",
+   "name": "📀喵狸盘搜(搜索)",
+   "type": 3,
+   "api": "csp_AliPS",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt"
+  },
+  {
+   "key": "csp_Yisou",
+   "name": "📀易搜(搜索)",
+   "type": 3,
+   "api": "csp_Yisou",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt"
+  },
+  {
+   "key": "csp_Upyunso",
+   "name": "📀UP云搜(搜索)",
+   "type": 3,
+   "api": "csp_Upyunso",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt"
+  },
+  {
+   "key": "push_agent",
+   "name": "📽推送",
+   "type": 3,
+   "api": "csp_PushAgent",
+   "playerType": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "https://cdn.jsdelivr.net/gh/hallabcdefg/mytb@main/xmbjm/tokens/yyff.txt"
+  }
+ ]
+}
