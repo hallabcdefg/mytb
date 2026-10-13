@@ -4,15 +4,15 @@
    "key": "js豆瓣",
    "name": "🐼┃豆瓣┃免费接口",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/%E8%B1%86%E7%93%A3.js"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/%E8%B1%86%E7%93%A3.js"
   },
   {
    "key": "直播转点播",
    "name": "🐼️┃电视┃直播",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%82%B9%E6%92%AD2.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E7%9B%B4%E6%92%AD%E4%BB%93.json"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%82%B9%E6%92%AD2.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E7%9B%B4%E6%92%AD%E4%BB%93.json"
   },
   {
    "key": " 在线┃直播",
@@ -28,7 +28,7 @@
    "name": "😸┃肥猫┃影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E4%BA%91%E4%BA%91.json",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E4%BA%91%E4%BA%91.json",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/jars/%E8%82%A5%E7%8C%AB.jar"
   },
   {
@@ -106,7 +106,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_biubiu_voflix",
@@ -116,7 +116,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/voflix.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/voflix.json"
   },
   {
    "key": "csp_AppMr",
@@ -144,7 +144,7 @@
    "filterable": 1,
    "quickSearch": 1,
    "searchable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E4%B9%90%E7%8C%AA.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E4%B9%90%E7%8C%AA.json"
   },
   {
    "key": "csp_XBPQ秋霞影视",
@@ -205,8 +205,8 @@
    "key": "drpy_js_奇珍异兽",
    "name": "🐨┃爱奇┃官源",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/%E7%88%B1%E5%A5%87.js"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/%E7%88%B1%E5%A5%87.js"
   },
   {
    "key": "Qtv",
@@ -225,7 +225,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/360%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/360%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "MGT",
@@ -301,7 +301,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_search_PanSearch",
@@ -311,7 +311,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_search_Yisou",
@@ -322,7 +322,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_search_Zhaozy",
@@ -333,7 +333,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_search_Upyunso",
@@ -344,7 +344,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_search_Alips",
@@ -355,7 +355,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_BBB",
@@ -365,7 +365,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/bili.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/bili.json"
   },
   {
    "key": "csp_戏曲",
@@ -375,7 +375,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E6%88%8F%E6%9B%B2.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E6%88%8F%E6%9B%B2.json"
   },
   {
    "key": "演唱会",
@@ -385,14 +385,14 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/ych.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/ych.json"
   },
   {
    "key": "js虎牙",
    "name": "🐅┃虎牙┃直播",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js",
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0
@@ -405,7 +405,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E6%96%97%E9%B1%BC.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E6%96%97%E9%B1%BC.json"
   },
   {
    "key": "csp_XPath_企鹅体育",
@@ -415,24 +415,24 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json"
   },
   {
    "key": "dr_88看球",
    "name": "🏀┃八八┃看球",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/88%E7%9C%8B%E7%90%83.js"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/88%E7%9C%8B%E7%90%83.js"
   },
   {
    "key": "drpy_js_JRKAN直播",
    "name": "🏀┃JRS┃看球",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/JRKAN%E7%9B%B4%E6%92%AD.js"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/JRKAN%E7%9B%B4%E6%92%AD.js"
   },
   {
    "key": "csp_XYQBiu_聚合短视频",
@@ -442,21 +442,21 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/json/%E7%9F%AD%E8%A7%86%E9%A2%91.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/json/%E7%9F%AD%E8%A7%86%E9%A2%91.json"
   },
   {
    "key": "drpy_js_有声小说吧",
    "name": "📻┃有声┃小说",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E5%90%A7.js"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E5%90%A7.js"
   },
   {
    "key": "drpy_js_蜻蜓FM",
    "name": "📻┃蜻蜓┃收音",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/js/%E8%9C%BB%E8%9C%93FM.js"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/js/%E8%9C%BB%E8%9C%93FM.js"
   },
   {
    "key": "csp_Nbys",
@@ -503,7 +503,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   }
  ],
  "lives": [
@@ -516,7 +516,7 @@
   {
    "name": "redirect",
    "type": 0,
-   "url": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/feim/redirect.txt",
+   "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/feim/redirect.txt",
    "epg": ""
   }
  ],

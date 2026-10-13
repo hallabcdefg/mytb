@@ -2290,7 +2290,7 @@ function categoryParse(cateObj) {
             vod_name: '无数据,防无限请求',
             vod_id: 'no_data',
             vod_remarks: '不要点,会崩的',
-            vod_pic: 'https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/assets/404.jpg'
+            vod_pic: 'https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/assets/404.jpg'
         }],
         total: 1, pagecount: 1, page: 1, limit: 1
     };

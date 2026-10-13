@@ -5,7 +5,7 @@
   {
    "name": "redirect",
    "type": 0,
-   "url": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/qiaoer/redirect.txt",
+   "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/qiaoer/redirect.txt",
    "epg": ""
   }
  ],
@@ -206,7 +206,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/qiaoer/json/bili.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/qiaoer/json/bili.json"
   },
   {
    "key": "NoSearch_Yj1211_spider",
@@ -226,7 +226,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "Gitcafe",
@@ -236,7 +236,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "AliPanSou",
@@ -246,7 +246,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "UPanSo",
@@ -256,7 +256,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "FindZY",
@@ -266,7 +266,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "push_agent",
@@ -276,7 +276,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "Music_spider",

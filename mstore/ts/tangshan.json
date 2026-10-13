@@ -31,7 +31,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "195e30c1255970effc5480021f25fcd9#https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "195e30c1255970effc5480021f25fcd9#https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "heihei",
@@ -161,7 +161,7 @@
    "api": "csp_AList",
    "changeable": "0",
    "searchable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/ts/json/alist.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ts/json/alist.json"
   },
   {
    "key": "Cokemv",
@@ -192,7 +192,7 @@
    "api": "csp_XPathMacFilter",
    "searchable": "1",
    "changeable": "0",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/ts/json/duboku.json"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ts/json/duboku.json"
   },
   {
    "key": "量子",
@@ -350,7 +350,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "YiSo",
@@ -361,7 +361,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "找資源",
@@ -372,7 +372,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "AliPS",
@@ -383,7 +383,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "盤搜索",
@@ -394,7 +394,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "阿里",
@@ -405,7 +405,7 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "push_agent",
@@ -416,20 +416,20 @@
    "searchable": "1",
    "quickSearch": "1",
    "filterable": "1",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvboxqq.txt"
   }
  ],
  "lives": [
   {
    "name": "TXT",
    "type": 0,
-   "url": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/ts/TXT.txt",
+   "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ts/TXT.txt",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
   },
   {
    "name": "Json",
    "type": 1,
-   "url": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/ts/Json.txt",
+   "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ts/Json.txt",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}"
   }
  ],

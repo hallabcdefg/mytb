@@ -5,8 +5,8 @@
    "key": "drpy_js_ddys",
    "name": "豆瓣荐片",
    "type": 3,
-   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/alijs/libs/drpy2.min.js",
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/alijs/js/ddys.js"
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/libs/drpy2.min.js",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/js/ddys.js"
   },
   {
    "key": "csp_LocalFile",
@@ -26,7 +26,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -38,7 +38,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -50,7 +50,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvfan.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/tvfan.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -62,7 +62,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -74,7 +74,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -86,7 +86,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -98,7 +98,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt",
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt",
    "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/fan.jar"
   },
   {
@@ -110,7 +110,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_Zhaozy",
@@ -121,7 +121,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_AliPS",
@@ -132,7 +132,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_Yisou",
@@ -143,7 +143,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "csp_Upyunso",
@@ -154,7 +154,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   },
   {
    "key": "push_agent",
@@ -165,7 +165,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yyff.txt"
+   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yyff.txt"
   }
  ]
 }

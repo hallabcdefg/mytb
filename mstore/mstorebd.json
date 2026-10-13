@@ -2,7 +2,7 @@
  "storeHouse": [
   {
    "sourceName": "本地仓库",
-   "sourceUrl": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/mstoredc.json"
+   "sourceUrl": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/mstoredc.json"
   }
  ]
 }
