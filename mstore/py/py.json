@@ -43,7 +43,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_cctv.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_cctv.py"
   },
   {
    "key": "py_kunyu77",
@@ -53,7 +53,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_kunyu77.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_kunyu77.py"
   },
   {
    "key": "py_ikan",
@@ -63,7 +63,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_ikan.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_ikan.py"
   },
   {
    "key": "py_ikanbot.py",
@@ -73,7 +73,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_ikanbot.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_ikanbot.py"
   },
   {
    "key": "py_voflix.py",
@@ -83,7 +83,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_voflix.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_voflix.py"
   },
   {
    "key": "py_xigua",
@@ -93,7 +93,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_xigua.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_xigua.py"
   },
   {
    "key": "py_bilivd",
@@ -103,7 +103,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_bilivd.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_bilivd.py"
   },
   {
    "key": "py_bilimd",
@@ -113,7 +113,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_bilimd.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_bilimd.py"
   },
   {
    "key": "py_cyys",
@@ -123,7 +123,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_cyys.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_cyys.py"
   },
   {
    "key": "py_czspp",
@@ -133,7 +133,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_czspp.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_czspp.py"
   },
   {
    "key": "py_douyu",
@@ -143,7 +143,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_douyu.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_douyu.py"
   },
   {
    "key": "py_huya",
@@ -153,7 +153,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_huya.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_huya.py"
   },
   {
    "key": "py_freezb",
@@ -163,7 +163,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_sport.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_sport.py"
   },
   {
    "key": "py_幼儿教育",
@@ -173,7 +173,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E5%B9%BC%E5%84%BF%E6%95%99%E8%82%B2.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E5%B9%BC%E5%84%BF%E6%95%99%E8%82%B2.py"
   },
   {
    "key": "py_小学教育",
@@ -183,7 +183,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E5%B0%8F%E5%AD%A6%E6%95%99%E8%82%B2.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E5%B0%8F%E5%AD%A6%E6%95%99%E8%82%B2.py"
   },
   {
    "key": "py_初中教育",
@@ -193,7 +193,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E5%88%9D%E4%B8%AD%E6%95%99%E8%82%B2.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E5%88%9D%E4%B8%AD%E6%95%99%E8%82%B2.py"
   },
   {
    "key": "py_高中教育",
@@ -203,7 +203,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E9%AB%98%E4%B8%AD%E6%95%99%E8%82%B2.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E9%AB%98%E4%B8%AD%E6%95%99%E8%82%B2.py"
   },
   {
    "key": "py_中医药",
@@ -213,7 +213,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E4%B8%AD%E5%8C%BB%E8%8D%AF.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E4%B8%AD%E5%8C%BB%E8%8D%AF.py"
   },
   {
    "key": "py_中国文化",
@@ -223,7 +223,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E4%B8%AD%E5%9B%BD%E6%96%87%E5%8C%96.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E4%B8%AD%E5%9B%BD%E6%96%87%E5%8C%96.py"
   },
   {
    "key": "py_体育健身",
@@ -233,7 +233,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E4%BD%93%E8%82%B2%E5%81%A5%E8%BA%AB.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E4%BD%93%E8%82%B2%E5%81%A5%E8%BA%AB.py"
   },
   {
    "key": "py_美食合集",
@@ -243,7 +243,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/py_%E7%BE%8E%E9%A3%9F%E5%90%88%E9%9B%86.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/py_%E7%BE%8E%E9%A3%9F%E5%90%88%E9%9B%86.py"
   },
   {
    "key": "小纸条",
@@ -253,7 +253,7 @@
    "searchable": 1,
    "filterable": 1,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
   },
   {
    "key": "盘搜",
@@ -263,7 +263,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
   },
   {
    "key": "UP云搜",
@@ -273,7 +273,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
   },
   {
    "key": "找资源",
@@ -283,7 +283,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
   },
   {
    "key": "push_agent",
@@ -293,7 +293,7 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/yydf.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/yydf.txt"
   },
   {
    "key": "AList",
@@ -303,7 +303,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/py/alist.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/py/alist.json"
   }
  ],
  "parses": [
@@ -659,5 +659,5 @@
   "cdnjs.hnfenxun.com",
   "cms.qdwght.com"
  ],
- "spider": "https://hallabcdefg.github.io/mytb/mstore/py/fm.jar"
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/py/fm.jar"
 }

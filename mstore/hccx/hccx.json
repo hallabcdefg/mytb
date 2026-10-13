@@ -1,10 +1,10 @@
 {
- "spider": "https://hallabcdefg.github.io/mytb/mstore/hccx/spider.jar",
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/hccx/spider.jar",
  "lives": [
   {
    "name": "live",
    "type": 0,
-   "url": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/live.txt",
+   "url": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/live.txt",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
   }
  ],
@@ -14,8 +14,8 @@
    "key": "js_豆瓣荐片",
    "name": "🅱️追剧影院|T热播",
    "type": 3,
-   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/drpy2.min.js",
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/js/doubanjianpian2.js"
+   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/drpy2.min.js",
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/js/doubanjianpian2.js"
   },
   {
    "key": "csp_量子",
@@ -25,7 +25,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E9%87%8F%E5%AD%90%E8%B5%84%E6%BA%90%E7%BD%91.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E9%87%8F%E5%AD%90%E8%B5%84%E6%BA%90%E7%BD%91.json"
   },
   {
    "key": "csp_非凡",
@@ -35,7 +35,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E9%9D%9E%E5%87%A1%E8%B5%84%E6%BA%90%E7%BD%91.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E9%9D%9E%E5%87%A1%E8%B5%84%E6%BA%90%E7%BD%91.json"
   },
   {
    "key": "csp_WoGG",
@@ -45,7 +45,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/tvboxqq.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "csp_看看剧",
@@ -55,7 +55,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%9C%8B%E7%9C%8B%E5%89%A7.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%9C%8B%E7%9C%8B%E5%89%A7.json"
   },
   {
    "key": "csp_低端",
@@ -65,7 +65,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_蚂蚁影院",
@@ -75,7 +75,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E8%9A%82%E8%9A%81%E5%BD%B1%E9%99%A2.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E8%9A%82%E8%9A%81%E5%BD%B1%E9%99%A2.json"
   },
   {
    "key": "csp_xBPQ_奇优",
@@ -85,7 +85,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%A5%87%E4%BC%98%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%A5%87%E4%BC%98%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_乐猪",
@@ -95,7 +95,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E4%B9%90%E7%8C%AA%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E4%B9%90%E7%8C%AA%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_农民",
@@ -105,7 +105,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_饭团",
@@ -115,7 +115,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_345",
@@ -125,7 +125,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/345%E7%9C%8B%E7%89%87.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/345%E7%9C%8B%E7%89%87.json"
   },
   {
    "key": "csp_91",
@@ -135,7 +135,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/91%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/91%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_爱看",
@@ -145,7 +145,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%88%B1%E7%9C%8B%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%88%B1%E7%9C%8B%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_TVB",
@@ -155,7 +155,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/TVB%E4%BA%91%E6%92%AD.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/TVB%E4%BA%91%E6%92%AD.json"
   },
   {
    "key": "csp_555",
@@ -165,7 +165,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/555%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/555%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_七年",
@@ -175,7 +175,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E4%B8%83%E5%B9%B4%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E4%B8%83%E5%B9%B4%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_真不卡",
@@ -185,7 +185,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%9C%9F%E4%B8%8D%E5%8D%A1%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%9C%9F%E4%B8%8D%E5%8D%A1%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_大米",
@@ -195,7 +195,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%A4%A7%E7%B1%B3%E6%98%9F%E7%90%83.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%A4%A7%E7%B1%B3%E6%98%9F%E7%90%83.json"
   },
   {
    "key": "csp_兔瓜",
@@ -205,7 +205,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%85%94%E5%85%94%E7%93%9C.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%85%94%E5%85%94%E7%93%9C.json"
   },
   {
    "key": "csp_101",
@@ -215,7 +215,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/101%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/101%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_xBPQ_达龟",
@@ -225,7 +225,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E8%BE%BE%E8%BE%BE%E9%BE%9F%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E8%BE%BE%E8%BE%BE%E9%BE%9F%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_xBPQ_66",
@@ -235,7 +235,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/66%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/66%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_BT",
@@ -245,7 +245,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/bttwo.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/bttwo.json"
   },
   {
    "key": "csp_007",
@@ -255,7 +255,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/007%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/007%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_麻花",
@@ -265,7 +265,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E9%BA%BB%E8%8A%B1%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E9%BA%BB%E8%8A%B1%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_明帝",
@@ -275,7 +275,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E6%98%8E%E5%B8%9D%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E6%98%8E%E5%B8%9D%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_蛋蛋",
@@ -285,7 +285,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E8%9B%8B%E8%9B%8B%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E8%9B%8B%E8%9B%8B%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_4k影院",
@@ -295,7 +295,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/4K%E5%BD%B1%E9%99%A2.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/4K%E5%BD%B1%E9%99%A2.json"
   },
   {
    "key": "csp_苹果",
@@ -305,7 +305,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E8%8B%B9%E6%9E%9C%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E8%8B%B9%E6%9E%9C%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_光棍",
@@ -315,7 +315,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%85%89%E6%A3%8D%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%85%89%E6%A3%8D%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_米爱",
@@ -325,7 +325,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%B1%B3%E7%88%B1%E5%BD%B1%E8%A7%86.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%B1%B3%E7%88%B1%E5%BD%B1%E8%A7%86.json"
   },
   {
    "key": "csp_热播",
@@ -335,21 +335,21 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%83%AD%E6%92%AD%E4%B9%8B%E5%AE%B6.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%83%AD%E6%92%AD%E4%B9%8B%E5%AE%B6.json"
   },
   {
    "key": "js_360",
    "name": "🅱️影视官源|T追剧",
    "type": 3,
-   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/drpy2.min.js",
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/js/360%E5%BD%B1%E8%A7%86.js"
+   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/drpy2.min.js",
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/js/360%E5%BD%B1%E8%A7%86.js"
   },
   {
    "key": "js_酷云77",
    "name": "🅱️酷云影视|T追剧",
    "type": 3,
-   "api": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/drpy2.min.js",
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/js/kuyun77.js"
+   "api": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/drpy2.min.js",
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/js/kuyun77.js"
   },
   {
    "key": "py_cctv_full",
@@ -359,7 +359,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/py/py_ysdq.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/py/py_ysdq.py"
   },
   {
    "key": "py_cctv",
@@ -369,7 +369,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/py/py_yszx.py"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/py/py_yszx.py"
   },
   {
    "key": "Gitcafe",
@@ -380,7 +380,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/tvboxqq.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "七夜",
@@ -391,7 +391,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/tvboxqq.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "Yisou",
@@ -402,7 +402,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/tvboxqq.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "Zhaozy",
@@ -413,7 +413,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/tvboxqq.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "Upyunso",
@@ -424,7 +424,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/tokens/tvboxqq.txt"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/tokens/tvboxqq.txt"
   },
   {
    "key": "PanSearch",
@@ -444,7 +444,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%8A%A8%E6%BC%AB%E5%B7%B4%E5%A3%AB.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%8A%A8%E6%BC%AB%E5%B7%B4%E5%A3%AB.json"
   },
   {
    "key": "mtv_xp_维奇动漫",
@@ -454,7 +454,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%BB%B4%E5%A5%87%E5%8A%A8%E6%BC%AB.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%BB%B4%E5%A5%87%E5%8A%A8%E6%BC%AB.json"
   },
   {
    "key": "演唱会自定义",
@@ -464,7 +464,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A.json"
   },
   {
    "key": "相声小品",
@@ -474,7 +474,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E7%9B%B8%E5%A3%B0%E5%B0%8F%E5%93%81.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E7%9B%B8%E5%A3%B0%E5%B0%8F%E5%93%81.json"
   },
   {
    "key": "美食",
@@ -484,7 +484,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%A4%A9%E4%B8%8B%E7%BE%8E%E9%A3%9F.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%A4%A9%E4%B8%8B%E7%BE%8E%E9%A3%9F.json"
   },
   {
    "key": "mtv_xp_儿童乐园",
@@ -494,7 +494,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%84%BF%E7%AB%A5%E4%B9%90%E5%9B%AD.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%84%BF%E7%AB%A5%E4%B9%90%E5%9B%AD.json"
   },
   {
    "key": "mtv_xp_学习课堂",
@@ -504,7 +504,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E5%AD%A6%E4%B9%A0%E8%AF%BE%E5%A0%82.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E5%AD%A6%E4%B9%A0%E8%AF%BE%E5%A0%82.json"
   },
   {
    "key": "mtv_xp_戏曲杂苑",
@@ -514,7 +514,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/hccx/json/%E6%88%8F%E6%9B%B2%E6%9D%82%E8%8B%91.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/hccx/json/%E6%88%8F%E6%9B%B2%E6%9D%82%E8%8B%91.json"
   }
  ],
  "parses": [

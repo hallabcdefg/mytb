@@ -1,5 +1,5 @@
 {
- "spider": "https://hallabcdefg.github.io/mytb/mstore/fongmi/custom_spider.jar",
+ "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb@main/mstore/fongmi/custom_spider.jar",
  "wallpaper": "https://picsum.photos/1280/720/?blur=2",
  "sites": [
   {
@@ -17,7 +17,7 @@
    "api": "csp_AList",
    "searchable": 1,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/fongmi/json/alist.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/fongmi/json/alist.json"
   },
   {
    "key": "WebDAV",
@@ -26,7 +26,7 @@
    "api": "csp_WebDAV",
    "searchable": 1,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/fongmi/json/webdav.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/fongmi/json/webdav.json"
   },
   {
    "key": "哔哩",
@@ -35,7 +35,7 @@
    "api": "csp_Bili",
    "searchable": 1,
    "changeable": 0,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/fongmi/json/bili.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/fongmi/json/bili.json"
   },
   {
    "key": "泥巴",
@@ -60,7 +60,7 @@
    "api": "csp_XPathMacFilter",
    "searchable": 1,
    "changeable": 1,
-   "ext": "https://fastly.jsdelivr.net/gh/hallabcdefg/mytb@8f3855b/mstore/fongmi/json/duboku.json"
+   "ext": "https://cdn.jsdmirror.com/gh/hallabcdefg/mytb@main/mstore/fongmi/json/duboku.json"
   },
   {
    "key": "量子",
