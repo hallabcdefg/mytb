@@ -1,24 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-FTY（饭太硬 / 梵泰英）spider jar 自动同步脚本
-============================================
-作用：定期从上游仓库拉取最新的 FTY jar（fan.txt），如果发现有新版本，就：
-  1. 校验下载到的文件是完整合法的 dex zip（防止下载被截断）
-  2. 解析 jar 内的爬虫类，确认仍是正常的 Guard 类 jar
-  3. 覆盖上传到你的 kstore 空间（mstore/qist/jar/fan.txt）
-  4. 校验线上文件 md5 与新 jar 一致
-  5. 自动更新所有引用该 jar 的配置里的 md5 声明（否则 TVBox 校验不通过会加载失败）
-  6. 自动剔除因 jar 更新而失效（类被移除）的站点，保证配置永远自洽
-  7. 写日志，并可选自动 git 提交备份
+TVBox spider jar 自动同步脚本（多包版）
+=====================================
+源站地址封在 jar 里，作者一发新 jar 就换掉失效源站 —— 所以 jar 必须跟着更新。
+本脚本定期从上游拉取最新的 spider jar，若有更新就自动上传到 kstore 并改写配置 md5。
+
+同步目标：
+  1. FTY 的 fan.txt        —— Guard 类站（线路二/三在用）
+  2. spider.jar (2026)     —— 非 Guard 爬虫站（线路一 66 个站在用）
+
+流程（每个 jar 独立）：
+  下载(多镜像) → 校验完整 dex zip → 比对 md5 → 无更新则跳过
+  → 有更新则上传 kstore → 校验线上 md5 → 改写引用配置的 md5 → 剔除失效站 → 写日志
 
 用法：
   python3 fty_sync.py              # 正常同步（无更新则安全退出）
-  python3 fty_sync.py --force      # 强制重新上传（即使 md5 没变）
+  python3 fty_sync.py --force      # 强制重新上传
   python3 fty_sync.py --dry-run    # 只检查不上传
 
-凭据：优先读环境变量 KSTORE_DAV_USER / KSTORE_DAV_PASS / KSTORE_DAV_HOST
-     （GitHub Actions 里从 Secrets 注入）；本地则回退读取 credentials.env。
+凭据：优先环境变量 KSTORE_DAV_USER / KSTORE_DAV_PASS / KSTORE_DAV_HOST
+     （GitHub Actions 从 Secrets 注入）；本地回退读取 credentials.env。
 """
 
 import os
@@ -38,25 +40,31 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE_FILE = os.path.join(BASE, '.sync_state.json')
 LOG_FILE = os.path.join(BASE, 'logs', 'fty_sync.log')
 
-# 上游 jar 地址：多镜像，按顺序尝试，任一成功即可（防止单点超时/被墙）
-_GH = 'https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt'
-MIRRORS = [
-    _GH,                                                        # GitHub 官方 raw
-    'https://ghproxy.net/' + _GH,                               # ghproxy 镜像
-    'https://gh-proxy.com/' + _GH,                              # gh-proxy 镜像
-    'https://ghproxy.cc/' + _GH,                                # 备用镜像
-    'https://fastly.jsdelivr.net/gh/qist/tvbox@master/jar/fan.txt',
-    'https://cdn.jsdelivr.net/gh/qist/tvbox@master/jar/fan.txt',
-]
-if os.environ.get('FTY_UPSTREAM'):
-    MIRRORS.insert(0, os.environ['FTY_UPSTREAM'])
-JAR_REMOTE = 'mstore/qist/jar/fan.txt'                              # kstore 上的路径
-JAR_PUBLIC = 'https://20328.kstore.space/mstore/qist/jar/fan.txt'   # 公开直链
+# ---------- 上游与同步目标 ----------
+_GH = 'https://raw.githubusercontent.com/qist/tvbox/master/jar/'
+_MIRRORS = ['https://ghproxy.net/', 'https://gh-proxy.com/', 'https://ghproxy.cc/']
 
-# 引用了该 jar 的配置：（本地路径, kstore 远程路径）
-CONFIGS = [
-    (os.path.join(BASE, 'mstore', 'qist', 'fty.json'), 'mstore/qist/fty.json'),
-    (os.path.join(BASE, 'mstore', 'evergreen.json'),   'mstore/evergreen.json'),
+TARGETS = [
+    {
+        'name': 'FTY fan.txt',
+        'upstreams': [_GH + 'fan.txt'] + [m + _GH + 'fan.txt' for m in _MIRRORS],
+        'remote': 'mstore/qist/jar/fan.txt',
+        'public': 'https://20328.kstore.space/mstore/qist/jar/fan.txt',
+        # 引用了该 jar 的配置（本地路径, kstore 远程路径）—— 需要同步 md5
+        'configs': [
+            (os.path.join(BASE, 'mstore', 'qist', 'fty.json'), 'mstore/qist/fty.json'),
+            (os.path.join(BASE, 'mstore', 'evergreen.json'), 'mstore/evergreen.json'),
+        ],
+        'min_guard': 1,      # 至少要有 Guard 类，否则视为异常
+    },
+    {
+        'name': 'spider.jar(2026)',
+        'upstreams': [_GH + 'spider.jar'] + [m + _GH + 'spider.jar' for m in _MIRRORS],
+        'remote': 'mstore/jars/spider_2026.jar',
+        'public': 'https://20328.kstore.space/mstore/jars/spider_2026.jar',
+        'configs': [],       # 单站 jar 引用，无需改写 md5
+        'min_classes': 500,  # 至少这么多爬虫类，否则视为异常
+    },
 ]
 
 MD5_RE = re.compile(r'(;md5;)([0-9a-fA-F]{32})')
@@ -74,7 +82,6 @@ def log(msg):
 
 
 def load_creds():
-    """读取 kstore WebDAV 凭据：优先环境变量，其次本地凭据文件。"""
     user = os.environ.get('KSTORE_DAV_USER')
     pwd = os.environ.get('KSTORE_DAV_PASS')
     host = os.environ.get('KSTORE_DAV_HOST')
@@ -104,10 +111,9 @@ def md5hex(b):
 
 
 def try_one(url):
-    """尝试从单个镜像下载并校验，成功返回 bytes，失败返回 (None, 原因)。"""
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=45) as r:
+        with urllib.request.urlopen(req, timeout=60) as r:
             data = r.read()
         if data[:2] != b'PK':
             return None, '非 zip 文件头'
@@ -123,13 +129,12 @@ def try_one(url):
 
 
 def fetch(urls, tries=2):
-    """依次尝试各镜像，严格校验是完整合法的 dex zip（避免截断文件被当成更新）。"""
     last = ''
     for idx, u in enumerate(urls, 1):
         for i in range(tries):
             data, err = try_one(u)
             if data is not None:
-                log("  镜像 %d 下载成功: %s（%d bytes）" % (idx, u.split('/')[2], len(data)))
+                log("  镜像 %d 下载成功（%d bytes）" % (idx, len(data)))
                 return data
             last = err or '未知错误'
             log("  镜像 %d 第 %d 次失败(%s)" % (idx, i + 1, last))
@@ -138,7 +143,6 @@ def fetch(urls, tries=2):
 
 
 def dex_classes(data):
-    """解析 dex 内的 com.github.catvod.spider.* 类名集合。"""
     cs = set()
     with zipfile.ZipFile(io.BytesIO(data)) as z:
         for n in z.namelist():
@@ -170,7 +174,7 @@ def dex_classes(data):
     return cs
 
 
-def _auth_header(user, pwd):
+def _auth(user, pwd):
     return 'Basic ' + base64.b64encode(('%s:%s' % (user, pwd)).encode()).decode()
 
 
@@ -179,9 +183,9 @@ def dav_put(data, remote, user, pwd, host, tries=3):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, data=data, method='PUT')
-            req.add_header('Authorization', _auth_header(user, pwd))
+            req.add_header('Authorization', _auth(user, pwd))
             req.add_header('User-Agent', 'Mozilla/5.0')
-            with urllib.request.urlopen(req, timeout=180) as r:
+            with urllib.request.urlopen(req, timeout=240) as r:
                 return r.status
         except Exception:
             if i == tries - 1:
@@ -192,42 +196,38 @@ def dav_put(data, remote, user, pwd, host, tries=3):
 def dav_get(remote, user, pwd, host):
     url = '%s/%s' % (host.rstrip('/'), remote.lstrip('/'))
     req = urllib.request.Request(url, method='GET')
-    req.add_header('Authorization', _auth_header(user, pwd))
+    req.add_header('Authorization', _auth(user, pwd))
     with urllib.request.urlopen(req, timeout=120) as r:
         return r.read()
 
 
-def update_config(path, new_md5, new_classes, write=True):
-    """更新配置里 fan.txt 的 md5 声明，并剔除新 jar 中已不存在的类的站点。
-    write=False 时只计算不落盘（用于 --dry-run 预演）。
-    """
+def update_config(path, jar_public, new_md5, new_classes):
+    """更新配置里该 jar 的 md5 声明，并剔除新 jar 中已不存在的类的站点。"""
     cfg = json.load(open(path, encoding='utf-8'))
     spider = str(cfg.get('spider', ''))
-    spider_is_fan = (JAR_PUBLIC in spider) or spider.endswith('fan.txt')
+    spider_is = jar_public in spider or spider.endswith('fan.txt')
 
-    if spider_is_fan:
+    if spider_is:
         if ';md5;' in spider:
             cfg['spider'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, spider)
         else:
-            cfg['spider'] = '%s;md5;%s' % (JAR_PUBLIC, new_md5)
+            cfg['spider'] = '%s;md5;%s' % (jar_public, new_md5)
 
     removed, sites = [], []
     for s in cfg.get('sites', []):
         jar = str(s.get('jar', ''))
         api = str(s.get('api', ''))
-        # 该站是否走 fan.txt（顶层 spider 或单站 jar 字段）
-        uses_fan = (not jar and spider_is_fan) or (JAR_PUBLIC in jar)
-        if uses_fan and ';md5;' in jar:
+        uses = (not jar and spider_is) or (jar_public in jar)
+        if uses and ';md5;' in jar:
             s['jar'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, jar)
-        if uses_fan and api.startswith('csp_'):
+        if uses and api.startswith('csp_'):
             if 'Lcom/github/catvod/spider/%s;' % api[4:] not in new_classes:
                 removed.append(str(s.get('key', '')))
                 continue
         sites.append(s)
 
     cfg['sites'] = sites
-    if write:
-        json.dump(cfg, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    json.dump(cfg, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
     return removed, len(sites)
 
 
@@ -240,99 +240,113 @@ def git_commit(msg):
         if tok:
             subprocess.run(['git', '-C', BASE, 'push',
                             'https://%s@github.com/hallabcdefg/mytb.git' % tok, 'main'],
-                           check=False, timeout=180)
+                           check=False, timeout=240)
     except Exception as e:
         log("  (git 同步跳过: %s)" % str(e)[:60])
 
 
-def main():
-    args = sys.argv[1:]
-    dry = '--dry-run' in args
-    force = '--force' in args
-
-    log("=== FTY jar 同步开始 ===")
-    user, pwd, host = load_creds()
-    data = fetch(MIRRORS)
+def sync_target(t, state, user, pwd, host, dry, force):
+    name = t['name']
+    log("---- 检查 [%s] ----" % name)
+    data = fetch(t['upstreams'])
     new_md5 = md5hex(data)
-    log("上游 jar 下载成功: %d bytes, md5=%s" % (len(data), new_md5))
+    classes = dex_classes(data)
+    guard = sum(1 for c in classes if 'Guard' in c)
+    log("  上游: %d bytes, md5=%s, 类 %d (Guard %d)" % (len(data), new_md5, len(classes), guard))
 
-    last = None
-    if os.path.exists(STATE_FILE):
+    if t.get('min_guard') and guard < t['min_guard']:
+        log("  !! Guard 类不足(%d)，疑似异常，跳过" % guard)
+        return False
+    if t.get('min_classes') and len(classes) < t['min_classes']:
+        log("  !! 类数量不足(%d)，疑似异常，跳过" % len(classes))
+        return False
+
+    last = state.get('jars', {}).get(name)
+    if last is None and t['configs']:
         try:
-            last = json.load(open(STATE_FILE)).get('last_md5')
-        except Exception:
-            pass
-    if last is None:
-        # 优先从配置里已声明的 md5 取基准（比重新下载整个 jar 可靠）
-        try:
-            sp = json.load(open(CONFIGS[0][0], encoding='utf-8')).get('spider', '')
+            sp = json.load(open(t['configs'][0][0], encoding='utf-8')).get('spider', '')
             m = MD5_RE.search(str(sp))
             if m:
                 last = m.group(2)
-                log("初始化基准 md5（来自配置声明）: %s" % last)
+                log("  基准 md5（来自配置声明）: %s" % last)
         except Exception:
             pass
     if last is None:
+        # 用公开直链比对（WebDAV 读取大文件容易 IncompleteRead）
         try:
-            last = md5hex(dav_get(JAR_REMOTE, user, pwd, host))
-            log("初始化基准 md5（当前线上）: %s" % last)
+            req = urllib.request.Request(t['public'], headers={'User-Agent': 'Mozilla/5.0'})
+            last = md5hex(urllib.request.urlopen(req, timeout=180).read())
+            log("  基准 md5（当前线上）: %s" % last)
         except Exception as e:
-            log("  读取线上 jar 失败: %s" % str(e)[:60])
+            log("  读取线上失败: %s" % str(e)[:60])
 
     if last == new_md5 and not force:
-        log("无更新（线上已是最新 %s），退出" % new_md5)
-        json.dump({'last_md5': new_md5, 'last_check': datetime.now().isoformat()},
-                  open(STATE_FILE, 'w'))
-        return 0
+        log("  无更新，跳过")
+        state.setdefault('jars', {})[name] = new_md5
+        return False
 
-    log("检测到新版本: %s -> %s" % (last, new_md5))
-    classes = dex_classes(data)
-    guard = sum(1 for c in classes if 'Guard' in c)
-    log("新 jar 解析: spider 类 %d 个，其中 Guard 类 %d 个" % (len(classes), guard))
-    if guard == 0:
-        log("!! 新 jar 无 Guard 类，疑似异常，中止上传")
-        return 1
-
+    log("  发现新版本: %s -> %s" % (str(last)[:8], new_md5[:8]))
     if dry:
-        log("--dry-run: 跳过上传（本应更新为 %s）" % new_md5)
-        for local, _ in CONFIGS:
-            if os.path.exists(local):
-                removed, total = update_config(local, new_md5, classes, write=False)
-                log("  [预演] %s: %d 站，将剔除 %d %s"
-                    % (os.path.basename(local), total, len(removed), removed if removed else ''))
-        return 0
+        log("  --dry-run: 跳过上传")
+        return False
 
-    st = dav_put(data, JAR_REMOTE, user, pwd, host)
-    log("jar 上传完成 (HTTP %s)" % st)
+    st = dav_put(data, t['remote'], user, pwd, host)
+    log("  上传完成 (HTTP %s)" % st)
 
     online = None
     for _ in range(5):
         try:
-            req = urllib.request.Request(JAR_PUBLIC, headers={'User-Agent': 'Mozilla/5.0'})
-            online = md5hex(urllib.request.urlopen(req, timeout=60).read())
+            req = urllib.request.Request(t['public'], headers={'User-Agent': 'Mozilla/5.0'})
+            online = md5hex(urllib.request.urlopen(req, timeout=90).read())
             if online == new_md5:
                 break
         except Exception:
             pass
         time.sleep(3)
     if online != new_md5:
-        log("!! 线上校验失败（线上=%s, 期望=%s），中止配置更新" % (online, new_md5))
-        return 1
-    log("线上 jar 校验通过: md5=%s" % online)
+        log("  !! 线上校验失败（线上=%s），中止配置更新" % online)
+        return False
+    log("  线上校验通过")
 
-    for local, remote in CONFIGS:
+    for local, remote in t['configs']:
         if not os.path.exists(local):
-            log("  配置不存在，跳过: %s" % local)
             continue
-        removed, total = update_config(local, new_md5, classes)
+        removed, total = update_config(local, t['public'], new_md5, classes)
         dav_put(open(local, 'rb').read(), remote, user, pwd, host)
         log("  已更新 %s: %d 站，剔除失效站 %d %s"
             % (os.path.basename(local), total, len(removed), removed if removed else ''))
 
-    json.dump({'last_md5': new_md5, 'last_check': datetime.now().isoformat(),
-               'last_size': len(data)}, open(STATE_FILE, 'w'))
-    git_commit("chore(auto): FTY jar 自动同步 %s -> %s" % (str(last)[:8], new_md5[:8]))
-    log("=== 同步完成 ===")
+    state.setdefault('jars', {})[name] = new_md5
+    return True
+
+
+def main():
+    dry = '--dry-run' in sys.argv
+    force = '--force' in sys.argv
+    log("=== jar 同步开始 ===")
+    user, pwd, host = load_creds()
+
+    state = {}
+    if os.path.exists(STATE_FILE):
+        try:
+            state = json.load(open(STATE_FILE))
+        except Exception:
+            pass
+
+    changed = False
+    for t in TARGETS:
+        try:
+            if sync_target(t, state, user, pwd, host, dry, force):
+                changed = True
+        except Exception as e:
+            log("  !! [%s] 同步失败: %s" % (t['name'], str(e)[:150]))
+
+    state['last_check'] = datetime.now().isoformat()
+    json.dump(state, open(STATE_FILE, 'w'))
+
+    if changed:
+        git_commit("chore(auto): spider jar 自动同步更新")
+    log("=== 同步结束（有变更: %s）===" % ('是' if changed else '否'))
     return 0
 
 

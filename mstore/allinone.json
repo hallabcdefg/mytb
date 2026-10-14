@@ -37,7 +37,7 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "360",
@@ -344,7 +344,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "./libs/js/alist1.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "Aid",
@@ -406,7 +406,7 @@
       "api": "csp_Dm84",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "Lib",
@@ -420,7 +420,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "MTV",
@@ -451,7 +451,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "PanSou",
@@ -484,7 +484,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "./libs/js/webdav.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "XBPQ_宝宝趣学",
@@ -546,7 +546,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "YpanSo",
@@ -569,7 +569,7 @@
       "api": "csp_Ysj",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "cc_shdy2",
@@ -683,7 +683,7 @@
           }
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "csp_Anime1",
@@ -908,7 +908,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "csp_FourK",
@@ -1021,7 +1021,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "csp_douban",
@@ -1802,7 +1802,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "奇优",
@@ -2409,7 +2409,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/企鹅直播.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
     },
     {
       "key": "csp_XYQBiu_斗鱼",
