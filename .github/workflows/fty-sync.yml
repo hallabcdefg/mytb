@@ -1,0 +1,40 @@
+name: FTY jar 自动同步
+
+# 每天自动从 FTY 上游拉取最新 jar，若有更新则同步到 kstore 并更新配置 md5
+# UTC 20:00 = 北京时间 次日 04:00
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:      # 允许在 GitHub 页面手动点一下立即执行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行同步脚本
+        env:
+          KSTORE_DAV_USER: ${{ secrets.KSTORE_DAV_USER }}
+          KSTORE_DAV_PASS: ${{ secrets.KSTORE_DAV_PASS }}
+          KSTORE_DAV_HOST: ${{ secrets.KSTORE_DAV_HOST }}
+        run: python3 scripts/fty_sync.py
+
+      - name: 提交变更（若配置有更新）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "无变更可提交"
+          else
+            git commit -m "chore(auto): FTY jar 自动同步"
+            git push
+          fi
