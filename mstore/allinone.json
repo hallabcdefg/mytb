@@ -133,14 +133,6 @@
       "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
     },
     {
-      "key": "百度",
-      "name": "【网盘】🎏百度┃采集",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 0
-    },
-    {
       "key": "百度云盘",
       "name": "【网盘】❤我的｜肚盘",
       "type": 3,
@@ -254,37 +246,6 @@
       "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
     },
     {
-      "key": "MTV",
-      "name": "【直播】🎶明星┃MV",
-      "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
-      },
-      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
-    },
-    {
-      "key": "MTV1",
-      "name": "【直播】🎙️易听┃音乐",
-      "type": 3,
-      "api": "csp_MusicGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
-    },
-    {
       "key": "alllive",
       "name": "【直播】📽️┃一直播┃LIVE",
       "type": 3,
@@ -311,17 +272,6 @@
       "quickSearch": 0,
       "changeable": 0,
       "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-    },
-    {
-      "key": "csp_Bili_MTV",
-      "name": "【直播】🅱️┃歌曲┃演唱",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
-      "ext": "./libs/hccx/歌曲.json"
     },
     {
       "key": "csp_Bili_TYjs",
@@ -656,6 +606,14 @@
       ]
     },
     {
+      "key": "百度",
+      "name": "【直连】🎏百度┃采集",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
       "key": "索尼资源",
       "name": "【直连】索尼｜采集",
       "type": 1,
@@ -849,6 +807,37 @@
       "style": {
         "type": "list"
       },
+      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
+    },
+    {
+      "key": "MTV",
+      "name": "【梵泰英】🎶明星┃MV",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
+      },
+      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
+    },
+    {
+      "key": "MTV1",
+      "name": "【梵泰英】🎙️易听┃音乐",
+      "type": 3,
+      "api": "csp_MusicGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
     },
     {
@@ -1716,6 +1705,17 @@
       "filterable": 1,
       "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
       "ext": "./libs/hccx/球队.json"
+    },
+    {
+      "key": "csp_Bili_MTV",
+      "name": "【Liu673】🅱️┃歌曲┃演唱",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "ext": "./libs/hccx/歌曲.json"
     },
     {
       "key": "csp_Bili_Meinvw",
