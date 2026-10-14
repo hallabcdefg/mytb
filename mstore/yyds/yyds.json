@@ -1772,5 +1772,6 @@
   ],
   "wallpaper": "https://yydsys.top/bg.php",
   "warningText": "接口免费整理维护，请勿付费购买",
-  "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/yyds/spider.jar"
+  "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/yyds/spider.jar",
+  "epg": "http://epg.51zmt.top:8000/e.xml"
 }

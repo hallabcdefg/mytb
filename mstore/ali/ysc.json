@@ -1,119 +1,120 @@
 {
- "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/ali.jar",
- "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
- "sites": [
-  {
-   "key": "豆瓣",
-   "name": "🔍豆瓣荐片",
-   "type": 3,
-   "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/js/drpy2.min.js",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/js/douban.js"
-  },
-  {
-   "key": "csp_WoGG",
-   "name": "👽玩偶哥哥",
-   "type": 3,
-   "api": "csp_WoGG",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "csp_KungFu404",
-   "name": "🌱有效聚合",
-   "type": 3,
-   "api": "csp_KungFu404",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "UP云搜",
-   "name": "🖥UP云搜",
-   "type": 3,
-   "api": "csp_UpYun",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "纸条",
-   "name": "🖥纸条搜索",
-   "type": 3,
-   "api": "csp_Paper",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "易搜",
-   "name": "🖥易搜",
-   "type": 3,
-   "api": "csp_YiSo",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "阿里云盘",
-   "name": "🖥阿里云盘",
-   "type": 3,
-   "api": "csp_Dovx",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "盘搜",
-   "name": "🖥盘搜",
-   "type": 3,
-   "api": "csp_PanSou",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "网盘搜索",
-   "name": "🖥网盘搜索",
-   "type": 3,
-   "api": "csp_PanSearch",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "土狗搜索",
-   "name": "🖥土狗搜索",
-   "type": 3,
-   "api": "csp_TuGou",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0
-  },
-  {
-   "key": "找资源",
-   "name": "🖥找资源",
-   "type": 3,
-   "api": "csp_Zhaozy",
-   "searchable": 1,
-   "filterable": 0,
-   "changeable": 0,
-   "ext": "null$$$yunshuche$$$11223344"
-  },
-  {
-   "key": "push_agent",
-   "name": "📽推送",
-   "type": 3,
-   "api": "csp_PushAgent",
-   "playerType": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
-   "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/custom_spider.jar"
-  }
- ]
+  "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/ali.jar",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "🔍豆瓣荐片",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/js/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/js/douban.js"
+    },
+    {
+      "key": "csp_WoGG",
+      "name": "👽玩偶哥哥",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_KungFu404",
+      "name": "🌱有效聚合",
+      "type": 3,
+      "api": "csp_KungFu404",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "UP云搜",
+      "name": "🖥UP云搜",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "纸条",
+      "name": "🖥纸条搜索",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "易搜",
+      "name": "🖥易搜",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "阿里云盘",
+      "name": "🖥阿里云盘",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "盘搜",
+      "name": "🖥盘搜",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "网盘搜索",
+      "name": "🖥网盘搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "土狗搜索",
+      "name": "🖥土狗搜索",
+      "type": 3,
+      "api": "csp_TuGou",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "找资源",
+      "name": "🖥找资源",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "null$$$yunshuche$$$11223344"
+    },
+    {
+      "key": "push_agent",
+      "name": "📽推送",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/ali/custom_spider.jar"
+    }
+  ],
+  "epg": "http://epg.51zmt.top:8000/e.xml"
 }

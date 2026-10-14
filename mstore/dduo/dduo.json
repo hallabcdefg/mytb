@@ -1641,5 +1641,6 @@
   ],
   "wallpaper": "https://jianbian.chuqiuyu.tk",
   "warningText": "业余打发免费整理维护，请勿付费购买",
-  "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/dduo/custom_spider.jar;md5;8BF69B85F76AD89724385919CF66E0D8"
+  "spider": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/dduo/custom_spider.jar;md5;8BF69B85F76AD89724385919CF66E0D8",
+  "epg": "http://epg.51zmt.top:8000/e.xml"
 }

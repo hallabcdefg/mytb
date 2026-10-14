@@ -760,5 +760,6 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ]
+  ],
+  "epg": "http://epg.51zmt.top:8000/e.xml"
 }

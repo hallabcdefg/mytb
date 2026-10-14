@@ -1607,5 +1607,6 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com",
     "api.htpan.net"
-  ]
+  ],
+  "epg": "http://epg.51zmt.top:8000/e.xml"
 }
