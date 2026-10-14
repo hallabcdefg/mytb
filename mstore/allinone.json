@@ -141,6 +141,34 @@
       "searchable": 1
     },
     {
+      "key": "卧龙资源",
+      "name": "【直连】影视•卧龙[直连]",
+      "type": 1,
+      "api": "https://wolongzyw.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "天涯采集",
+      "name": "【直连】影视•天涯",
+      "type": 1,
+      "api": "http://tyyszy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "建安采集",
+      "name": "【直连】影视•建安",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
       "key": "极速资源",
       "name": "【直连】🚆极速┃影视",
       "type": 1,
@@ -254,6 +282,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "非凡影视",
+      "name": "【直连】影视•非凡[直连]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "searchable": 1
     },
     {
       "key": "非凡资源",
@@ -402,20 +437,6 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
-    },
-    {
-      "key": "MTV1",
-      "name": "【爬虫】🎙️易听┃音乐",
-      "type": 3,
-      "api": "csp_MusicGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
       "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
     },
     {
