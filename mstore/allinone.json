@@ -160,18 +160,6 @@
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
-   "key": "糯米",
-   "name": "🍓┃糯米┃秒播",
-   "type": 3,
-   "api": "csp_NmyswvGuard",
-   "timeout": 15,
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/饭太硬.jar",
-   "ext": ""
-  },
-  {
    "key": "苹果",
    "name": "🍎┃苹果┃IJK",
    "type": 3,
@@ -209,13 +197,14 @@
    "key": "南瓜",
    "name": "🎃┃南瓜┃多线",
    "type": 3,
-   "api": "csp_NanGua",
+   "api": "csp_NanGuaGuard",
    "timeout": 15,
    "playerType": 2,
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/饭太硬.jar",
+   "ext": ""
   },
   {
    "key": "热播",
@@ -286,7 +275,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "",
+   "ext": "https://www.czzytv77.com/",
    "jar": "https://20328.kstore.space/mstore/jars/饭太硬.jar"
   },
   {
