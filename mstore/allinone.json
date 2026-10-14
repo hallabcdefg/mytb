@@ -14,17 +14,6 @@
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
-   "key": "csp_KungFu404",
-   "name": "🔥┃设置Token",
-   "type": 3,
-   "api": "csp_KungFu404",
-   "searchable": 0,
-   "filterable": 0,
-   "changeable": 0,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
-   "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
-  },
-  {
    "key": "APP商店",
    "name": "🎰┃蜂蜜┃商店",
    "type": 3,
@@ -32,7 +21,7 @@
    "searchable": 0,
    "changeable": 0,
    "ext": "./libs/market.json",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
   },
   {
    "key": "直播转点播",
@@ -92,7 +81,7 @@
     "siteUrl": "https://www.wogg.net/",
     "danMu": "弹"
    },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "YGP",
@@ -141,7 +130,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "Lib",
@@ -155,7 +144,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "文采",
@@ -166,7 +155,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "糯米",
@@ -177,7 +166,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "苹果",
@@ -187,7 +176,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "萌米",
@@ -197,7 +186,7 @@
    "timeout": 15,
    "playerType": 1,
    "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg==",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar",
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
    "searchable": 1
   },
   {
@@ -210,7 +199,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "南瓜",
@@ -222,7 +211,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "热播",
@@ -234,7 +223,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AO7TcBkd8I/B5wQc4Qma+pU=",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "可可",
@@ -245,7 +234,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "zxzj",
@@ -257,7 +246,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "http://www.zxzjhd.com/",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "低端",
@@ -268,7 +257,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "贱贱",
@@ -293,7 +282,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "https://www.czzyvideo.com/",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "原创",
@@ -305,7 +294,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "比特",
@@ -327,7 +316,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "https://auete.pro/",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "新6V",
@@ -338,7 +327,7 @@
    "quickSearch": 1,
    "changeable": 0,
    "ext": "https://www.xb6v.com/",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "csp_nkvlog",
@@ -368,87 +357,14 @@
    "type": 3,
    "api": "csp_KmeiJu",
    "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
   },
   {
    "key": "csp_SuBaiBai",
    "name": "🏳️┃素白┃影视",
    "type": 3,
    "api": "csp_SuBaiBai",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Ikan",
-   "name": "💕┃爱看┃影视",
-   "type": 3,
-   "api": "csp_Ikan",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_FengGo",
-   "name": "🐕┃疯狗┃影视",
-   "type": 3,
-   "api": "csp_FengGo",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Juqq",
-   "name": "⭕┃剧圈┃影视",
-   "type": 3,
-   "playerType": "2",
-   "api": "csp_Juqq",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Netfixtv",
-   "name": "💌┃至臻┃影视",
-   "type": 3,
-   "api": "csp_Netfixtv",
-   "playerType": 2,
-   "filterable": 1,
-   "ext": "",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Vidhub2",
-   "name": "🎼┃Vid┃影视",
-   "type": 3,
-   "api": "csp_Vidhub2",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_AppRZ",
-   "name": " 🕵┃忍者┃影视",
-   "type": 3,
-   "playerType": "2",
-   "api": "csp_AppRZ",
-   "ext": "http://rzys.xyz/",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "FreeOK",
-   "name": "️️👌┃Fre┃影视",
-   "type": 3,
-   "api": "csp_FreeOK",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "毛驴",
-   "name": "🦙┃毛驴┃影视",
-   "type": 3,
-   "api": "csp_MaoLv",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
   },
   {
    "key": "云播影视",
@@ -468,32 +384,22 @@
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
-   "key": "csp_SC1080",
-   "name": "🏰┃圣城┃影视",
-   "type": 3,
-   "api": "csp_SC1080",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
    "key": "csp_Duopan",
    "name": "🖍︎┃蜡笔┃云盘",
    "type": 3,
    "api": "csp_Duopan",
    "playerType": 2,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
    "ext": "https://duopan.fun/"
   },
   {
    "key": "荐片",
    "name": "🎬┃荐片┃影视",
-   "api": "https://20328.kstore.space/mstore/dxawi/drpy2.min.js",
+   "api": "./libs/js/drpy2.min.js",
    "type": 3,
    "playerType": "2",
-   "ext": "https://20328.kstore.space/mstore/dxawi/jp.js",
+   "ext": "./libs/js/荐片.js",
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
    "searchable": 1
   },
@@ -506,7 +412,7 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "[排序:lz线路,kuaik]",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
   },
   {
    "key": "csp_hanjulao",
@@ -527,7 +433,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "ext": "./libs/xyq/jojo.json"
   },
   {
@@ -538,7 +444,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "ext": "./libs/xyq/VS影院.json"
   },
   {
@@ -549,7 +455,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "ext": "./libs/xyq/素白白.json"
   },
   {
@@ -560,7 +466,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "ext": "./libs/xyq/电影牛.json"
   },
   {
@@ -588,16 +494,6 @@
    "name": "🌸┃日本┃动漫",
    "type": 3,
    "api": "csp_Anime1",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Ying",
-   "name": "💮┃樱花┃动漫",
-   "type": 3,
-   "api": "csp_Ying",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
@@ -656,7 +552,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "YiSo",
@@ -670,7 +566,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "PanSou",
@@ -684,21 +580,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
-  },
-  {
-   "key": "UpYun",
-   "name": "🌤️Up搜┃搜索",
-   "type": 3,
-   "api": "csp_UpYun",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": {
-    "Cloud-drive": "tvfan/Cloud-drive.txt",
-    "from": "4k|auto"
-   },
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
   },
   {
    "key": "PanSearch",
@@ -725,94 +607,6 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "七夜",
-   "name": "🔎┃阿里┃七夜",
-   "type": 3,
-   "api": "csp_Dovx",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "Zhaozy",
-   "name": "🔍┃阿里┃Zhaozy",
-   "type": 3,
-   "api": "csp_Zhaozy",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$zhaoziyuan777$$$qqq111",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Nbys",
-   "name": "🛫┃泥巴┃飞",
-   "type": 3,
-   "api": "csp_NiNi",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
-  },
-  {
-   "key": "csp_trj",
-   "name": "🛫┃唐人街┃飞",
-   "type": 3,
-   "api": "csp_Tangrenjie",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "P4_绿豆",
-   "name": "🐼┃绿豆┃影视",
-   "type": 3,
-   "api": "csp_Lvdou",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "playerType": "1",
-   "ext": {
-    "server": "http://s.weixine.net/api.php/app/",
-    "mackey": "6JLF1OWhgEnMexAs|6CrRdTxr2qXj9258"
-   },
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "P4_Kuaikan",
-   "name": "👀┃快看┃影视",
-   "type": 3,
-   "api": "csp_Kuaikan",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "P4_哔嘀",
-   "name": "️️💦┃哔嘀┃影视",
-   "type": 3,
-   "api": "csp_Bdys",
-   "playerType": "1",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "P4_皮皮虾",
-   "name": "🦐┃皮皮┃影视",
-   "type": 3,
-   "api": "csp_PipiXia",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
@@ -1889,7 +1683,7 @@
    "type": 3,
    "playerType": 1,
    "api": "csp_XYQHiker",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "ext": "./libs/xyq/港口.json"
   },
   {
@@ -1899,7 +1693,7 @@
    "api": "csp_MeijuMi",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "filterable": 1
   },
   {
@@ -1909,7 +1703,7 @@
    "api": "csp_Xunlei8",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
    "filterable": 1
   },
   {
@@ -1922,16 +1716,6 @@
    "filterable": 1,
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
    "ext": "./libs/hccx/维奇动漫.json"
-  },
-  {
-   "key": "cctv",
-   "name": "📺央视｜大全",
-   "type": 3,
-   "api": "csp_CCTV",
-   "searchable": 0,
-   "filterable": 0,
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
-   "ext": "./libs/hccx/央视大全.json"
   },
   {
    "key": "py_cctv_少儿",
@@ -1990,16 +1774,6 @@
    "quickSearch": 0,
    "filterable": 1,
    "ext": "./libs/cctv.py",
-   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-  },
-  {
-   "key": "csp_Yj1211",
-   "name": "📽️网红┃直播",
-   "type": 3,
-   "api": "csp_Yj1211",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
@@ -2205,7 +1979,7 @@
    "key": "dr_兔小贝",
    "name": "📚儿童┃启蒙",
    "type": 3,
-   "api": "https://20328.kstore.space/mstore/dxawi/drpy2.min.js",
+   "api": "./libs/js/drpy2.min.js",
    "ext": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
    "style": {
     "type": "rect",
@@ -2686,7 +2460,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "腐剧",
@@ -2696,7 +2470,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "ext": "http://www.fuju2024.cc:8013/ruifenglb_api.php/v1.vod",
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "IK",
@@ -2713,7 +2487,7 @@
    "api": "csp_Dm84",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "Ysj",
@@ -2722,7 +2496,7 @@
    "api": "csp_Ysj",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "Anime1",
@@ -2731,20 +2505,7 @@
    "api": "csp_Anime1",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
-  },
-  {
-   "key": "UC",
-   "name": "优汐(网盘搜索)",
-   "type": 3,
-   "api": "csp_UuSs",
-   "searchable": 1,
-   "quickSearch": 1,
-   "ext": {
-    "Cloud-drive": "tvfan/Cloud-drive.txt",
-    "from": "4k|auto"
-   },
-   "jar": "https://20328.kstore.space/mstore/dxawi/spider.jar"
+   "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
    "key": "cj_dytt",
@@ -2977,16 +2738,6 @@
    "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
   },
   {
-   "key": "fan",
-   "name": "导航",
-   "type": 3,
-   "api": "csp_XPathGuard",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
-  },
-  {
    "key": "夸快夸快",
    "name": "❤夸快｜4K弹幕",
    "type": 3,
@@ -3001,24 +2752,6 @@
      "https://ogkk.nxog.fun"
     ]
    },
-   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
-  },
-  {
-   "key": "搜索",
-   "name": "🐢聚搜｜影视",
-   "type": 3,
-   "api": "csp_qiao2",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
-   "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
-  },
-  {
-   "key": "移动",
-   "name": "💡移动｜影视",
-   "type": 3,
-   "api": "csp_YDjisu",
-   "searchable": 1,
-   "changeable": 1,
    "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
   },
   {
@@ -3211,7 +2944,7 @@
    "name": "🎀️┃星牙┃短剧",
    "type": 3,
    "api": "csp_AppXY",
-   "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
   },
   {
    "key": "csp_SP360",
@@ -3244,26 +2977,6 @@
     ]
    },
    "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
-  },
-  {
-   "key": "天天",
-   "name": "🧿┃天天┃秒播",
-   "type": 3,
-   "api": "csp_TTian",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar",
-   "ext": "7lj763gg0939791h1l3888jig44gi291li"
-  },
-  {
-   "key": "柠檬",
-   "name": "🍋‍🟩┃柠檬┃秒播",
-   "type": 3,
-   "api": "csp_Nmvod",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar",
-   "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
   },
   {
    "key": "多多影音",
@@ -3306,15 +3019,6 @@
    "filterable": 1,
    "ext": "http://v.lkuys.cn",
    "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
-  },
-  {
-   "key": "云云",
-   "name": "🥮┃云云┃超清",
-   "type": 3,
-   "api": "csp_Qiji",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar",
-   "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9475g8"
   },
   {
    "key": "hohaiemby",
@@ -3417,24 +3121,6 @@
     "dataiv": "AAdgrdghjfgswerA"
    },
    "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
-  },
-  {
-   "key": "huomaoys",
-   "name": "🐆┃火猫┃影视",
-   "type": 3,
-   "api": "csp_Muou",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar",
-   "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
-  },
-  {
-   "key": "科兴",
-   "name": "🌠┃科兴┃影视",
-   "type": 3,
-   "api": "csp_Xdai",
-   "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar",
-   "ext": "7lj763gg0939790i413gi486k509jgi3ggk6j244j6j36j76041707h0lk124l0l0h867j83h576h3j66h4lk89lh5lh1jl3l170647kj09lklji74j56lg673li1h16"
   },
   {
    "key": "二小网盘",
