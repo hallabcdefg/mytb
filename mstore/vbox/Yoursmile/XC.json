@@ -9,7 +9,8 @@
       "api": "csp_Kunyu77",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "360",
@@ -19,7 +20,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "小苹果",
@@ -29,7 +31,8 @@
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "快看",
@@ -38,7 +41,8 @@
       "api": "csp_Kuaikan",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "爱迪",
@@ -48,7 +52,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://aidiapp.xyz/xgapp.php/v2/"
+      "ext": "https://aidiapp.xyz/xgapp.php/v2/",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Cokemv",
@@ -57,7 +62,8 @@
       "api": "csp_Cokemv",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Nmys",
@@ -67,7 +73,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Nmys.json"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Nmys.json",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Dy1010",
@@ -76,7 +83,8 @@
       "api": "csp_Dy1010",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Bttoo",
@@ -85,7 +93,8 @@
       "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Czsapp",
@@ -94,7 +103,8 @@
       "api": "csp_Czsapp",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_DiDuan",
@@ -103,7 +113,8 @@
       "api": "csp_Ddrk",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_AppMr",
@@ -112,7 +123,8 @@
       "api": "csp_AppMr",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Bd",
@@ -121,7 +133,8 @@
       "api": "csp_Bdys01",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Voflix",
@@ -130,7 +143,8 @@
       "api": "csp_Voflix",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "Smdyy",
@@ -139,7 +153,8 @@
       "api": "csp_Smdyy",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Auete",
@@ -148,7 +163,8 @@
       "api": "csp_Auete",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Lgyy",
@@ -158,7 +174,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lgyy.vip"
+      "ext": "https://www.lgyy.vip",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Anime1",
@@ -167,7 +184,8 @@
       "api": "csp_Anime1",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Dm84",
@@ -176,7 +194,8 @@
       "api": "csp_Dm84",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "Ying",
@@ -185,7 +204,8 @@
       "api": "csp_Ying",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "Ysj",
@@ -194,7 +214,8 @@
       "api": "csp_Ysj",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Yj1211",
@@ -203,7 +224,8 @@
       "api": "csp_Yj1211",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_AList",
@@ -214,7 +236,8 @@
       "quickSearch": 0,
       "filterable": 1,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Alist.json"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Alist.json",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_WoGG",
@@ -225,7 +248,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "YiSo",
@@ -236,7 +260,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "Zhaozy",
@@ -247,7 +272,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "PanSou",
@@ -258,7 +284,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "UpYun",
@@ -269,7 +296,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "TuGou",
@@ -280,7 +308,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "Dovx",
@@ -291,7 +320,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "PanSearch",
@@ -302,7 +332,8 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "push_agent",
@@ -312,7 +343,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/tokens/yydf.txt",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_Nbys",
@@ -321,7 +353,8 @@
       "api": "csp_NiNi",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "If101",
@@ -330,7 +363,8 @@
       "api": "csp_If101",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     },
     {
       "key": "csp_trj",
@@ -339,7 +373,8 @@
       "api": "csp_Tangrenjie",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/vbox/Yoursmile/Yoursmile.jar"
     }
   ],
   "parses": [

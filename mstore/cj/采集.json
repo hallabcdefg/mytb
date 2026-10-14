@@ -17,7 +17,8 @@
       "api": "csp_SP360",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/cj/aggsp.jar"
     },
     {
       "key": "天堂资源",
@@ -206,6 +207,37 @@
         "影片库",
         "动漫"
       ]
+    },
+    {
+      "key": "HH",
+      "name": "☕🦊茶杯狐┃秒播",
+      "type": 1,
+      "api": "http://www.haohuazy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "极速资源",
+      "name": "🚆极速┃影视",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "searchable": 1
+    },
+    {
+      "key": "闪电资源",
+      "name": "⚡闪电┃影视",
+      "type": 1,
+      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "360",
+      "name": "🎪360┃秒播",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod?",
+      "searchable": 1
     }
   ],
   "parses": [

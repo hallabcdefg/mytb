@@ -6,28 +6,32 @@
       "name": "电视 | 好趣网[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%BD%E8%B6%A3%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%BD%E8%B6%A3%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "直播2点播",
       "name": "电视 | MTV[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/live2cms.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/live2mv.json"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/live2mv.json",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "路飞直播2点播",
       "name": "电视 | 点歌[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/lf_live_min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/lf_live.json"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/lf_live.json",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_豆瓣",
       "name": "搜索 | 豆瓣[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/drpy.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/drpy.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "本地",
@@ -35,7 +39,8 @@
       "type": 3,
       "api": "csp_Local",
       "searchable": 0,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "量子",
@@ -126,7 +131,8 @@
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "巴士",
@@ -134,602 +140,688 @@
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_我的哔哩",
       "name": "我的哔哩[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%88%91%E7%9A%84%E5%93%94%E5%93%A9.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%88%91%E7%9A%84%E5%93%94%E5%93%A9.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "AList",
       "name": "网盘 | Alist[jar]",
       "type": 3,
       "api": "csp_AList",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/alistjar.json"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/alistjar.json",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_Alist",
       "name": "网盘 | Alist[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/alist.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/alist.json"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/alist.json",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_360影视",
       "name": "官源 | 360[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/360%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/360%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_奇珍异兽",
       "name": "官源 | 爱奇艺[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_优酷",
       "name": "官源 | 优酷[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BC%98%E9%85%B7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BC%98%E9%85%B7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "官源 | 腾讯[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%85%BE%E4%BA%91%E9%A9%BE%E9%9B%BE.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%85%BE%E4%BA%91%E9%A9%BE%E9%9B%BE.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_百忙无果",
       "name": "官源 | 芒果[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_菜狗",
       "name": "官源 | 搜狗[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8F%9C%E7%8B%97.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8F%9C%E7%8B%97.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_人人",
       "name": "影视 | 人人[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BA%BA%E4%BA%BA.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BA%BA%E4%BA%BA.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_低端",
       "name": "影视 | 低端[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/ddys.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/ddys.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_农民",
       "name": "影视 | 农民[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/nongmin.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/nongmin.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_大豆",
       "name": "影视 | 大豆[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A7%E8%B1%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A7%E8%B1%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_九酷",
       "name": "影视 | 九酷[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B9%9D%E9%85%B7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B9%9D%E9%85%B7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_爱看",
       "name": "影视 | 爱看[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E7%9C%8B.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E7%9C%8B.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_l0l",
       "name": "影视 | l0l[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/l0l.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/l0l.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_多米[V2]",
       "name": "影视 | 多米[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%9A%E7%B1%B3%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%9A%E7%B1%B3%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_如意[V2]",
       "name": "影视 | 如意[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A6%82%E6%84%8F%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A6%82%E6%84%8F%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_爱迪[V2]",
       "name": "影视 | 爱迪[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E8%BF%AA%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E8%BF%AA%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_飞云[V2]",
       "name": "影视 | 飞云[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%A3%9E%E4%BA%91%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%A3%9E%E4%BA%91%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_鸭鸭[V2]",
       "name": "影视 | 鸭鸭[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%B8%AD%E9%B8%AD%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%B8%AD%E9%B8%AD%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_酷影[V2]",
       "name": "影视 | 酷影[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E5%BD%B1%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E5%BD%B1%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_速看100[V2]",
       "name": "影视 | 速看100[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%80%9F%E7%9C%8B100%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%80%9F%E7%9C%8B100%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_咕噜[V2]",
       "name": "影视 | 咕噜[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%92%95%E5%99%9C%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%92%95%E5%99%9C%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_迷你库[V2]",
       "name": "影视 | 迷你库[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%B7%E4%BD%A0%E5%BA%93%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%B7%E4%BD%A0%E5%BA%93%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_HG影院[V2]",
       "name": "影视 | HG影院[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/HG%E5%BD%B1%E9%99%A2%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/HG%E5%BD%B1%E9%99%A2%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_布雷蓝光[V2]",
       "name": "影视 | 布雷蓝光[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B8%83%E9%9B%B7%E8%93%9D%E5%85%89%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B8%83%E9%9B%B7%E8%93%9D%E5%85%89%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_网飞.TV",
       "name": "影视 | 网飞.TV[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BD%91%E9%A3%9E.TV.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BD%91%E9%A3%9E.TV.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_乐猪TV",
       "name": "影视 | 乐猪TV[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B9%90%E7%8C%AATV.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B9%90%E7%8C%AATV.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_六度TV",
       "name": "影视 | 六度TV[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%AD%E5%BA%A6TV.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%AD%E5%BA%A6TV.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_花猫TV",
       "name": "影视 | 花猫TV[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8A%B1%E7%8C%ABTV.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8A%B1%E7%8C%ABTV.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_TV云播",
       "name": "影视 | TV云播[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/TV%E4%BA%91%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/TV%E4%BA%91%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_真不卡",
       "name": "影视 | 真不卡[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%9F%E4%B8%8D%E5%8D%A1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%9F%E4%B8%8D%E5%8D%A1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_新片场",
       "name": "影视 | 新片场[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%96%B0%E7%89%87%E5%9C%BA.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%96%B0%E7%89%87%E5%9C%BA.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_皮皮鸭",
       "name": "影视 | 皮皮鸭[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9A%AE%E7%9A%AE%E9%B8%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9A%AE%E7%9A%AE%E9%B8%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_慢大浪",
       "name": "影视 | 慢大浪[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%85%A2%E5%A4%A7%E6%B5%AA.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%85%A2%E5%A4%A7%E6%B5%AA.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_看看屋",
       "name": "影视 | 看看屋[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E7%9C%8B%E5%B1%8B.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E7%9C%8B%E5%B1%8B.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_哔哩兔",
       "name": "影视 | 哔哩兔[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%93%94%E5%93%A9%E5%85%94.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%93%94%E5%93%A9%E5%85%94.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_追剧兔",
       "name": "影视 | 追剧兔[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%BD%E5%89%A7%E5%85%94.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%BD%E5%89%A7%E5%85%94.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_影渣渣",
       "name": "影视 | 影渣渣[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BD%B1%E6%B8%A3%E6%B8%A3.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BD%B1%E6%B8%A3%E6%B8%A3.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_柒之社",
       "name": "影视 | 柒之社[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9F%92%E4%B9%8B%E7%A4%BE.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9F%92%E4%B9%8B%E7%A4%BE.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_免费看",
       "name": "影视 | 免费看[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%8D%E8%B4%B9%E7%9C%8B.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%8D%E8%B4%B9%E7%9C%8B.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_小猫咪",
       "name": "影视 | 小猫咪[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%8F%E7%8C%AB%E5%92%AA.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%8F%E7%8C%AB%E5%92%AA.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_看韩剧",
       "name": "影视 | 看韩剧[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E9%9F%A9%E5%89%A7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E9%9F%A9%E5%89%A7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_追剧迷",
       "name": "影视 | 追剧迷[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%BD%E5%89%A7%E8%BF%B7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%BD%E5%89%A7%E8%BF%B7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_美视网",
       "name": "影视 | 美视网[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BE%8E%E8%A7%86%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BE%8E%E8%A7%86%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_91free",
       "name": "影视 | 91free[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/91free.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/91free.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_LIBVIO",
       "name": "影视 | LIBVIO[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/LIBVIO.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/LIBVIO.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_HDmoli",
       "name": "影视 | HDmoli[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/HDmoli.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/HDmoli.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_Voflix",
       "name": "影视 | Voflix[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/Voflix.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/Voflix.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_YOKE影视",
       "name": "影视 | YOKE影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/YOKE%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/YOKE%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_UM电影",
       "name": "影视 | UM电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/UM%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/UM%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_两个BT",
       "name": "影视 | 两个BT[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B8%A4%E4%B8%AABT.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B8%A4%E4%B8%AABT.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_时光影视",
       "name": "影视 | 时光影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%97%B6%E5%85%89%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%97%B6%E5%85%89%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_西瓜影院",
       "name": "影视 | 西瓜影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A5%BF%E7%93%9C%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A5%BF%E7%93%9C%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_奈飞中文",
       "name": "影视 | 奈飞中文[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%88%E9%A3%9E%E4%B8%AD%E6%96%87.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%88%E9%A3%9E%E4%B8%AD%E6%96%87.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_热播之家",
       "name": "影视 | 热播之家[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%83%AD%E6%92%AD%E4%B9%8B%E5%AE%B6.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%83%AD%E6%92%AD%E4%B9%8B%E5%AE%B6.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_云镜影视",
       "name": "影视 | 云镜影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BA%91%E9%95%9C%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BA%91%E9%95%9C%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_纽约影院",
       "name": "影视 | 纽约影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BA%BD%E7%BA%A6%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BA%BD%E7%BA%A6%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_开眼视频",
       "name": "影视 | 开眼视频[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BC%80%E7%9C%BC%E8%A7%86%E9%A2%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BC%80%E7%9C%BC%E8%A7%86%E9%A2%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_豆巴影视",
       "name": "影视 | 豆巴影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B1%86%E5%B7%B4%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B1%86%E5%B7%B4%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_米爱影视",
       "name": "影视 | 米爱影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%B1%B3%E7%88%B1%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%B1%B3%E7%88%B1%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_星空影视",
       "name": "影视 | 星空影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%98%9F%E7%A9%BA%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%98%9F%E7%A9%BA%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_秋霞影视",
       "name": "影视 | 秋霞影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A7%8B%E9%9C%9E%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A7%8B%E9%9C%9E%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_无名小站",
       "name": "影视 | 无名小站[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%97%A0%E5%90%8D%E5%B0%8F%E7%AB%99.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%97%A0%E5%90%8D%E5%B0%8F%E7%AB%99.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_小狗影院",
       "name": "影视 | 小狗影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%8F%E7%8B%97%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%8F%E7%8B%97%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_酷客影院",
       "name": "影视 | 酷客影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E5%AE%A2%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E5%AE%A2%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_奇优影院",
       "name": "影视 | 奇优影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_厂长资源",
       "name": "影视 | 厂长资源[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8E%82%E9%95%BF%E8%B5%84%E6%BA%90.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8E%82%E9%95%BF%E8%B5%84%E6%BA%90.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_在线之家",
       "name": "影视 | 在线之家[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%9C%A8%E7%BA%BF%E4%B9%8B%E5%AE%B6.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_饭团电影",
       "name": "影视 | 饭团电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_酷云七七",
       "name": "影视 | 酷云七七[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E4%BA%9177.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E4%BA%9177.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_骚火电影",
       "name": "影视 | 骚火电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%AA%9A%E7%81%AB%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%AA%9A%E7%81%AB%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_闪影影院",
       "name": "影视 | 闪影影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%97%AA%E5%BD%B1%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%97%AA%E5%BD%B1%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_电影先生",
       "name": "影视 | 电影先生[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_冷曦影视",
       "name": "影视 | 冷曦影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%86%B7%E6%9B%A6%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%86%B7%E6%9B%A6%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_秋霞影院",
       "name": "影视 | 秋霞影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A7%8B%E9%9C%9E.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A7%8B%E9%9C%9E.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_凌云影视",
       "name": "影视 | 凌云影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%87%8C%E4%BA%91%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%87%8C%E4%BA%91%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_兄弟影视",
       "name": "影视 | 兄弟影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%84%E5%BC%9F%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%84%E5%BC%9F%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_零度影视",
       "name": "影视 | 零度影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%9B%B6%E5%BA%A6%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%9B%B6%E5%BA%A6%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_映迷影院",
       "name": "影视 | 映迷影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%98%A0%E8%BF%B7%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%98%A0%E8%BF%B7%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_扛把子影院",
       "name": "影视 | 扛把子影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%89%9B%E6%8A%8A%E5%AD%90%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%89%9B%E6%8A%8A%E5%AD%90%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_新视觉影视",
       "name": "影视 | 新视觉影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%96%B0%E8%A7%86%E8%A7%89%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%96%B0%E8%A7%86%E8%A7%89%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_B站影视",
       "name": "影视 | B站影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/B%E7%AB%99%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/B%E7%AB%99%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_哔哩影视",
       "name": "影视 | 哔哩影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%93%94%E5%93%A9%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%93%94%E5%93%A9%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_JangoIndex",
@@ -737,7 +829,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/JangoIndex.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_DJ音乐",
@@ -745,7 +838,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/DJ%E9%9F%B3%E4%B9%90.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_啦啦DJ",
@@ -753,7 +847,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%95%A6%E5%95%A6DJ.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_清风DJ",
@@ -761,14 +856,16 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%B8%85%E9%A3%8EDJ.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_种子音乐",
       "name": "音频 | 种子音乐[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A7%8D%E5%AD%90%E9%9F%B3%E4%B9%90.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A7%8D%E5%AD%90%E9%9F%B3%E4%B9%90.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_蜻蜓FM",
@@ -776,7 +873,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%9C%BB%E8%9C%93FM.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_广播迷FM",
@@ -784,7 +882,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B9%BF%E6%92%AD%E8%BF%B7FM.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_相声随身听",
@@ -792,7 +891,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9B%B8%E5%A3%B0%E9%9A%8F%E8%BA%AB%E5%90%AC.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_i275听书",
@@ -800,7 +900,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/i275%E5%90%AC%E4%B9%A6.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_喜马拉雅",
@@ -808,7 +909,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_六月听书",
@@ -816,7 +918,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%AD%E6%9C%88%E5%90%AC%E4%B9%A6.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_博看听书",
@@ -824,7 +927,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8D%9A%E7%9C%8B%E5%90%AC%E4%B9%A6.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_海洋听书",
@@ -832,7 +936,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%B5%B7%E6%B4%8B%E5%90%AC%E4%B9%A6.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_听书网",
@@ -840,7 +945,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%90%AC%E4%B9%A6%E7%BD%91.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_有声小说",
@@ -848,7 +954,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E5%90%A7.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_中华听书网",
@@ -856,7 +963,8 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B8%AD%E5%8D%8E%E5%90%AC%E4%B9%A6%E7%BD%91.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_爱上你听书网",
@@ -864,406 +972,464 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E4%B8%8A%E4%BD%A0%E5%90%AC%E4%B9%A6%E7%BD%91.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_短视频",
       "name": "聚合 | 短视频[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9F%AD%E8%A7%86%E9%A2%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9F%AD%E8%A7%86%E9%A2%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_酷6网",
       "name": "聚合 | 酷6网[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B76%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B76%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_网易公版影像",
       "name": "聚合 | 网易公版影像[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BD%91%E6%98%93%E5%85%AC%E7%89%88%E5%BD%B1%E5%83%8F.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%BD%91%E6%98%93%E5%85%AC%E7%89%88%E5%BD%B1%E5%83%8F.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_A8音乐",
       "name": "MV | A8音乐[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/A8%E9%9F%B3%E4%B9%90.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/A8%E9%9F%B3%E4%B9%90.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_MV263",
       "name": "MV | 263[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/MV263.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/MV263.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_苹果DJ",
       "name": "MV | 苹果DJ[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8B%B9%E6%9E%9CDJ.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8B%B9%E6%9E%9CDJ.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_酷狗MV",
       "name": "MV | 酷狗[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E7%8B%97MV.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E7%8B%97MV.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_酷奇MV",
       "name": "MV | 酷奇[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E5%A5%87MV.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%85%B7%E5%A5%87MV.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_音悦网",
       "name": "MV | 音悦网[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%9F%B3%E6%82%A6%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%9F%B3%E6%82%A6%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_哔哩直播",
       "name": "直播 | 哔哩[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_斗鱼直播",
       "name": "直播 | 斗鱼[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%96%97%E9%B1%BC%E7%9B%B4%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%96%97%E9%B1%BC%E7%9B%B4%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_虎牙直播",
       "name": "直播 | 虎牙[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_JustLive",
       "name": "直播 | JustLive[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/JustLive.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/JustLive.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_JRKAN直播",
       "name": "体育 | JRKAN直播[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/JRKAN%E7%9B%B4%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/JRKAN%E7%9B%B4%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_88看球",
       "name": "体育 | 88看球[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/88%E7%9C%8B%E7%90%83.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/88%E7%9C%8B%E7%90%83.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_310直播",
       "name": "体育 | 310直播[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/310%E7%9B%B4%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/310%E7%9B%B4%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_童趣",
       "name": "少儿 | 童趣[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%AB%A5%E8%B6%A3.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%AB%A5%E8%B6%A3.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_有声绘本网",
       "name": "少儿 | 有声绘本网[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9C%89%E5%A3%B0%E7%BB%98%E6%9C%AC%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9C%89%E5%A3%B0%E7%BB%98%E6%9C%AC%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_58动漫",
       "name": "动漫 | 58动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/58%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/58%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_爱弹幕",
       "name": "动漫 | 爱弹幕[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E5%BC%B9%E5%B9%95.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E5%BC%B9%E5%B9%95.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_兔小贝",
       "name": "动漫 | 兔小贝[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_AnFuns",
       "name": "动漫 | AnFuns[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/AnFuns.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/AnFuns.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_NyaFun",
       "name": "动漫 | NyaFun[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/NyaFun.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/NyaFun.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_NT动漫",
       "name": "动漫 | NT动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/NT%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/NT%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_动漫岛",
       "name": "动漫 | 动漫岛[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8A%A8%E6%BC%AB%E5%B2%9B.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8A%A8%E6%BC%AB%E5%B2%9B.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_路漫漫",
       "name": "动漫 | 路漫漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B7%AF%E6%BC%AB%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B7%AF%E6%BC%AB%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_去看吧",
       "name": "动漫 | 去看吧[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8E%BB%E7%9C%8B%E5%90%A7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8E%BB%E7%9C%8B%E5%90%A7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_嘶哩嘶哩",
       "name": "动漫 | 嘶哩嘶哩[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%98%B6%E5%93%A9%E5%98%B6%E5%93%A9.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%98%B6%E5%93%A9%E5%98%B6%E5%93%A9.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_奇米动漫",
       "name": "动漫 | 奇米动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%87%E7%B1%B3%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A5%87%E7%B1%B3%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_妮可动漫",
       "name": "动漫 | 妮可动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A6%AE%E5%8F%AF%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A6%AE%E5%8F%AF%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_怡萱动漫",
       "name": "动漫 | 怡萱动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%80%A1%E8%90%B1%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%80%A1%E8%90%B1%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_异世界动漫",
       "name": "动漫 | 异世界动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BC%82%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BC%82%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_AGE动漫",
       "name": "动漫 | AGE动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/AGE%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/AGE%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_omofun动漫",
       "name": "动漫 | omofun动漫[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/omofun%E5%8A%A8%E6%BC%AB.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/omofun%E5%8A%A8%E6%BC%AB.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_007影视",
       "name": "影视 | 007影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/007%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/007%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_1080P",
       "name": "影视 | 1080P[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/1080P.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/1080P.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_139影视",
       "name": "影视 | 139影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/139%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/139%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_333影视",
       "name": "影视 | 333影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/333%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/333%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_345看片",
       "name": "影视 | 345看片[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/345%E7%9C%8B%E7%89%87.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/345%E7%9C%8B%E7%89%87.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_555影视[V2]",
       "name": "影视 | 555影视[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/555%E5%BD%B1%E8%A7%86%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/555%E5%BD%B1%E8%A7%86%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_69美剧",
       "name": "影视 | 69美剧[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/69%E7%BE%8E%E5%89%A7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/69%E7%BE%8E%E5%89%A7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_8号影院",
       "name": "影视 | 8号影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/8%E5%8F%B7%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/8%E5%8F%B7%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_9U电影",
       "name": "影视 | 9U电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/9U%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/9U%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_FreeOK",
       "name": "影视 | FreeOK[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/FreeOK.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/FreeOK.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_KOK影视",
       "name": "影视 | KOK影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/KOK%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/KOK%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_NY影院",
       "name": "影视 | NY影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/NY%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/NY%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_vidhub",
       "name": "影视 | vidhub[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/vidhub.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/vidhub.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_爱迪影视",
       "name": "影视 | 爱迪影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E8%BF%AA%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E8%BF%AA%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_爱看电影",
       "name": "影视 | 爱看电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E7%9C%8B%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%88%B1%E7%9C%8B%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_八蛋影视",
       "name": "影视 | 八蛋影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%AB%E8%9B%8B%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%85%AB%E8%9B%8B%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_布雷蓝光",
       "name": "影视 | 布雷蓝光[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B8%83%E9%9B%B7%E8%93%9D%E5%85%89.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B8%83%E9%9B%B7%E8%93%9D%E5%85%89.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_超前点播",
       "name": "影视 | 超前点播[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B6%85%E5%89%8D%E7%82%B9%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B6%85%E5%89%8D%E7%82%B9%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_尘落影视",
       "name": "影视 | 尘落影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%98%E8%90%BD%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%98%E8%90%BD%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_楚门影院",
       "name": "影视 | 楚门影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%A5%9A%E9%97%A8%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%A5%9A%E9%97%A8%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_大米星球",
       "name": "影视 | 大米星球[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A7%E7%B1%B3%E6%98%9F%E7%90%83.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A7%E7%B1%B3%E6%98%9F%E7%90%83.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_大师兄影视",
       "name": "影视 | 大师兄影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A7%E5%B8%88%E5%85%84%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A7%E5%B8%88%E5%85%84%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_碟调影视",
       "name": "影视 | 碟调影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A2%9F%E8%B0%83%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%A2%9F%E8%B0%83%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_多瑙影视",
@@ -1271,287 +1437,328 @@
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
       "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%9A%E7%91%99%E5%BD%B1%E8%A7%86.js",
-      "playerType": "2"
+      "playerType": "2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_番茄影视",
       "name": "影视 | 番茄影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%95%AA%E8%8C%84%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%95%AA%E8%8C%84%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_浮生半日",
       "name": "影视 | 浮生半日[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%B5%AE%E7%94%9F%E5%8D%8A%E6%97%A5.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%B5%AE%E7%94%9F%E5%8D%8A%E6%97%A5.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_捷华影视",
       "name": "影视 | 捷华影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%8D%B7%E5%8D%8E%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%8D%B7%E5%8D%8E%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_金曼影视",
       "name": "影视 | 金曼影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%87%91%E6%9B%BC%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%87%91%E6%9B%BC%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_看BZ影视",
       "name": "影视 | 看BZ影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8BBZ%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8BBZ%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_看看电影",
       "name": "影视 | 看看电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E7%9C%8B%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E7%9C%8B%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_看了么",
       "name": "影视 | 看了么[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E4%BA%86%E4%B9%88.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%9C%8B%E4%BA%86%E4%B9%88.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_快云影院",
       "name": "影视 | 快云影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BF%AB%E4%BA%91%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%BF%AB%E4%BA%91%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_来看点播",
       "name": "影视 | 来看点播[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_蓝光影院",
       "name": "影视 | 蓝光影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%93%9D%E5%85%89%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%93%9D%E5%85%89%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_利丽娅电影",
       "name": "影视 | 利丽娅电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%88%A9%E4%B8%BD%E5%A8%85%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%88%A9%E4%B8%BD%E5%A8%85%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_麻花影视",
       "name": "影视 | 麻花影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%BA%BB%E8%8A%B1%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%BA%BB%E8%8A%B1%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_蚂蚁影视",
       "name": "影视 | 蚂蚁影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%9A%82%E8%9A%81%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%9A%82%E8%9A%81%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_麦豆网",
       "name": "影视 | 麦豆网[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%BA%A6%E8%B1%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%BA%A6%E8%B1%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_麦豆com",
       "name": "影视 | 麦豆com[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%BA%A6%E8%B1%86com.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%BA%A6%E8%B1%86com.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_萌蛋蛋[V2]",
       "name": "影视 | 萌蛋蛋[V2][js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%90%8C%E8%9B%8B%E8%9B%8B%5BV2%5D.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%90%8C%E8%9B%8B%E8%9B%8B%5BV2%5D.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_米宝影院",
       "name": "影视 | 米宝影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%B1%B3%E5%AE%9D%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E7%B1%B3%E5%AE%9D%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_莫扎兔儿",
       "name": "影视 | 莫扎兔儿[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8E%AB%E6%89%8E%E5%85%94.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%8E%AB%E6%89%8E%E5%85%94.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_南瓜影院",
       "name": "影视 | 南瓜影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8D%97%E7%93%9C%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8D%97%E7%93%9C%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_南柯电影",
       "name": "影视 | 南柯电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8D%97%E6%9F%AF%E7%94%B5%E5%BD%B1%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8D%97%E6%9F%AF%E7%94%B5%E5%BD%B1%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_胖虎影视",
       "name": "影视 | 胖虎影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%83%96%E8%99%8E%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%83%96%E8%99%8E%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_霹雳影视",
       "name": "影视 | 霹雳影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%9C%B9%E9%9B%B3%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%9C%B9%E9%9B%B3%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_七时影院",
       "name": "影视 | 七时影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B8%83%E5%B0%8F%E6%97%B6%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%B8%83%E5%B0%8F%E6%97%B6%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_起飞影院",
       "name": "影视 | 起飞影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B5%B7%E9%A3%9E%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%B5%B7%E9%A3%9E%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_人人影视",
       "name": "影视 | 人人影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_视觉影院",
       "name": "影视 | 视觉影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A7%86%E8%A7%89%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A7%86%E8%A7%89%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_视中影视",
       "name": "影视 | 视中影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A7%86%E4%B8%AD%E5%BF%83%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A7%86%E4%B8%AD%E5%BF%83%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_首播影院",
       "name": "影视 | 首播影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%A6%96%E6%92%AD%E5%BD%B1%E9%99%A2.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E9%A6%96%E6%92%AD%E5%BD%B1%E9%99%A2.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_双十电影",
       "name": "影视 | 双十电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8F%8C%E5%8D%81%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%8F%8C%E5%8D%81%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_四个圈儿",
       "name": "影视 | 四个圈儿[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%9B%9B%E4%B8%AA%E5%9C%88%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%9B%9B%E4%B8%AA%E5%9C%88%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_天空影视",
       "name": "影视 | 天空影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A9%E7%A9%BA%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%A4%A9%E7%A9%BA%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_我爱电影",
       "name": "影视 | 我爱电影[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%88%91%E7%88%B1%E7%94%B5%E5%BD%B1%E7%BD%91.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%88%91%E7%88%B1%E7%94%B5%E5%BD%B1%E7%BD%91.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_我爱跟剧",
       "name": "影视 | 我爱跟剧[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%88%91%E7%88%B1%E8%B7%9F%E5%89%A7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%88%91%E7%88%B1%E8%B7%9F%E5%89%A7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_溪谷影视",
       "name": "影视 | 溪谷影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%BA%AA%E8%B0%B7%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%BA%AA%E8%B0%B7%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_西瓜影视",
       "name": "影视 | 西瓜影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A5%BF%E7%93%9C%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%A5%BF%E7%93%9C%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_小白菜儿",
       "name": "影视 | 小白菜儿[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%8F%E7%99%BD%E8%8F%9C%E7%94%B5%E5%BD%B1.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%B0%8F%E7%99%BD%E8%8F%9C%E7%94%B5%E5%BD%B1.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_聚合影院",
       "name": "影视 | 聚合影院[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%98%9F%E8%BE%B0.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E6%98%9F%E8%BE%B0.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_伊人追剧",
       "name": "影视 | 伊人追剧[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BC%8A%E4%BA%BA%E8%BF%BD%E5%89%A7.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E4%BC%8A%E4%BA%BA%E8%BF%BD%E5%89%A7.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_追剧啦儿",
       "name": "影视 | 追剧啦儿[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%BD%E5%89%A7%E5%95%A6.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E8%BF%BD%E5%89%A7%E5%95%A6.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "drpy_js_子子影视",
       "name": "影视 | 子子影视[js]",
       "type": 3,
       "api": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/lib/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/js/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.js",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "雲搜",
@@ -1559,7 +1766,8 @@
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "盤搜",
@@ -1567,7 +1775,8 @@
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "盤搜索",
@@ -1575,7 +1784,8 @@
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "找資源",
@@ -1584,7 +1794,8 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "影視天下第一$$$test2$$$test2"
+      "ext": "影視天下第一$$$test2$$$test2",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "push_agent",
@@ -1592,14 +1803,16 @@
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     },
     {
       "key": "Live",
       "name": "影视直播",
       "type": 3,
       "api": "csp_Live",
-      "ext": "2000"
+      "ext": "2000",
+      "jar": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/JSZ/f.jar"
     }
   ],
   "lives": [],

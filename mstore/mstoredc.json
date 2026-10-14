@@ -1,12 +1,8 @@
 {
   "urls": [
     {
-      "name": "🤹🏼少儿学习专线🤹🏼",
-      "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/srpd/srpd.json"
-    },
-    {
-      "name": "🌨阿里云盘搜索🌨",
-      "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/alijs/ali.json"
+      "name": "🟢liu673cn 精选线路(234站)",
+      "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/liu673cn/m.json"
     },
     {
       "name": "🔥家庭版仓库 07🔥",
@@ -39,10 +35,6 @@
     {
       "name": "🌛Py 仓库 25🌜",
       "url": "https://git.yylx.win/https://raw.githubusercontent.com/hallabcdefg/mytb/main/mstore/shym/py.json"
-    },
-    {
-      "name": "🟢liu673cn 精选线路(67站)",
-      "url": "https://git.yylx.win/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
     }
   ]
 }
