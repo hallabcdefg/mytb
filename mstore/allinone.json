@@ -305,7 +305,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "88",
@@ -358,7 +358,7 @@
         "type": "rect",
         "ratio": 3.8
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "Anime1",
@@ -382,7 +382,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/bilibili.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "Biliych",
@@ -397,7 +397,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/biliych.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "Dm84",
@@ -465,7 +465,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "Tgsou",
@@ -511,7 +511,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/xyq/jojo.json"
     },
     {
@@ -520,7 +520,7 @@
       "type": 3,
       "playerType": 1,
       "api": "csp_XYQHiker",
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/xyq/港口.json"
     },
     {
@@ -579,7 +579,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/c/骚火2.json"
     },
     {
@@ -590,7 +590,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/c/热播之家.json"
     },
     {
@@ -601,7 +601,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/c/相声.json"
     },
     {
@@ -612,7 +612,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/c/评书.json"
     },
     {
@@ -623,7 +623,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/c/黑狐.json"
     },
     {
@@ -634,7 +634,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/555电影.json"
     },
     {
@@ -710,7 +710,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/bili.json"
     },
     {
@@ -721,7 +721,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/球队.json"
     },
     {
@@ -732,7 +732,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/歌曲.json"
     },
     {
@@ -743,7 +743,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/美女.json"
     },
     {
@@ -754,7 +754,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/女团.json"
     },
     {
@@ -765,7 +765,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/音悦.json"
     },
     {
@@ -776,7 +776,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/搭配.json"
     },
     {
@@ -787,7 +787,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/初中.json"
     },
     {
@@ -798,7 +798,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/搭讪.json"
     },
     {
@@ -809,7 +809,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/高中.json"
     },
     {
@@ -820,7 +820,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/美食合集.json"
     },
     {
@@ -831,7 +831,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/相声.json"
     },
     {
@@ -842,7 +842,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/小学.json"
     },
     {
@@ -853,7 +853,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/戏曲.json"
     },
     {
@@ -864,7 +864,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/歌手.json"
     },
     {
@@ -875,7 +875,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/幼儿.json"
     },
     {
@@ -886,7 +886,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/中医.json"
     },
     {
@@ -897,7 +897,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/xyq/Bili短剧.json"
     },
     {
@@ -925,7 +925,7 @@
       "type": 3,
       "api": "csp_Gz360",
       "playerType": 2,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "csp_Ikanbot",
@@ -936,7 +936,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "[排序:lz线路,kuaik]",
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "csp_J",
@@ -961,7 +961,7 @@
       "api": "csp_MeijuMi",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "filterable": 1
     },
     {
@@ -976,7 +976,7 @@
       "name": "【爬虫】📺┃360┃官源",
       "type": 3,
       "api": "csp_SP360",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "csp_SuBaiBai",
@@ -1000,7 +1000,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/xyq/VS影院.json"
     },
     {
@@ -1010,7 +1010,7 @@
       "api": "csp_Xunlei8",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "filterable": 1
     },
     {
@@ -1041,7 +1041,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/nkdyw.json"
     },
     {
@@ -1068,7 +1068,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/七新影视.json"
     },
     {
@@ -1079,7 +1079,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/七月影视.json"
     },
     {
@@ -1090,7 +1090,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/五五影视.json"
     },
     {
@@ -1101,7 +1101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/奇优影院.json"
     },
     {
@@ -1112,7 +1112,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/好戏影视.json"
     },
     {
@@ -1123,7 +1123,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/348影视.json"
     },
     {
@@ -1134,7 +1134,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/爱看影视.json"
     },
     {
@@ -1156,7 +1156,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/胖虎.json"
     },
     {
@@ -1167,7 +1167,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/苹果影视.json"
     },
     {
@@ -1178,7 +1178,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/蘑菇.json"
     },
     {
@@ -1189,7 +1189,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/达达龟影视.json"
     },
     {
@@ -1200,7 +1200,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/酷奇MV.json"
     },
     {
@@ -1211,7 +1211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/量子资源网.json"
     },
     {
@@ -1222,7 +1222,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/非凡资源网.json"
     },
     {
@@ -1233,7 +1233,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/黑狐影视.json"
     },
     {
@@ -1537,7 +1537,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "seed",
@@ -1564,7 +1564,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "xzso",
@@ -1667,7 +1667,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/初中课堂.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "剧圈",
@@ -1847,7 +1847,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/小学课堂.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "少儿教育",
@@ -1862,7 +1862,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/少儿教育.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "干饭",
@@ -1870,7 +1870,7 @@
       "type": 3,
       "api": "csp_AppQi",
       "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|120",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "抠搜",
@@ -1995,7 +1995,7 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "瓜子影视",
@@ -2192,7 +2192,7 @@
           }
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "金牌影院",
@@ -2235,7 +2235,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "高中教育",
@@ -2250,7 +2250,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/高中课堂.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "鲸鱼app",
@@ -2330,7 +2330,7 @@
           "https://ogkk.nxog.fun"
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
       "key": "爱看影视",
@@ -2393,7 +2393,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/体育.json"
     },
     {
@@ -2511,7 +2511,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/hccx/哔哩经典.json"
     },
     {
