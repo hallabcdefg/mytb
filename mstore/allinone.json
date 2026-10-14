@@ -1412,21 +1412,6 @@
       "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
     },
     {
-      "key": "dr_兔小贝",
-      "name": "📚儿童┃启蒙",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "ext": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
-    },
-    {
       "key": "少儿教育",
       "name": "📚少儿┃教育",
       "type": 3,
@@ -2227,14 +2212,6 @@
       "name": "🥝┃奇优┃影视",
       "type": 3,
       "api": "csp_Qiyou",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
-    },
-    {
-      "key": "csp_Quanwk",
-      "name": "👀┃全看┃影视",
-      "type": 3,
-      "api": "csp_Quanwk",
-      "ext": "https://www.91qkw.com",
       "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
     },
     {
