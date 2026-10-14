@@ -4,6 +4,17 @@
   "warningText": "资源来自网络，所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买。",
   "sites": [
     {
+      "key": "豆",
+      "name": "🎬豆┃聚合",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
+    },
+    {
       "key": "AList",
       "name": "【网盘】AList",
       "type": 3,
@@ -956,17 +967,6 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
-    },
-    {
-      "key": "豆",
-      "name": "【梵泰英】🎬豆┃聚合",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
       "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
     },
     {
