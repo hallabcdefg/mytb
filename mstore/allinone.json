@@ -464,7 +464,7 @@
    "name": "🐯┃虎虎┃影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "./lib/虎虎.json",
+   "ext": "./libs/虎虎.json",
    "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
   },
   {
