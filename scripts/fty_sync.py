@@ -432,22 +432,40 @@ def sync_target(t, state, user, pwd, host, dry, force):
                 return False
 
     last = state.get('jars', {}).get(name)
-    if last is None and t['configs']:
-        try:
-            sp = json.load(open(t['configs'][0][0], encoding='utf-8')).get('spider', '')
-            m = MD5_RE.search(str(sp))
-            if m:
-                last = m.group(2)
-                log("  基准 md5（来自配置声明）: %s" % last)
-        except Exception:
-            pass
+    # 基准 md5 恢复顺序：状态文件 → 线上该 jar 文件（权威）→ 配置声明（兜底）
+    # 注意：不能无条件读配置顶层 spider！只有当目标 jar 确实是顶层 spider 时它才有效，
+    # 否则会把别的 jar 的 md5 当成自己的基准，误判"有更新"并反复上传。
     if last is None:
         try:
             req = urllib.request.Request(t['public'], headers={'User-Agent': 'Mozilla/5.0'})
             last = md5hex(urllib.request.urlopen(req, timeout=180).read())
-            log("  基准 md5（当前线上）: %s" % last)
+            log("  基准 md5（线上直链）: %s" % last)
         except Exception as e:
             log("  读取线上失败: %s" % str(e)[:60])
+    if last is None and t['configs']:
+        jar_path = _norm_path(t['public'])
+        for local, _r in t['configs']:
+            try:
+                cfg = json.load(open(local, encoding='utf-8'))
+            except Exception:
+                continue
+            # 顶层 spider 是同一个 jar 时，取其 md5 作为兜底基准
+            if _norm_path(str(cfg.get('spider', ''))) == jar_path:
+                m = MD5_RE.search(str(cfg.get('spider', '')))
+                if m:
+                    last = m.group(2)
+                    log("  基准 md5（来自配置顶层 spider）: %s" % last)
+                    break
+            # 否则在 sites 里找第一个引用该 jar 且带 md5 的站
+            for s in cfg.get('sites', []):
+                if _norm_path(str(s.get('jar', ''))) == jar_path:
+                    m = MD5_RE.search(str(s.get('jar', '')))
+                    if m:
+                        last = m.group(2)
+                        log("  基准 md5（来自配置站点引用）: %s" % last)
+                        break
+            if last:
+                break
     if last is None:
         log("  !! 无法恢复上次 md5，为避免误判跳过本次同步")
         return False
