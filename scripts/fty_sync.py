@@ -65,6 +65,32 @@ TARGETS = [
         'configs': [],       # 单站 jar 引用，无需改写 md5
         'min_classes': 500,  # 至少这么多爬虫类，否则视为异常
     },
+    {
+        'name': 'pg_upgraded(2026-08)',
+        'upstreams': [_GH + 'pg_upgraded.jar'] + [m + _GH + 'pg_upgraded.jar' for m in _MIRRORS],
+        'remote': 'mstore/jars/pg_2026.jar',
+        'public': 'https://20328.kstore.space/mstore/jars/pg_2026.jar',
+        'configs': [],
+        'min_classes': 500,
+    },
+    {
+        # 统一 FTY jar（= 饭太硬／梵泰英同一作者），上游 DodgeZhang/tvbox 伪装成 1.jpg
+        # 线路一 112 个 FTY 站（顶层 spider + 各站 jar 字段）都指向它
+        'name': 'FTY unified(1.jpg)',
+        'upstreams': [
+            'https://raw.githubusercontent.com/DodgeZhang/tvbox/main/fantaiying/jar/1.jpg',
+            'https://ghproxy.net/https://raw.githubusercontent.com/DodgeZhang/tvbox/main/fantaiying/jar/1.jpg',
+            'https://gh-proxy.com/https://raw.githubusercontent.com/DodgeZhang/tvbox/main/fantaiying/jar/1.jpg',
+        ],
+        'remote': 'mstore/jars/fty.jar',
+        'public': 'https://20328.kstore.space/mstore/jars/fty.jar',
+        # 顶层 spider 与各站 jar 字段均声明了 md5，需同步改写
+        'configs': [
+            (os.path.join(BASE, 'mstore', 'allinone.json'), 'mstore/allinone.json'),
+        ],
+        'min_guard': 1,      # 守护版 jar（真实类在 .so/.guard 内），只校验 Guard 资源存在
+        'no_dex_scan': True, # 守护版 dex 无明文类，跳过类名扫描
+    },
 ]
 
 MD5_RE = re.compile(r'(;md5;)([0-9a-fA-F]{32})')
@@ -201,8 +227,11 @@ def dav_get(remote, user, pwd, host):
         return r.read()
 
 
-def update_config(path, jar_public, new_md5, new_classes):
-    """更新配置里该 jar 的 md5 声明，并剔除新 jar 中已不存在的类的站点。"""
+def update_config(path, jar_public, new_md5, new_classes, no_dex_scan=False):
+    """更新配置里该 jar 的 md5 声明，并剔除新 jar 中已不存在的类的站点。
+
+    no_dex_scan=True 时（守护版 jar，dex 无明文类），只改 md5，绝不剔除站点。
+    """
     cfg = json.load(open(path, encoding='utf-8'))
     spider = str(cfg.get('spider', ''))
     spider_is = jar_public in spider or spider.endswith('fan.txt')
@@ -220,7 +249,8 @@ def update_config(path, jar_public, new_md5, new_classes):
         uses = (not jar and spider_is) or (jar_public in jar)
         if uses and ';md5;' in jar:
             s['jar'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, jar)
-        if uses and api.startswith('csp_'):
+        # 守护版 jar 无法扫描类名，跳过剔除逻辑（否则会误删全部 csp 站）
+        if uses and api.startswith('csp_') and not no_dex_scan:
             if 'Lcom/github/catvod/spider/%s;' % api[4:] not in new_classes:
                 removed.append(str(s.get('key', '')))
                 continue
@@ -254,12 +284,28 @@ def sync_target(t, state, user, pwd, host, dry, force):
     guard = sum(1 for c in classes if 'Guard' in c)
     log("  上游: %d bytes, md5=%s, 类 %d (Guard %d)" % (len(data), new_md5, len(classes), guard))
 
-    if t.get('min_guard') and guard < t['min_guard']:
-        log("  !! Guard 类不足(%d)，疑似异常，跳过" % guard)
-        return False
-    if t.get('min_classes') and len(classes) < t['min_classes']:
-        log("  !! 类数量不足(%d)，疑似异常，跳过" % len(classes))
-        return False
+    if t.get('no_dex_scan'):
+        # 守护版 jar：真实类藏在 .so/.guard 内，dex 无明文类。
+        # 有效性判据 = 是合法 zip 且带守护资源。
+        try:
+            with zipfile.ZipFile(io.BytesIO(data)) as z:
+                names = z.namelist()
+            has_guard_res = any(('guard' in n.lower() or n.endswith('.so'))
+                                for n in names)
+            if not has_guard_res:
+                log("  !! 未发现守护资源(.so/.guard)，疑似异常，跳过")
+                return False
+            log("  ✓ 守护版 jar 校验通过（资源 %d 项）" % len(names))
+        except Exception as e:
+            log("  !! jar 无法解析: %s，跳过" % str(e)[:60])
+            return False
+    else:
+        if t.get('min_guard') and guard < t['min_guard']:
+            log("  !! Guard 类不足(%d)，疑似异常，跳过" % guard)
+            return False
+        if t.get('min_classes') and len(classes) < t['min_classes']:
+            log("  !! 类数量不足(%d)，疑似异常，跳过" % len(classes))
+            return False
 
     last = state.get('jars', {}).get(name)
     if last is None and t['configs']:
@@ -311,7 +357,8 @@ def sync_target(t, state, user, pwd, host, dry, force):
     for local, remote in t['configs']:
         if not os.path.exists(local):
             continue
-        removed, total = update_config(local, t['public'], new_md5, classes)
+        removed, total = update_config(local, t['public'], new_md5, classes,
+                                       no_dex_scan=bool(t.get('no_dex_scan')))
         dav_put(open(local, 'rb').read(), remote, user, pwd, host)
         log("  已更新 %s: %d 站，剔除失效站 %d %s"
             % (os.path.basename(local), total, len(removed), removed if removed else ''))

@@ -56,8 +56,11 @@ K4 = ['4k', '2160', 'uhd', 'hdr', '杜比', '蓝光', '高清', '8k', '原画', 
 LIVE = ['直播', '电视', '卫视', '央视', 'cctv', '体育', '赛事', '虎牙', '斗鱼',
         'huya', 'douyu', '频道', '轮播', 'live']
 
-ORDER = ['直连', '爬虫', '4K', '直播']
-LABEL = {'直连': '【直连】', '爬虫': '【爬虫】', '4K': '【4K】', '直播': '【直播】'}
+# 顺序：置顶三特殊页(聚合/配置/本地)之后，再按真实机制分组。
+# 机制组整体置于"站点主体"的末端（不在最前面，保证站点名先可见），直播永远最后。
+ORDER = ['直连', 'JS采集', '爬虫', '4K', '直播']
+LABEL = {'直连': '【直连】', 'JS采集': '【JS采集】', '爬虫': '【爬虫】',
+         '4K': '【4K】', '直播': '【直播】'}
 
 
 def classes_of(path):
@@ -135,16 +138,36 @@ def is_local(s):
 
 
 def group_of(s):
+    """按 api 字段判定真实机制（唯一权威判据），绝不再凭名字瞎贴标签。
+
+      优先级（从强到弱）：
+        1) api 为 http(s)://            → 直连 （源站自带标准 API，不用 jar）
+        2) api 为 ./libs/js/*.js / drpy / js_ / dr_ → JS采集（本地脚本解析，不用 jar）
+        3) api 以 csp_ 开头 或 带 jar 字段 → 爬虫 （依赖 jar 现场抓）
+        4) api 为 py_* / tv 直播类      → 直播
+        5) 以上都不符时，才用名称关键字兜底判 4K / 直播
+    """
     n = bare_name(s)
     api = str(s.get('api', ''))
-    t = s.get('type')
-    bare = (str(s.get('key', '')) + ' ' + n + ' ' + api).lower()
+    key = str(s.get('key', ''))
+    bare = (key + ' ' + n + ' ' + api).lower()
+
+    # —— 机制判据（最权威）——
+    if api.startswith('http'):
+        return '直连'
+    if api.startswith('./libs') or api.endswith('.js') or 'drpy' in api \
+            or re.match(r'^(js_|dr_)', api):
+        return 'JS采集'
+    if api.startswith('csp_') or (s.get('jar') and not api.startswith('http')):
+        return '爬虫'
+    if api.startswith('py_') or api.startswith('tv_') or 'live' in api.lower():
+        return '直播'
+
+    # —— 名称关键字兜底（仅对上面判不出的少数站点生效）——
     if any(w in bare for w in K4):
         return '4K'
     if any(w in bare for w in LIVE):
         return '直播'
-    if t in (0, 1) or api.startswith('http'):
-        return '直连'
     return '爬虫'
 
 
@@ -166,9 +189,9 @@ def process(path):
     for s in agg + conf + local:          # 置顶区：聚合页 → 配置中心 → 本地
         s['name'] = bare_name(s)
         new.append(s)
-    for g in ORDER:                        # 直连 → 爬虫 → 4K → 直播
+    for g in ORDER:                        # 按机制排序，但不在名字前加标签
         for s in sorted(buckets.get(g, []), key=lambda x: str(x.get('key', ''))):
-            s['name'] = LABEL[g] + bare_name(s)
+            s['name'] = bare_name(s)
             new.append(s)
 
     cfg['sites'] = new
@@ -216,14 +239,8 @@ def ensure_special(target, src):
 
 if __name__ == '__main__':
     allf = os.path.join(BASE, 'mstore', 'allinone.json')
-    ever = os.path.join(BASE, 'mstore', 'evergreen.json')
-
-    # 先补齐第三条线路缺失的必备入口（配置中心/本地视频）
-    add = ensure_special(ever, allf)
-    if add:
-        print('补充缺失入口到 evergreen:', add)
-
-    targets = sys.argv[1:] or [allf, ever]
+    # 注：本次仅重排/修正线路一(allinone)，线路二/三按既定要求保持不动。
+    targets = sys.argv[1:] or [allf]
     for f in targets:
         tot, agg, conf, local, stat, bad = process(f)
         print('\n===== %s: %d 站 =====' % (os.path.basename(f), tot))
@@ -233,4 +250,4 @@ if __name__ == '__main__':
         for g in ORDER:
             if stat.get(g):
                 print('    %-8s: %d' % (LABEL[g], stat[g]))
-        print('  类命中缺失:', bad if bad else '无 ✓')
+        print('  类命中缺失(诊断):', bad if bad else '无 ✓')
