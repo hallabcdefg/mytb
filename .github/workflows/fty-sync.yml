@@ -1,12 +1,15 @@
 name: FTY jar 自动同步
 
-# 每天自动从 FTY 上游拉取最新 jar，若有更新则同步到 kstore 并更新配置 md5
+# 每天自动从上游拉取最新 jar，若有更新则同步到 kstore 并更新配置 md5
 # UTC 20:00 = 北京时间 次日 04:00
 
 on:
   schedule:
     - cron: '0 20 * * *'
   workflow_dispatch:      # 允许在 GitHub 页面手动点一下立即执行
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -25,7 +28,23 @@ jobs:
           KSTORE_DAV_USER: ${{ secrets.KSTORE_DAV_USER }}
           KSTORE_DAV_PASS: ${{ secrets.KSTORE_DAV_PASS }}
           KSTORE_DAV_HOST: ${{ secrets.KSTORE_DAV_HOST }}
-        run: python3 scripts/fty_sync.py
+          # 置空 GITHUB_TOKEN，避免脚本内部再 push（提交交给下方步骤统一做）
+          GITHUB_TOKEN: ''
+        run: |
+          set -o pipefail
+          python3 scripts/fty_sync.py 2>&1 | tee /tmp/sync.log
+          echo "exit_code=${PIPESTATUS[0]}"
+
+      - name: 汇总（写入 Step Summary）
+        if: always()
+        run: |
+          {
+            echo '## TVBox jar 同步结果'
+            echo ''
+            echo '```'
+            grep -E 'SUMMARY_JSON|同步结束|同步失败' /tmp/sync.log || echo '(无摘要)'
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY
 
       - name: 提交变更（若配置有更新）
         run: |
