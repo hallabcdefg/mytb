@@ -405,21 +405,6 @@
    "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
   },
   {
-   "key": "Biliych",
-   "name": "🅱哔哔┃歌曲",
-   "type": 3,
-   "api": "csp_Bili",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": "./libs/biliych.json",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
-  },
-  {
    "key": "Lib",
    "name": "🌟┃Lib┃秒播",
    "type": 3,
@@ -693,72 +678,6 @@
    "filterable": 1,
    "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
    "ext": "./libs/bili.json"
-  },
-  {
-   "key": "csp_Bili_FBqx",
-   "name": "🅱️┃球队┃球星",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-   "ext": "./libs/hccx/球队.json"
-  },
-  {
-   "key": "csp_Bili_MTV",
-   "name": "🅱️┃歌曲┃演唱",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-   "ext": "./libs/hccx/歌曲.json"
-  },
-  {
-   "key": "csp_Bili_Meinvw",
-   "name": "🅱️┃美女┃舞蹈",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-   "ext": "./libs/hccx/美女.json"
-  },
-  {
-   "key": "csp_Bili_Nvtuan",
-   "name": "🅱️┃女团┃热舞",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-   "ext": "./libs/hccx/女团.json"
-  },
-  {
-   "key": "csp_Bili_TYjs",
-   "name": "🅱️┃体育┃健身",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-   "ext": "./libs/hccx/体育.json"
-  },
-  {
-   "key": "csp_Bili_Yinl2",
-   "name": "🅱️┃音悦┃合集",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-   "ext": "./libs/hccx/音悦.json"
   },
   {
    "key": "csp_Bili__dapei",
