@@ -1,23 +1,31 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TVBox spider jar 自动同步脚本（多包版）
-=====================================
+TVBox spider jar 自动同步脚本（多包版 · v2）
+============================================
 源站地址封在 jar 里，作者一发新 jar 就换掉失效源站 —— 所以 jar 必须跟着更新。
 本脚本定期从上游拉取最新的 spider jar，若有更新就自动上传到 kstore 并改写配置 md5。
 
-同步目标：
-  1. FTY 的 fan.txt        —— Guard 类站（线路二/三在用）
-  2. spider.jar (2026)     —— 非 Guard 爬虫站（线路一 66 个站在用）
+同步目标（4 个）：
+  1. FTY fan.txt           —— FTY 加固包（Guard 类站），evergreen 顶层 spider 在用
+  2. spider.jar (2026)     —— 非 Guard 爬虫站（allinone 65 站在用）
+  3. pg_upgraded (2026-08) —— allinone 10 站在用
+  4. FTY unified (1.jpg)   —— 与 fan.txt 同源同性质的 FTY 加固包快照，
+                              allinone 顶层 spider + 28 个站直引 fty.jar
 
-流程（每个 jar 独立）：
-  下载(多镜像) → 校验完整 dex zip → 比对 md5 → 无更新则跳过
-  → 有更新则上传 kstore → 校验线上 md5 → 改写引用配置的 md5 → 剔除失效站 → 写日志
+单个 jar 的流水线（依次串行）：
+  下载(异构多源) → HEAD 预检 → 校验 zip/dex → 算 md5 → 与上次比对 → 无更新则跳过
+  → 上传 kstore → 校验线上 md5 → 改写引用该 jar 的配置 md5（含补写）
+  → 剔除失效站（守护版跳过）→ 写状态
 
 用法：
   python3 fty_sync.py              # 正常同步（无更新则安全退出）
   python3 fty_sync.py --force      # 强制重新上传
   python3 fty_sync.py --dry-run    # 只检查不上传
+  python3 fty_sync.py --list       # 列出所有目标
+  python3 fty_sync.py --only spider  # 只同步名字含 "spider" 的目标
+
+退出码：0=全部成功；1=有 jar 同步失败
 
 凭据：优先环境变量 KSTORE_DAV_USER / KSTORE_DAV_PASS / KSTORE_DAV_HOST
      （GitHub Actions 从 Secrets 注入）；本地回退读取 credentials.env。
@@ -34,62 +42,80 @@ import hashlib
 import zipfile
 import struct
 import urllib.request
+import urllib.error
 from datetime import datetime
+from urllib.parse import urlsplit
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE_FILE = os.path.join(BASE, '.sync_state.json')
 LOG_FILE = os.path.join(BASE, 'logs', 'fty_sync.log')
+BAK_DIR = os.path.join(BASE, 'logs', 'config_backup')
 
 # ---------- 上游与同步目标 ----------
+# 异构源：同仓库不同 CDN / 不同路径，避免"上游一挂全挂"
 _GH = 'https://raw.githubusercontent.com/qist/tvbox/master/jar/'
-_MIRRORS = ['https://ghproxy.net/', 'https://gh-proxy.com/', 'https://ghproxy.cc/']
+_CDN = 'https://cdn.jsdelivr.net/gh/qist/tvbox@master/jar/'
+_MIRROR = ['https://ghproxy.net/', 'https://gh-proxy.com/']
+
+
+def _sources(fname):
+    """给一个文件名生成异构源列表：原生 raw → jsDelivr → 两个反代。"""
+    raw = _GH + fname
+    return [raw, _CDN + fname] + [m + raw for m in _MIRROR]
+
 
 TARGETS = [
     {
         'name': 'FTY fan.txt',
-        'upstreams': [_GH + 'fan.txt'] + [m + _GH + 'fan.txt' for m in _MIRRORS],
+        'upstreams': _sources('fan.txt'),
         'remote': 'mstore/qist/jar/fan.txt',
         'public': 'https://20328.kstore.space/mstore/qist/jar/fan.txt',
-        # 引用了该 jar 的配置（本地路径, kstore 远程路径）—— 需要同步 md5
         'configs': [
             (os.path.join(BASE, 'mstore', 'qist', 'fty.json'), 'mstore/qist/fty.json'),
             (os.path.join(BASE, 'mstore', 'evergreen.json'), 'mstore/evergreen.json'),
         ],
-        'min_guard': 1,      # 至少要有 Guard 类，否则视为异常
+        'min_guard': 30,     # 实测 Guard 45，留余量
+        'min_classes': 60,   # 实测 75
     },
     {
         'name': 'spider.jar(2026)',
-        'upstreams': [_GH + 'spider.jar'] + [m + _GH + 'spider.jar' for m in _MIRRORS],
+        'upstreams': _sources('spider.jar'),
         'remote': 'mstore/jars/spider_2026.jar',
         'public': 'https://20328.kstore.space/mstore/jars/spider_2026.jar',
-        'configs': [],       # 单站 jar 引用，无需改写 md5
-        'min_classes': 500,  # 至少这么多爬虫类，否则视为异常
+        'configs': [
+            (os.path.join(BASE, 'mstore', 'allinone.json'), 'mstore/allinone.json'),
+        ],
+        'min_classes': 2000,  # 实测 2987
     },
     {
         'name': 'pg_upgraded(2026-08)',
-        'upstreams': [_GH + 'pg_upgraded.jar'] + [m + _GH + 'pg_upgraded.jar' for m in _MIRRORS],
+        'upstreams': _sources('pg_upgraded.jar'),
         'remote': 'mstore/jars/pg_2026.jar',
         'public': 'https://20328.kstore.space/mstore/jars/pg_2026.jar',
-        'configs': [],
-        'min_classes': 500,
+        'configs': [
+            (os.path.join(BASE, 'mstore', 'allinone.json'), 'mstore/allinone.json'),
+        ],
+        'min_classes': 800,   # 实测 1070
     },
     {
-        # 统一 FTY jar（= 饭太硬／梵泰英同一作者），上游 DodgeZhang/tvbox 伪装成 1.jpg
-        # 线路一 112 个 FTY 站（顶层 spider + 各站 jar 字段）都指向它
+        # 统一 FTY jar（饭太硬／梵泰英同一作者）。与 fan.txt 同源同性质（都是
+        # classes.dex + ftyguard_v7/v8.so + ftyshinidie.guard 的加固壳），
+        # 只是发布路径不同：本目标追 DodgeZhang 仓库伪装成 1.jpg 的那一份快照。
+        # allinone 顶层 spider + 28 个站直引 fty.jar 都指向它。
         'name': 'FTY unified(1.jpg)',
         'upstreams': [
             'https://raw.githubusercontent.com/DodgeZhang/tvbox/main/fantaiying/jar/1.jpg',
+            'https://cdn.jsdelivr.net/gh/DodgeZhang/tvbox@main/fantaiying/jar/1.jpg',
             'https://ghproxy.net/https://raw.githubusercontent.com/DodgeZhang/tvbox/main/fantaiying/jar/1.jpg',
             'https://gh-proxy.com/https://raw.githubusercontent.com/DodgeZhang/tvbox/main/fantaiying/jar/1.jpg',
         ],
         'remote': 'mstore/jars/fty.jar',
         'public': 'https://20328.kstore.space/mstore/jars/fty.jar',
-        # 顶层 spider 与各站 jar 字段均声明了 md5，需同步改写
         'configs': [
             (os.path.join(BASE, 'mstore', 'allinone.json'), 'mstore/allinone.json'),
+            (os.path.join(BASE, 'mstore', 'allinone_v3.json'), 'mstore/allinone_v3.json'),
         ],
-        'min_guard': 1,      # 守护版 jar（真实类在 .so/.guard 内），只校验 Guard 资源存在
-        'no_dex_scan': True, # 守护版 dex 无明文类，跳过类名扫描
+        'no_dex_scan': True,  # 加固版：真实类在 .so/.guard 内，dex 无明文类；只验包完整性
     },
 ]
 
@@ -136,36 +162,73 @@ def md5hex(b):
     return hashlib.md5(b).hexdigest()
 
 
+def _norm_path(u):
+    """取 jar 引用里 ;md5; 之前的 URL 段，返回其 path（小写、去尾斜杠）。
+
+    与域名解耦：无论换成 CDN 域名 / http→https / 路径多一个斜杠，都能识别为同一 jar。
+    """
+    s = str(u).split(';md5;')[0].split(';')[0].strip()
+    try:
+        return urlsplit(s).path.rstrip('/').lower()
+    except Exception:
+        return s.lower()
+
+
 def try_one(url):
+    """下载并校验：合法 zip 且含 .dex。区分 HTTP 层失败与内容层失败。"""
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=60) as r:
             data = r.read()
-        if data[:2] != b'PK':
-            return None, '非 zip 文件头'
-        bio = io.BytesIO(data)
-        if not zipfile.is_zipfile(bio):
-            return None, 'zip 中央目录损坏（下载被截断）'
-        with zipfile.ZipFile(bio) as z:
-            if not any(n.endswith('.dex') for n in z.namelist()):
-                return None, 'zip 内无 classes.dex'
-        return data, None
+    except urllib.error.HTTPError as e:
+        return None, 'HTTP %s %s' % (e.code, e.reason or '')
     except Exception as e:
-        return None, str(e)[:80]
+        return None, '%s: %s' % (type(e).__name__, str(e)[:70])
+    if data[:2] != b'PK':
+        return None, '非 zip 文件头'
+    bio = io.BytesIO(data)
+    if not zipfile.is_zipfile(bio):
+        return None, 'zip 中央目录损坏（下载被截断）'
+    with zipfile.ZipFile(bio) as z:
+        if not any(n.endswith('.dex') for n in z.namelist()):
+            return None, 'zip 内无 classes.dex'
+    return data, None
 
 
-def fetch(urls, tries=2):
+def head_info(url, timeout=30):
+    """HEAD 拿 Content-Length（弱判据，仅用于省带宽，不替代 md5）。"""
+    try:
+        req = urllib.request.Request(url, method='HEAD',
+                                     headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.headers.get('Content-Length')
+    except Exception:
+        return None
+
+
+def fetch(urls, tries=2, state=None, name=None):
+    """多源下载；上次成功的源优先；4xx（非 429）判定为上游缺失，该源不再重试。"""
+    if state is not None and name:
+        good = state.get('last_good_upstream', {}).get(name)
+        if good in urls:
+            urls = [good] + [u for u in urls if u != good]
     last = ''
     for idx, u in enumerate(urls, 1):
         for i in range(tries):
             data, err = try_one(u)
             if data is not None:
-                log("  镜像 %d 下载成功（%d bytes）" % (idx, len(data)))
+                log("  源 %d 下载成功（%d bytes）" % (idx, len(data)))
+                if state is not None and name:
+                    state.setdefault('last_good_upstream', {})[name] = u
                 return data
             last = err or '未知错误'
-            log("  镜像 %d 第 %d 次失败(%s)" % (idx, i + 1, last))
+            log("  源 %d 第 %d 次失败(%s)" % (idx, i + 1, last))
+            # 4xx（除 429 限流）属上游缺失，重试无意义
+            if err.startswith('HTTP 4') and '429' not in err:
+                log("  源 %d 返回 %s，属上游缺失，跳到下一源" % (idx, err))
+                break
             time.sleep(2)
-    raise RuntimeError('全部镜像下载失败，最后错误: ' + last)
+    raise RuntimeError('全部源下载失败，最后错误: ' + last)
 
 
 def dex_classes(data):
@@ -175,7 +238,7 @@ def dex_classes(data):
             if not n.endswith('.dex'):
                 continue
             d = z.read(n)
-            if len(d) < 0x44:
+            if len(d) < 0x44 or d[:4] != b'dex\n':
                 continue
             sz = struct.unpack('<I', d[0x38:0x3C])[0]
             off = struct.unpack('<I', d[0x3C:0x40])[0]
@@ -185,16 +248,19 @@ def dex_classes(data):
                 sh = 0
                 ln = 0
                 while True:
+                    if s >= len(d):
+                        break
                     b = d[s]
                     ln |= (b & 0x7F) << sh
                     s += 1
                     if not (b & 0x80):
                         break
                     sh += 7
-                try:
-                    c = d[s:s + ln].decode('utf-8', 'ignore')
-                except Exception:
+                    if sh > 35:
+                        break
+                if s + ln > len(d):
                     continue
+                c = d[s:s + ln].decode('utf-8', 'ignore')
                 if c.startswith('Lcom/github/catvod/spider/') and c.endswith(';'):
                     cs.add(c)
     return cs
@@ -227,28 +293,51 @@ def dav_get(remote, user, pwd, host):
         return r.read()
 
 
+def backup_config(path, remote):
+    """上传前把本地配置另存一份带时间戳的备份，便于回滚。"""
+    try:
+        os.makedirs(BAK_DIR, exist_ok=True)
+        ts = datetime.now().strftime('%Y%m%d-%H%M%S')
+        dst = os.path.join(BAK_DIR, '%s.%s.json' % (os.path.basename(path), ts))
+        with open(path, 'rb') as f:
+            data = f.read()
+        with open(dst, 'wb') as f:
+            f.write(data)
+        log("  已备份 -> %s" % os.path.relpath(dst, BASE))
+    except Exception as e:
+        log("  (备份失败，继续: %s)" % str(e)[:60])
+
+
 def update_config(path, jar_public, new_md5, new_classes, no_dex_scan=False):
     """更新配置里该 jar 的 md5 声明，并剔除新 jar 中已不存在的类的站点。
 
+    关键：**没有 md5 的引用也要补写**，否则客户端不会重新下载新包。
     no_dex_scan=True 时（守护版 jar，dex 无明文类），只改 md5，绝不剔除站点。
     """
     cfg = json.load(open(path, encoding='utf-8'))
     spider = str(cfg.get('spider', ''))
-    spider_is = jar_public in spider or spider.endswith('fan.txt')
+    jar_path = _norm_path(jar_public)
+    spider_is = _norm_path(spider) == jar_path
 
     if spider_is:
         if ';md5;' in spider:
-            cfg['spider'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, spider)
+            cfg['spider'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, spider, count=1)
         else:
             cfg['spider'] = '%s;md5;%s' % (jar_public, new_md5)
 
-    removed, sites = [], []
+    removed, sites, appended, replaced = [], [], 0, 0
     for s in cfg.get('sites', []):
         jar = str(s.get('jar', ''))
         api = str(s.get('api', ''))
-        uses = (not jar and spider_is) or (jar_public in jar)
-        if uses and ';md5;' in jar:
-            s['jar'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, jar)
+        uses = (not jar and spider_is) or (_norm_path(jar) == jar_path)
+        if uses and jar:
+            if ';md5;' in jar:
+                s['jar'] = MD5_RE.sub(lambda m: m.group(1) + new_md5, jar, count=1)
+                replaced += 1
+            else:
+                # 补写 md5 —— 与顶层 spider 字段保持一致
+                s['jar'] = '%s;md5;%s' % (jar, new_md5)
+                appended += 1
         # 守护版 jar 无法扫描类名，跳过剔除逻辑（否则会误删全部 csp 站）
         if uses and api.startswith('csp_') and not no_dex_scan:
             if 'Lcom/github/catvod/spider/%s;' % api[4:] not in new_classes:
@@ -257,7 +346,11 @@ def update_config(path, jar_public, new_md5, new_classes, no_dex_scan=False):
         sites.append(s)
 
     cfg['sites'] = sites
+    backup_config(path, path)
     json.dump(cfg, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    log("  %s: %d 站（改写 md5 %d / 补写 md5 %d / 剔除 %d %s）"
+        % (os.path.basename(path), len(sites), replaced, appended, len(removed),
+           removed if removed else ''))
     return removed, len(sites)
 
 
@@ -278,20 +371,29 @@ def git_commit(msg):
 def sync_target(t, state, user, pwd, host, dry, force):
     name = t['name']
     log("---- 检查 [%s] ----" % name)
-    data = fetch(t['upstreams'])
+
+    # HEAD 预检（弱判据）：体积与上次观测一致时跳过下载，省带宽
+    if not force:
+        obs = state.get('obs', {}).get(name)
+        cl = head_info(t['upstreams'][0])
+        if cl and obs and obs.get('size') == int(cl):
+            log("  上游 Content-Length 与上次一致（%s），跳过下载" % cl)
+            state.setdefault('jars', {}).setdefault(name, obs.get('md5'))
+            return False
+
+    data = fetch(t['upstreams'], state=state, name=name)
     new_md5 = md5hex(data)
     classes = dex_classes(data)
     guard = sum(1 for c in classes if 'Guard' in c)
     log("  上游: %d bytes, md5=%s, 类 %d (Guard %d)" % (len(data), new_md5, len(classes), guard))
 
+    # 校验（绝对阈值 + 相对漂移双保险）
+    prev = state.get('obs', {}).get(name)
     if t.get('no_dex_scan'):
-        # 守护版 jar：真实类藏在 .so/.guard 内，dex 无明文类。
-        # 有效性判据 = 是合法 zip 且带守护资源。
         try:
             with zipfile.ZipFile(io.BytesIO(data)) as z:
                 names = z.namelist()
-            has_guard_res = any(('guard' in n.lower() or n.endswith('.so'))
-                                for n in names)
+            has_guard_res = any(('guard' in n.lower() or n.endswith('.so')) for n in names)
             if not has_guard_res:
                 log("  !! 未发现守护资源(.so/.guard)，疑似异常，跳过")
                 return False
@@ -301,11 +403,24 @@ def sync_target(t, state, user, pwd, host, dry, force):
             return False
     else:
         if t.get('min_guard') and guard < t['min_guard']:
-            log("  !! Guard 类不足(%d)，疑似异常，跳过" % guard)
+            log("  !! Guard 类不足(%d < %d)，疑似异常，跳过" % (guard, t['min_guard']))
             return False
         if t.get('min_classes') and len(classes) < t['min_classes']:
-            log("  !! 类数量不足(%d)，疑似异常，跳过" % len(classes))
+            log("  !! 类数量不足(%d < %d)，疑似异常，跳过" % (len(classes), t['min_classes']))
             return False
+
+    if prev:
+        dsz = abs(len(data) - prev['size']) / max(prev['size'], 1)
+        if dsz > 0.5:
+            log("  !! 体积突变 %.0f%%（%d -> %d），疑似异常，跳过"
+                % (dsz * 100, prev['size'], len(data)))
+            return False
+        if not t.get('no_dex_scan') and prev.get('classes'):
+            dc = abs(len(classes) - prev['classes']) / max(prev['classes'], 1)
+            if dc > 0.5:
+                log("  !! 类数突变 %.0f%%（%d -> %d），疑似异常，跳过"
+                    % (dc * 100, prev['classes'], len(classes)))
+                return False
 
     last = state.get('jars', {}).get(name)
     if last is None and t['configs']:
@@ -318,17 +433,21 @@ def sync_target(t, state, user, pwd, host, dry, force):
         except Exception:
             pass
     if last is None:
-        # 用公开直链比对（WebDAV 读取大文件容易 IncompleteRead）
         try:
             req = urllib.request.Request(t['public'], headers={'User-Agent': 'Mozilla/5.0'})
             last = md5hex(urllib.request.urlopen(req, timeout=180).read())
             log("  基准 md5（当前线上）: %s" % last)
         except Exception as e:
             log("  读取线上失败: %s" % str(e)[:60])
+    if last is None:
+        log("  !! 无法恢复上次 md5，为避免误判跳过本次同步")
+        return False
 
     if last == new_md5 and not force:
         log("  无更新，跳过")
         state.setdefault('jars', {})[name] = new_md5
+        state.setdefault('obs', {})[name] = {'size': len(data), 'classes': len(classes),
+                                             'md5': new_md5}
         return False
 
     log("  发现新版本: %s -> %s" % (str(last)[:8], new_md5[:8]))
@@ -360,16 +479,28 @@ def sync_target(t, state, user, pwd, host, dry, force):
         removed, total = update_config(local, t['public'], new_md5, classes,
                                        no_dex_scan=bool(t.get('no_dex_scan')))
         dav_put(open(local, 'rb').read(), remote, user, pwd, host)
-        log("  已更新 %s: %d 站，剔除失效站 %d %s"
-            % (os.path.basename(local), total, len(removed), removed if removed else ''))
+        log("  已上传 %s" % remote)
 
     state.setdefault('jars', {})[name] = new_md5
+    state.setdefault('obs', {})[name] = {'size': len(data), 'classes': len(classes),
+                                         'md5': new_md5}
     return True
 
 
 def main():
+    if '--list' in sys.argv:
+        for t in TARGETS:
+            print('%-24s remote=%s' % (t['name'], t['remote']))
+        return 0
+
     dry = '--dry-run' in sys.argv
     force = '--force' in sys.argv
+    only = None
+    if '--only' in sys.argv:
+        i = sys.argv.index('--only')
+        if i + 1 < len(sys.argv):
+            only = sys.argv[i + 1].lower()
+
     log("=== jar 同步开始 ===")
     user, pwd, host = load_creds()
 
@@ -380,21 +511,42 @@ def main():
         except Exception:
             pass
 
-    changed = False
-    for t in TARGETS:
+    targets = TARGETS
+    if only:
+        targets = [t for t in TARGETS if only in t['name'].lower()]
+        if not targets:
+            log("没有匹配 --only=%s 的目标" % only)
+            return 2
+
+    changed, failed, results = False, [], []
+    for t in targets:
         try:
-            if sync_target(t, state, user, pwd, host, dry, force):
+            ok = sync_target(t, state, user, pwd, host, dry, force)
+            results.append({'name': t['name'], 'status': 'updated' if ok else 'no_change'})
+            if ok:
                 changed = True
         except Exception as e:
-            log("  !! [%s] 同步失败: %s" % (t['name'], str(e)[:150]))
+            msg = str(e)[:150]
+            failed.append(t['name'])
+            results.append({'name': t['name'], 'status': 'failed', 'error': msg})
+            log("  !! [%s] 同步失败: %s" % (t['name'], msg))
 
     state['last_check'] = datetime.now().isoformat()
-    json.dump(state, open(STATE_FILE, 'w'))
+    json.dump(state, open(STATE_FILE, 'w'), ensure_ascii=False, indent=2)
 
-    if changed:
+    if changed and not dry:
         git_commit("chore(auto): spider jar 自动同步更新")
-    log("=== 同步结束（有变更: %s）===" % ('是' if changed else '否'))
-    return 0
+
+    summary = {
+        'finished_at': datetime.now().isoformat(),
+        'changed': changed,
+        'results': results,
+        'failed': failed,
+    }
+    log("=== 同步结束（有变更: %s / 失败: %s）==="
+        % ('是' if changed else '否', ','.join(failed) or '无'))
+    log("SUMMARY_JSON " + json.dumps(summary, ensure_ascii=False))
+    return 1 if failed else 0
 
 
 if __name__ == '__main__':
