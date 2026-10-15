@@ -1,6 +1,5 @@
 {
-  "spider": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "spider": "https://20328.kstore.space/mstore/jars/fty.jar",
   "warningText": "资源来自网络，所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买。",
   "sites": [
     {
@@ -12,7 +11,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "MyDrive",
@@ -28,7 +27,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "本地",
@@ -276,99 +275,6 @@
       ]
     },
     {
-      "key": "csp_非凡资源",
-      "name": "🥗┃非凡┃资源",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "伦理片",
-        "短剧"
-      ]
-    },
-    {
-      "key": "zy_新浪",
-      "name": "🏄🏻┃新浪┃资源",
-      "type": 1,
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "电影",
-        "纪录片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "战争片",
-        "剧情片",
-        "恐怖片",
-        "喜剧片",
-        "大陆剧",
-        "港澳剧",
-        "台湾剧",
-        "欧美剧",
-        "动画片",
-        "韩剧",
-        "日剧",
-        "泰剧",
-        "伦理片",
-        "预告片",
-        "足球",
-        "篮球",
-        "台球",
-        "其他赛事",
-        "中国动漫",
-        "日本动漫",
-        "欧美动漫",
-        "灾难片",
-        "悬疑片",
-        "犯罪片",
-        "奇幻片",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "古装仙侠",
-        "现代都市",
-        "穿越年代",
-        "言情总裁",
-        "重生民国",
-        "反转爽剧",
-        "脑洞悬疑",
-        "擦边短剧",
-        "AI漫剧"
-      ]
-    },
-    {
       "key": "光速资源",
       "name": "光速┃采集",
       "type": 1,
@@ -548,38 +454,6 @@
       ]
     },
     {
-      "key": "火狐",
-      "name": "🦊火狐采集",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "categories": [
-        "内地剧",
-        "动作片",
-        "科幻片",
-        "战争片",
-        "喜剧片",
-        "爱情片",
-        "恐怖片",
-        "犯罪片",
-        "剧情片",
-        "记录片",
-        "韩剧",
-        "香港剧",
-        "台湾剧",
-        "欧美剧",
-        "日剧",
-        "马泰剧",
-        "综艺",
-        "动画片",
-        "中国动漫",
-        "日本动漫",
-        "欧美动漫"
-      ]
-    },
-    {
       "key": "百度",
       "name": "🎏百度┃采集",
       "type": 1,
@@ -614,70 +488,6 @@
         "ai短剧",
         "伦理"
       ]
-    },
-    {
-      "key": "索尼资源",
-      "name": "索尼┃采集",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/",
-      "searchable": 0,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "纪录片",
-        "海外剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "动画片",
-        "港台动漫",
-        "海外动漫",
-        "演唱会",
-        "篮球",
-        "足球",
-        "预告片",
-        "影视解说",
-        "爽文短剧",
-        "伦理",
-        "港台三级",
-        "韩国伦理",
-        "西方伦理",
-        "日本伦理",
-        "两性课堂",
-        "写真热舞",
-        "4K电影",
-        "有声动漫",
-        "女频恋爱",
-        "反转爽剧",
-        "古装仙侠",
-        "年代穿越",
-        "脑洞悬疑",
-        "现代都市",
-        "邵氏电影",
-        "Netflix电影",
-        "Netflix自制剧",
-        "擦边短剧",
-        "科普学习",
-        "漫剧",
-        "儿童儿歌"
-      ],
-      "quickSearch": 0
     },
     {
       "key": "红牛资源",
@@ -808,31 +618,6 @@
       ]
     },
     {
-      "key": "量子资源",
-      "name": "🥑┃量子┃资源",
-      "type": 1,
-      "api": "https://lzizy1.com/api.php/provide/vod/",
-      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "泰国剧",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "体育",
-        "剧情片",
-        "动作片",
-        "爱情片",
-        "喜剧片"
-      ]
-    },
-    {
       "key": "闪电资源",
       "name": "⚡闪电┃影视",
       "type": 1,
@@ -893,82 +678,6 @@
         "科普学习",
         "擦边短剧",
         "漫剧"
-      ]
-    },
-    {
-      "key": "非凡",
-      "name": "️非凡采集",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "伦理片",
-        "短剧"
-      ]
-    },
-    {
-      "key": "非凡影视",
-      "name": "影视┃非凡",
-      "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "categories": [
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "伦理片",
-        "短剧"
       ]
     },
     {
@@ -1039,16 +748,6 @@
       "changeable": 0
     },
     {
-      "key": "csp_douyu",
-      "name": "🦈┃斗鱼┃直播",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./libs/js/douyu.js"
-    },
-    {
       "key": "csp_聚短视频",
       "name": "📽️聚短┃视频",
       "type": 3,
@@ -1107,32 +806,11 @@
       "ext": "./libs/js/ddys.js"
     },
     {
-      "key": "dr_奇珍异兽",
-      "name": "🦍┃奇珍┃异兽",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "ext": "./libs/js/奇珍异兽.js"
-    },
-    {
       "key": "dr_搜狗",
       "name": "🚛┃搜狗(官)",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/caigou.js"
-    },
-    {
-      "key": "dr_百忙无果",
-      "name": "🍋┃百忙┃无果",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "ext": "./libs/js/百忙无果.js"
-    },
-    {
-      "key": "dr_腾云驾雾",
-      "name": "☁️┃腾云┃驾雾",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "ext": "./libs/js/腾云驾雾.js"
     },
     {
       "key": "drpy_js_Alist",
@@ -1160,16 +838,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./libs/js/6V.js"
-    },
-    {
-      "key": "js_B站精简",
-      "name": "🅱️┃哔哩┃精简",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./libs/js/B站精简.js"
     },
     {
       "key": "js_Lib",
@@ -1285,7 +953,7 @@
       "key": "圣城影视",
       "name": "🏰┃圣城┃影视",
       "type": 3,
-      "playerType": "2",
+      "playerType": 2,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/SC1080.js"
     },
@@ -1293,7 +961,7 @@
       "key": "奇优",
       "name": "🍩┃奇优┃影视",
       "type": 3,
-      "playerType": "2",
+      "playerType": 2,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/奇优.js"
     },
@@ -1359,17 +1027,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
-    },
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "./libs/js/alist1.json",
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "Aid",
@@ -1416,15 +1074,6 @@
       "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
     },
     {
-      "key": "Dm84",
-      "name": "巴士动漫",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
-    },
-    {
       "key": "Lib",
       "name": "🌟┃Lib┃秒播",
       "type": 3,
@@ -1453,7 +1102,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "PanSearch",
@@ -1547,7 +1196,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
       "ext": ""
     },
     {
@@ -1576,16 +1225,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
-    },
-    {
-      "key": "Ysj",
-      "name": "异界动漫",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "alllive",
@@ -1596,7 +1236,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
       "ext": ""
     },
     {
@@ -1642,17 +1282,6 @@
       "filterable": 1,
       "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
       "ext": "./libs/c/评书.json"
-    },
-    {
-      "key": "cc_黑狐",
-      "name": "🦊┃黑狐┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
-      "ext": "./libs/c/黑狐.json"
     },
     {
       "key": "csp_555电影",
@@ -1953,7 +1582,7 @@
       "key": "csp_FourK",
       "name": "🌋┃绝对┃影视",
       "type": 3,
-      "playerType": "2",
+      "playerType": 2,
       "api": "csp_FourK",
       "ext": "https://www.4kvm.tv",
       "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
@@ -2076,16 +1705,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
-    },
-    {
-      "key": "csp_douban",
-      "name": "🌕┃豆瓣┃热播",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "csp_nkdyw",
@@ -2289,7 +1908,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "xgapp",
@@ -2315,7 +1934,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "zxzj",
@@ -2327,7 +1946,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.zxzj.run/",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "下饭",
@@ -2338,7 +1957,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM=",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "二小网盘",
@@ -2358,7 +1977,7 @@
       "name": "⏮️┃低端┃外剧",
       "type": 3,
       "api": "csp_Ddrk",
-      "playerType": "2",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -2406,7 +2025,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "南风短剧",
@@ -2430,7 +2049,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.czzytv77.com/",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "原创",
@@ -2442,7 +2061,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "可可",
@@ -2453,7 +2072,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
       "ext": ""
     },
     {
@@ -2532,7 +2151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "小学课堂",
@@ -2584,7 +2203,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "新6V",
@@ -2595,7 +2214,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "星芽短剧",
@@ -2623,7 +2242,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "樱花动漫",
@@ -2645,7 +2264,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "海音搜索",
@@ -2667,7 +2286,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "热播影视",
@@ -2696,7 +2315,7 @@
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "瓜子影视",
@@ -2743,7 +2362,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "立播",
@@ -2758,7 +2377,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "米搜",
@@ -2772,7 +2391,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "糖果",
@@ -2792,7 +2411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
       "ext": ""
     },
     {
@@ -2803,18 +2422,8 @@
       "timeout": 15,
       "playerType": 1,
       "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA==",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
       "searchable": 1
-    },
-    {
-      "key": "豆瓣",
-      "name": "豆瓣推荐",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "超全",
@@ -2828,7 +2437,7 @@
         "type": "list"
       },
       "ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q==",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
     },
     {
       "key": "酷狗",
@@ -2941,16 +2550,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
     {
       "name": "公众号：肥猫宝贝",
       "type": 1,
@@ -3555,50 +3154,6 @@
           "referer": "https://jiejie.uk/"
         }
       }
-    }
-  ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
     }
   ],
   "rules": [
