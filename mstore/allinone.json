@@ -271,8 +271,8 @@
       "name": "🐉┃索尼┃高清",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "categories": [
         "动作片",
@@ -463,8 +463,8 @@
       "name": "影视┃天涯",
       "type": 1,
       "api": "http://tyyszy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
@@ -509,7 +509,7 @@
       "name": "影视┃建安",
       "type": 1,
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 1,
       "playerType": 2,
       "categories": [
@@ -533,7 +533,8 @@
         "悬疑",
         "武侠",
         "奇幻"
-      ]
+      ],
+      "quickSearch": 0
     },
     {
       "key": "极速资源",
@@ -661,7 +662,7 @@
       "name": "索尼┃采集",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/",
-      "searchable": 1,
+      "searchable": 0,
       "categories": [
         "动作片",
         "喜剧片",
@@ -717,7 +718,8 @@
         "科普学习",
         "漫剧",
         "儿童儿歌"
-      ]
+      ],
+      "quickSearch": 0
     },
     {
       "key": "红牛资源",
@@ -853,8 +855,8 @@
       "type": 1,
       "api": "https://lzizy1.com/api.php/provide/vod/",
       "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0,
       "categories": [
         "国产剧",
@@ -877,8 +879,8 @@
       "name": "⚡闪电┃影视",
       "type": 1,
       "api": "http://sdzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "categories": [
         "动作片",
         "喜剧片",
