@@ -10,7 +10,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "HH",
@@ -450,6 +450,6 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
     }
   ],
-  "spider": "https://20328.kstore.space/mstore/jars/fty.jar",
+  "spider": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
   "pic": "https://wsrv.nl/?url="
 }
