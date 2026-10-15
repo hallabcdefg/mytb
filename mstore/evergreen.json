@@ -27,7 +27,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar;md5;08cf5c9e4f3326660eb75032e9ffc256"
     },
     {
       "key": "本地",
@@ -36,7 +36,7 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "AList",
@@ -46,7 +46,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "./libs/js/alist1.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "AiDj",
@@ -176,7 +176,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "PanSou",
@@ -190,7 +190,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "XBPQ_宝宝趣学",
@@ -207,7 +207,7 @@
       "ext": {
         "json": "https://yydsys.netlify.app/json/video_data.json"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "YGP",
@@ -230,7 +230,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fantaiying.jar;md5;08cf5c9e4f3326660eb75032e9ffc256"
     },
     {
       "key": "ZPan",
@@ -294,7 +294,7 @@
           }
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "csp_Bili",
@@ -304,7 +304,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/bili.json"
     },
     {
@@ -315,7 +315,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/球队.json"
     },
     {
@@ -326,7 +326,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/歌曲.json"
     },
     {
@@ -337,7 +337,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/美女.json"
     },
     {
@@ -348,7 +348,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/女团.json"
     },
     {
@@ -359,7 +359,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/音悦.json"
     },
     {
@@ -370,7 +370,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/搭配.json"
     },
     {
@@ -381,7 +381,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/初中.json"
     },
     {
@@ -392,7 +392,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/搭讪.json"
     },
     {
@@ -403,7 +403,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/高中.json"
     },
     {
@@ -414,7 +414,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/美食合集.json"
     },
     {
@@ -425,7 +425,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/相声.json"
     },
     {
@@ -436,7 +436,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/小学.json"
     },
     {
@@ -447,7 +447,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/戏曲.json"
     },
     {
@@ -458,7 +458,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/歌手.json"
     },
     {
@@ -469,7 +469,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/幼儿.json"
     },
     {
@@ -480,7 +480,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/中医.json"
     },
     {
@@ -491,7 +491,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/xyq/Bili短剧.json"
     },
     {
@@ -501,7 +501,7 @@
       "api": "csp_Xunlei8",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a",
       "filterable": 1
     },
     {
@@ -512,7 +512,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "dr_iqiyi",
@@ -520,7 +520,7 @@
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/iqiyi.js",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "dr_mgtv",
@@ -528,7 +528,7 @@
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/mgtv.js",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "dr_qq",
@@ -536,7 +536,7 @@
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/qq.js",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "dr_youku",
@@ -544,7 +544,7 @@
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/youku.js",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "drpy_js_Alist",
@@ -552,7 +552,7 @@
       "type": 3,
       "api": "./libs/js/alist.min.js",
       "ext": "./libs/js/alist.json",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "seed",
@@ -576,7 +576,7 @@
       "ext": {
         "site": "http://2xiaopan.fun,https://xhww.net,https://erxiaofn.click,https://erxiaofn.site,https://www.xhww.net,https://xiaoer.5568.eu.org,http://wexfnw.999888456.xyz,http://89.213.49.249"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "光影",
@@ -696,7 +696,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "夸搜",
@@ -711,7 +711,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "奥特",
@@ -818,7 +818,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "热播",
@@ -855,7 +855,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "看球",
@@ -881,7 +881,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/饭太硬.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/饭太硬.jar;md5;42ef09340295f4070cedad37bf759ef3"
     },
     {
       "key": "糯米",
@@ -923,7 +923,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "雷鲸天翼",
@@ -933,7 +933,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "高中教育",
@@ -966,7 +966,7 @@
           "https://ogkk.nxog.fun"
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "alllive",
@@ -992,7 +992,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/体育.json"
     },
     {
@@ -1009,7 +1009,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "csp_douyu",
@@ -1040,7 +1040,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./libs/哔哩直播.js",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "py_cctv",
@@ -1051,7 +1051,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "./libs/cctv.py",
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     },
     {
       "key": "py_cctv_少儿",
@@ -1061,7 +1061,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/py_央视少儿.py"
     },
     {
@@ -1084,7 +1084,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
       "ext": "./libs/hccx/哔哩经典.json"
     },
     {
@@ -1101,7 +1101,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     }
   ],
   "parses": [

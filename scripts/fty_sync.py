@@ -345,6 +345,15 @@ def update_config(path, jar_public, new_md5, new_classes, no_dex_scan=False):
                 continue
         sites.append(s)
 
+    # 剔除熔断：单次剔除超过阈值即中止，避免上游异常导致配置被大范围删站
+    total_before = len(cfg.get('sites', []))
+    threshold = max(10, int(total_before * 0.1))
+    if len(removed) > threshold:
+        log("  !! 单次剔除 %d 站（共 %d，阈值 %d），超过熔断阈值，"
+            "已中止本次配置写入（原文件未动）" % (len(removed), total_before, threshold))
+        log("  !! 被剔除清单: %s" % ','.join(removed[:30]))
+        return None, total_before
+
     cfg['sites'] = sites
     backup_config(path, path)
     json.dump(cfg, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
@@ -478,6 +487,10 @@ def sync_target(t, state, user, pwd, host, dry, force):
             continue
         removed, total = update_config(local, t['public'], new_md5, classes,
                                        no_dex_scan=bool(t.get('no_dex_scan')))
+        if removed is None:
+            # 触发熔断，配置未改写，跳过上传并以失败上报
+            log("  !! %s 因熔断未写入，本方目标中止" % os.path.basename(local))
+            return False
         dav_put(open(local, 'rb').read(), remote, user, pwd, host)
         log("  已上传 %s" % remote)
 

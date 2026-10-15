@@ -11,7 +11,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "MyDrive",
@@ -27,7 +27,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "本地",
@@ -36,7 +36,7 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "360",
@@ -1014,7 +1014,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "88",
@@ -1027,7 +1027,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "Aid",
@@ -1041,7 +1041,7 @@
         "type": "rect",
         "ratio": 3.8
       },
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "Bili",
@@ -1056,7 +1056,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/bilibili.json",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "Biliych",
@@ -1071,7 +1071,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/biliych.json",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "Lib",
@@ -1085,7 +1085,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "MTV",
@@ -1102,7 +1102,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "PanSearch",
@@ -1116,7 +1116,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "PanSou",
@@ -1130,7 +1130,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "Tgsou",
@@ -1139,7 +1139,7 @@
       "api": "csp_Tgsou",
       "searchable": 1,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "WebDAV",
@@ -1149,7 +1149,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "./libs/js/webdav.json",
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "XBPQ_宝宝趣学",
@@ -1166,7 +1166,7 @@
       "ext": {
         "json": "https://yydsys.netlify.app/json/video_data.json"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "XYQH_JOJO",
@@ -1176,7 +1176,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/xyq/jojo.json"
     },
     {
@@ -1185,7 +1185,7 @@
       "type": 3,
       "playerType": 1,
       "api": "csp_XYQHiker",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/xyq/港口.json"
     },
     {
@@ -1196,7 +1196,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
       "ext": ""
     },
     {
@@ -1211,7 +1211,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "YpanSo",
@@ -1225,7 +1225,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "alllive",
@@ -1236,7 +1236,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
       "ext": ""
     },
     {
@@ -1247,7 +1247,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/c/骚火2.json"
     },
     {
@@ -1258,7 +1258,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/c/热播之家.json"
     },
     {
@@ -1269,7 +1269,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/c/相声.json"
     },
     {
@@ -1280,7 +1280,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/c/评书.json"
     },
     {
@@ -1291,7 +1291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/555电影.json"
     },
     {
@@ -1340,7 +1340,7 @@
           }
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "csp_Anime1",
@@ -1350,14 +1350,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "csp_AppXY",
       "name": "🎀️┃星牙┃短剧",
       "type": 3,
       "api": "csp_AppXY",
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "csp_Bili",
@@ -1367,7 +1367,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/bili.json"
     },
     {
@@ -1378,7 +1378,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/球队.json"
     },
     {
@@ -1389,7 +1389,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/歌曲.json"
     },
     {
@@ -1400,7 +1400,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/美女.json"
     },
     {
@@ -1411,7 +1411,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/女团.json"
     },
     {
@@ -1422,7 +1422,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/体育.json"
     },
     {
@@ -1433,7 +1433,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/音悦.json"
     },
     {
@@ -1444,7 +1444,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/搭配.json"
     },
     {
@@ -1455,7 +1455,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/初中.json"
     },
     {
@@ -1466,7 +1466,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/搭讪.json"
     },
     {
@@ -1477,7 +1477,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/高中.json"
     },
     {
@@ -1488,7 +1488,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/美食合集.json"
     },
     {
@@ -1499,7 +1499,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/相声.json"
     },
     {
@@ -1510,7 +1510,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/小学.json"
     },
     {
@@ -1521,7 +1521,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/戏曲.json"
     },
     {
@@ -1532,7 +1532,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/歌手.json"
     },
     {
@@ -1543,7 +1543,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/幼儿.json"
     },
     {
@@ -1554,7 +1554,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/中医.json"
     },
     {
@@ -1565,7 +1565,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/xyq/Bili短剧.json"
     },
     {
@@ -1576,7 +1576,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "csp_FourK",
@@ -1585,7 +1585,7 @@
       "playerType": 2,
       "api": "csp_FourK",
       "ext": "https://www.4kvm.tv",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
     },
     {
       "key": "csp_Gz360",
@@ -1593,7 +1593,7 @@
       "type": 3,
       "api": "csp_Gz360",
       "playerType": 2,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "csp_Ikanbot",
@@ -1604,7 +1604,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "[排序:lz线路,kuaik]",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "csp_J",
@@ -1612,7 +1612,7 @@
       "type": 3,
       "api": "csp_Jiaozi",
       "playerType": 2,
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
     },
     {
       "key": "csp_KmeiJu",
@@ -1620,7 +1620,7 @@
       "type": 3,
       "api": "csp_KmeiJu",
       "playerType": 2,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "csp_MeijuMi",
@@ -1629,7 +1629,7 @@
       "api": "csp_MeijuMi",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "filterable": 1
     },
     {
@@ -1637,28 +1637,28 @@
       "name": "🥝┃奇优┃影视",
       "type": 3,
       "api": "csp_Qiyou",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
     },
     {
       "key": "csp_SP360",
       "name": "📺┃360┃官源",
       "type": 3,
       "api": "csp_SP360",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "csp_SuBaiBai",
       "name": "🏳️┃素白┃影视",
       "type": 3,
       "api": "csp_SuBaiBai",
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "csp_Tvyb",
       "name": "☁️️┃云播┃影视",
       "type": 3,
       "api": "csp_Tvyb",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
     },
     {
       "key": "csp_XPath_企鹅体育",
@@ -1673,7 +1673,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/企鹅直播.json",
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "csp_XYQHiker_VSYY",
@@ -1683,7 +1683,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/xyq/VS影院.json"
     },
     {
@@ -1693,7 +1693,7 @@
       "api": "csp_Xunlei8",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "filterable": 1
     },
     {
@@ -1704,7 +1704,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "csp_nkdyw",
@@ -1714,7 +1714,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/nkdyw.json"
     },
     {
@@ -1725,7 +1725,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/七新影视.json"
     },
     {
@@ -1736,7 +1736,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/七月影视.json"
     },
     {
@@ -1747,7 +1747,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/五五影视.json"
     },
     {
@@ -1758,7 +1758,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/奇优影院.json"
     },
     {
@@ -1769,7 +1769,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/好戏影视.json"
     },
     {
@@ -1780,7 +1780,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/348影视.json"
     },
     {
@@ -1791,7 +1791,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/爱看影视.json"
     },
     {
@@ -1802,7 +1802,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/胖虎.json"
     },
     {
@@ -1813,7 +1813,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/苹果影视.json"
     },
     {
@@ -1824,7 +1824,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/蘑菇.json"
     },
     {
@@ -1835,7 +1835,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/达达龟影视.json"
     },
     {
@@ -1846,7 +1846,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/酷奇MV.json"
     },
     {
@@ -1857,7 +1857,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/量子资源网.json"
     },
     {
@@ -1868,7 +1868,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/非凡资源网.json"
     },
     {
@@ -1879,7 +1879,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/黑狐影视.json"
     },
     {
@@ -1893,7 +1893,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "seed",
@@ -1908,7 +1908,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "xgapp",
@@ -1920,7 +1920,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "xzso",
@@ -1934,7 +1934,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "zxzj",
@@ -1946,7 +1946,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.zxzj.run/",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "下饭",
@@ -1957,7 +1957,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM=",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "二小网盘",
@@ -1970,7 +1970,7 @@
       "ext": {
         "site": "http://2xiaopan.fun,https://xhww.net,https://erxiaofn.click,https://erxiaofn.site,https://www.xhww.net,https://xiaoer.5568.eu.org,http://wexfnw.999888456.xyz,http://89.213.49.249"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "低端",
@@ -1981,7 +1981,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/liu673cn/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "农民",
@@ -1991,7 +1991,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "冷心",
@@ -1999,7 +1999,7 @@
       "type": 3,
       "api": "csp_AppMuou",
       "ext": "http://app.789dd.cn|火猫影视",
-      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
     },
     {
       "key": "初中课堂",
@@ -2014,7 +2014,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/初中课堂.json",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "剧圈",
@@ -2025,7 +2025,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "南风短剧",
@@ -2036,7 +2036,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "timeout": 10,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "厂长",
@@ -2049,7 +2049,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.czzytv77.com/",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "原创",
@@ -2061,7 +2061,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "可可",
@@ -2072,7 +2072,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
       "ext": ""
     },
     {
@@ -2087,7 +2087,7 @@
       "ext": {
         "site": "https://tv.yydsys.top,https://tv.yydsys.cc,https://tv.214521.xyz"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "央视经典",
@@ -2097,7 +2097,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
       "ext": "./libs/hccx/哔哩经典.json"
     },
     {
@@ -2108,7 +2108,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "夸快夸快",
@@ -2125,7 +2125,7 @@
           "https://ogkk.nxog.fun"
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "夸搜",
@@ -2140,7 +2140,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/pg_2026.jar;md5;e58c3a2975d24db4978065ab895cf297"
     },
     {
       "key": "奥特",
@@ -2151,7 +2151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "小学课堂",
@@ -2166,7 +2166,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/小学课堂.json",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "少儿教育",
@@ -2181,7 +2181,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/少儿教育.json",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "干饭",
@@ -2189,7 +2189,7 @@
       "type": 3,
       "api": "csp_AppQi",
       "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|120",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "抠搜",
@@ -2203,7 +2203,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "新6V",
@@ -2214,7 +2214,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "星芽短剧",
@@ -2228,7 +2228,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "有声小说",
@@ -2242,7 +2242,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "樱花动漫",
@@ -2252,7 +2252,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "欢视",
@@ -2264,7 +2264,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "海音搜索",
@@ -2274,7 +2274,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "热播",
@@ -2286,7 +2286,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "热播影视",
@@ -2299,7 +2299,7 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "玩偶",
@@ -2315,7 +2315,7 @@
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "瓜子影视",
@@ -2325,7 +2325,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "电影云集",
@@ -2335,7 +2335,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "百度云盘",
@@ -2349,7 +2349,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "看球",
@@ -2362,7 +2362,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "立播",
@@ -2377,7 +2377,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "米搜",
@@ -2391,7 +2391,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "糖果",
@@ -2401,7 +2401,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "苹果",
@@ -2411,7 +2411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
       "ext": ""
     },
     {
@@ -2422,7 +2422,7 @@
       "timeout": 15,
       "playerType": 1,
       "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA==",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar",
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea",
       "searchable": 1
     },
     {
@@ -2437,7 +2437,7 @@
         "type": "list"
       },
       "ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q==",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
       "key": "酷狗",
@@ -2453,7 +2453,7 @@
           }
         ]
       },
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "金牌影院",
@@ -2463,7 +2463,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "雷鲸天翼",
@@ -2473,7 +2473,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "骑骑影院",
@@ -2485,7 +2485,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "高中教育",
@@ -2500,7 +2500,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./libs/高中课堂.json",
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bf32cf121ae92e49326a9fed7a82b76b"
     },
     {
       "key": "鲸鱼app",
@@ -2516,7 +2516,7 @@
         "datakey": "AAdgrdghjfgswerA",
         "dataiv": "AAdgrdghjfgswerA"
       },
-      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar"
+      "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
     },
     {
       "key": "py_cctv",
