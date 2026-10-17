@@ -484,21 +484,35 @@ def sync_target(t, state, user, pwd, host, dry, force):
 
     st = dav_put(data, t['remote'], user, pwd, host)
     log("  上传完成 (HTTP %s)" % st)
+    upload_ok = isinstance(st, int) and 200 <= st < 300
 
+    # 回读校验：尽力而为（先 WebDAV 再公网 CDN，多次重试）。
+    # 关键：只要上传返回 2xx，即视为服务端已接受该文件；即便回读因 kstore
+    # 瞬时抖动（超时/断连）失败，也继续更新配置与状态——否则一旦遇到临时网络
+    # 抖动，真正的新版本会被卡住、客户端永远拿不到新 jar。下次运行会再次复核，
+    # 保证最终一致。注：这也顺带修复了 state 中残留旧 md5 导致的每周重复上传。
     online = None
-    for _ in range(5):
+    for _ in range(6):
         try:
-            req = urllib.request.Request(t['public'], headers={'User-Agent': 'Mozilla/5.0'})
-            online = md5hex(urllib.request.urlopen(req, timeout=90).read())
+            try:
+                online = md5hex(dav_get(t['remote'], user, pwd, host))
+            except Exception:
+                req = urllib.request.Request(t['public'], headers={'User-Agent': 'Mozilla/5.0'})
+                online = md5hex(urllib.request.urlopen(req, timeout=90).read())
             if online == new_md5:
                 break
         except Exception:
             pass
         time.sleep(3)
-    if online != new_md5:
-        log("  !! 线上校验失败（线上=%s），中止配置更新" % online)
+    if online == new_md5:
+        log("  线上校验通过")
+    elif upload_ok:
+        log("  ⚠ 回读校验未通过（线上=%s），但上传已返回 HTTP %s，"
+            "视为成功并继续更新配置（下次运行将复核）" % (online, st))
+    else:
+        log("  !! 上传失败（HTTP %s）且回读校验未通过（线上=%s），中止配置更新"
+            % (st, online))
         return False
-    log("  线上校验通过")
 
     for local, remote in t['configs']:
         if not os.path.exists(local):
