@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆",
-      "name": "🎬豆┃聚合┃采集",
+      "name": "豆瓣┃聚合",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -15,7 +15,7 @@
     },
     {
       "key": "cj_bf",
-      "name": "🌪️暴风┃直连",
+      "name": "暴风┃直连",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 0,
@@ -74,7 +74,7 @@
     },
     {
       "key": "csp_SNzy",
-      "name": "🐉┃索尼┃高清┃直连",
+      "name": "索尼┃直连",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 0,
@@ -104,7 +104,7 @@
     },
     {
       "key": "建安采集",
-      "name": "影视┃建安┃直连",
+      "name": "建安┃直连",
       "type": 1,
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "searchable": 0,
@@ -136,7 +136,7 @@
     },
     {
       "key": "虎牙",
-      "name": "🐯虎牙┃直连",
+      "name": "虎牙┃直连",
       "type": 1,
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "searchable": 1,
@@ -165,7 +165,7 @@
     },
     {
       "key": "360",
-      "name": "🎪360┃秒播┃直连",
+      "name": "360┃直连",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod?",
       "searchable": 1,
@@ -218,7 +218,7 @@
     },
     {
       "key": "HH",
-      "name": "☕🦊茶杯狐┃秒播┃直连",
+      "name": "茶杯狐┃直连",
       "type": 1,
       "api": "http://www.haohuazy.com/api.php/provide/vod",
       "searchable": 1,
@@ -273,7 +273,7 @@
     },
     {
       "key": "cj_dytt",
-      "name": "🎞️天堂┃直连",
+      "name": "天堂┃直连",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
       "searchable": 1,
@@ -360,7 +360,7 @@
     },
     {
       "key": "天涯采集",
-      "name": "影视┃天涯┃直连",
+      "name": "天涯┃直连",
       "type": 1,
       "api": "http://tyyszy.com/api.php/provide/vod",
       "searchable": 0,
@@ -406,7 +406,7 @@
     },
     {
       "key": "百度",
-      "name": "🎏百度┃直连",
+      "name": "百度┃直连",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -541,7 +541,7 @@
     },
     {
       "key": "闪电资源",
-      "name": "⚡闪电┃影视┃直连",
+      "name": "闪电┃直连",
       "type": 1,
       "api": "http://sdzyapi.com/api.php/provide/vod/",
       "searchable": 0,
@@ -641,28 +641,28 @@
     },
     {
       "key": "dr_360影视",
-      "name": "📺┃360(官)┃采集",
+      "name": "360(官)┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/360.js"
     },
     {
       "key": "dr_iqiyi",
-      "name": "🥝┃爱奇异(官)┃采集",
+      "name": "爱奇异(官)┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/iqiyi.js"
     },
     {
       "key": "dr_qq",
-      "name": "🐧┃腾讯(官)┃采集",
+      "name": "腾讯(官)┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/qq.js"
     },
     {
       "key": "dr_youku",
-      "name": "🥔┃优酷(官)┃采集",
+      "name": "优酷(官)┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/youku.js",
@@ -671,24 +671,14 @@
     },
     {
       "key": "dr_搜狗",
-      "name": "🚛┃搜狗(官)┃采集",
+      "name": "搜狗(官)┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/caigou.js"
     },
     {
-      "key": "js_Lib",
-      "name": "🍲┃Lib┃影视┃采集",
-      "type": 3,
-      "api": "./libs/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./libs/js/libvio.js"
-    },
-    {
       "key": "js_大师兄",
-      "name": "🐵┃师兄┃影视┃采集",
+      "name": "师兄┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "searchable": 1,
@@ -698,7 +688,7 @@
     },
     {
       "key": "js_骚火电影",
-      "name": "🔥┃骚火┃影视┃采集",
+      "name": "骚火┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "searchable": 1,
@@ -708,14 +698,14 @@
     },
     {
       "key": "dr_mgtv",
-      "name": "🥭┃芒果(官)┃采集",
+      "name": "芒果(官)┃采集",
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
       "ext": "./libs/js/mgtv.js"
     },
     {
       "key": "1905",
-      "name": "💡1905┃影视┃采集",
+      "name": "1905┃采集",
       "type": 3,
       "api": "csp_Web1905",
       "searchable": 0,
@@ -724,26 +714,15 @@
       "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
     },
     {
-      "key": "cc_热播之家",
-      "name": "🔥┃热播┃之家┃采集",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-      "ext": "./libs/c/热播之家.json"
-    },
-    {
       "key": "csp_SP360",
-      "name": "📺┃360┃官源┃采集",
+      "name": "360官源┃采集",
       "type": 3,
       "api": "csp_SP360",
       "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
     },
     {
       "key": "csp_XYQHiker_VSYY",
-      "name": "🎦┃VS┃影院┃采集",
+      "name": "VS影院┃采集",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -754,7 +733,7 @@
     },
     {
       "key": "csp_nkdyw",
-      "name": "💢┃南柯┃电影┃采集",
+      "name": "南柯┃采集",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -764,19 +743,8 @@
       "ext": "./libs/hccx/nkdyw.json"
     },
     {
-      "key": "csp_奇优",
-      "name": "🧼┃奇优┃影院┃采集",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-      "ext": "./libs/hccx/奇优影院.json"
-    },
-    {
       "key": "csp_蘑菇",
-      "name": "🍄┃蘑菇┃影视┃采集",
+      "name": "蘑菇┃采集",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -787,7 +755,7 @@
     },
     {
       "key": "csp_达龟",
-      "name": "🐢┃达龟┃影院┃采集",
+      "name": "达龟┃采集",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -798,7 +766,7 @@
     },
     {
       "key": "csp_黑狐",
-      "name": "🦝┃黑狐┃影视┃采集",
+      "name": "黑狐┃采集",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -809,7 +777,7 @@
     },
     {
       "key": "央视经典",
-      "name": "📺央视┃经典┃采集",
+      "name": "央视┃采集",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -820,7 +788,7 @@
     },
     {
       "key": "热播影视",
-      "name": "💡热播┃影视┃采集",
+      "name": "热播┃采集",
       "type": 3,
       "api": "csp_AppRJ",
       "searchable": 1,
@@ -833,7 +801,7 @@
     },
     {
       "key": "Lib",
-      "name": "🌟┃Lib┃秒播┃采集",
+      "name": "Lib┃采集",
       "type": 3,
       "api": "csp_Libvio",
       "searchable": 1,
@@ -847,7 +815,7 @@
     },
     {
       "key": "csp_Dm84",
-      "name": "🚌┃动漫┃巴士┃采集",
+      "name": "动漫巴士┃采集",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -857,7 +825,7 @@
     },
     {
       "key": "csp_Ysj",
-      "name": "🎀┃异界┃动漫┃采集",
+      "name": "异界动漫┃采集",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -867,7 +835,7 @@
     },
     {
       "key": "YGP",
-      "name": "🚀┃叨观┃新片┃采集",
+      "name": "叨观┃采集",
       "type": 3,
       "api": "csp_YGPGuard",
       "searchable": 0,
@@ -878,7 +846,7 @@
     },
     {
       "key": "zxzj",
-      "name": "🍊┃在线┃外剧┃采集",
+      "name": "在线外剧┃采集",
       "type": 3,
       "api": "csp_ZxzjGuard",
       "timeout": 15,
@@ -890,7 +858,7 @@
     },
     {
       "key": "下饭",
-      "name": "🍙下饭┃多线┃采集",
+      "name": "下饭┃采集",
       "type": 3,
       "api": "csp_AppSxGuard",
       "searchable": 1,
@@ -901,7 +869,7 @@
     },
     {
       "key": "剧圈",
-      "name": "🐻剧圈┃多线┃采集",
+      "name": "剧圈┃采集",
       "type": 3,
       "api": "csp_JqqGuard",
       "timeout": 10,
@@ -912,7 +880,7 @@
     },
     {
       "key": "厂长",
-      "name": "📔┃厂长┃不卡┃采集",
+      "name": "厂长┃采集",
       "type": 3,
       "api": "csp_NewCzGuard",
       "timeout": 15,
@@ -925,7 +893,7 @@
     },
     {
       "key": "原创",
-      "name": "☀┃原创┃不卡┃采集",
+      "name": "原创┃采集",
       "type": 3,
       "api": "csp_YCyzGuard",
       "timeout": 15,
@@ -937,7 +905,7 @@
     },
     {
       "key": "可可",
-      "name": "👻┃可可┃多线┃采集",
+      "name": "可可┃采集",
       "type": 3,
       "api": "csp_KekysGuard",
       "playerType": 2,
@@ -949,7 +917,7 @@
     },
     {
       "key": "奥特",
-      "name": "🏝奥特┃多线┃采集",
+      "name": "奥特┃采集",
       "type": 3,
       "api": "csp_AueteGuard",
       "timeout": 10,
@@ -960,7 +928,7 @@
     },
     {
       "key": "欢视",
-      "name": "👓┃欢视┃多线┃采集",
+      "name": "欢视┃采集",
       "type": 3,
       "api": "csp_AppTTGuard",
       "playerType": 2,
@@ -971,20 +939,8 @@
       "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
     },
     {
-      "key": "热播",
-      "name": "📺┃热播┃多线┃采集",
-      "type": 3,
-      "api": "csp_AppTTGuard",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "https://20328.kstore.space/mstore/jars/fty.jar;md5;e959d9455533a04af01a15c4eb1b78ea"
-    },
-    {
       "key": "立播",
-      "name": "🌟立播┃秒播┃采集",
+      "name": "立播┃采集",
       "type": 3,
       "api": "csp_LibvioGuard",
       "timeout": 10,
@@ -999,7 +955,7 @@
     },
     {
       "key": "苹果",
-      "name": "🍎┃苹果┃IJK┃采集",
+      "name": "苹果┃采集",
       "type": 3,
       "api": "csp_LiteAppleGuard",
       "searchable": 1,
@@ -1010,7 +966,7 @@
     },
     {
       "key": "萌米",
-      "name": "👀┃萌米┃多线┃采集",
+      "name": "萌米┃采集",
       "type": 3,
       "api": "csp_AppTTGuard",
       "timeout": 15,
@@ -1021,7 +977,7 @@
     },
     {
       "key": "农民",
-      "name": "👶┃旺旺┃影视┃采集",
+      "name": "旺旺┃采集",
       "type": 3,
       "api": "csp_NongMin",
       "searchable": 1,
@@ -1031,7 +987,7 @@
     },
     {
       "key": "南风短剧",
-      "name": "☢️┃南风┃短剧┃采集",
+      "name": "☢南风┃采集",
       "type": 3,
       "api": "csp_Nfdj",
       "searchable": 1,
@@ -1042,7 +998,7 @@
     },
     {
       "key": "星芽短剧",
-      "name": "🌟┃星芽┃短剧┃采集",
+      "name": "星芽┃采集",
       "type": 3,
       "api": "csp_Xydj",
       "style": {
@@ -1056,7 +1012,7 @@
     },
     {
       "key": "樱花动漫",
-      "name": "🌺┃樱花┃动漫┃采集",
+      "name": "樱花┃采集",
       "type": 3,
       "api": "csp_Yhdm",
       "searchable": 1,
@@ -1066,7 +1022,7 @@
     },
     {
       "key": "电影云集",
-      "name": "🍫┃电影┃云集┃采集",
+      "name": "电影┃采集",
       "type": 3,
       "api": "csp_Dyyj",
       "searchable": 1,
@@ -1076,7 +1032,7 @@
     },
     {
       "key": "金牌影院",
-      "name": "🏅┃金牌┃影院┃采集",
+      "name": "金牌┃采集",
       "type": 3,
       "api": "csp_Jinpai",
       "searchable": 1,
@@ -1086,7 +1042,7 @@
     },
     {
       "key": "鲸鱼app",
-      "name": "🐳┃鲸鱼┃影视┃采集",
+      "name": "鲸鱼┃采集",
       "type": 3,
       "api": "csp_Getapp",
       "searchable": 1,
@@ -1102,7 +1058,7 @@
     },
     {
       "key": "csp_Anime1",
-      "name": "🌸┃日本┃动漫┃采集",
+      "name": "日本┃采集",
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
@@ -1112,7 +1068,7 @@
     },
     {
       "key": "低端",
-      "name": "⏮️┃低端┃外剧┃采集",
+      "name": "⏮低端┃采集",
       "type": 3,
       "api": "csp_Ddrk",
       "playerType": 2,
@@ -1123,14 +1079,14 @@
     },
     {
       "key": "csp_Qiyou",
-      "name": "🥝┃奇优┃影视┃采集",
+      "name": "奇优┃采集",
       "type": 3,
       "api": "csp_Qiyou",
       "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
     },
     {
       "key": "csp_FourK",
-      "name": "🌋┃绝对┃影视┃采集",
+      "name": "绝对┃采集",
       "type": 3,
       "playerType": 2,
       "api": "csp_FourK",
@@ -1139,14 +1095,14 @@
     },
     {
       "key": "csp_SuBaiBai",
-      "name": "🏳️┃素白┃影视┃采集",
+      "name": "🏳素白┃采集",
       "type": 3,
       "api": "csp_SuBaiBai",
       "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
     },
     {
       "key": "csp_XYQBiu_斗鱼",
-      "name": "🐟┃斗鱼┃直播┃采集",
+      "name": "斗鱼直播采集",
       "playerType": 1,
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
@@ -1161,7 +1117,7 @@
     },
     {
       "key": "直播转点播",
-      "name": "📺︎┃电视┃点播┃采集",
+      "name": "电视点播┃采集",
       "playerType": 1,
       "type": 3,
       "api": "./libs/tv/zb.min.js",
@@ -1172,7 +1128,7 @@
     },
     {
       "key": "虎牙直播js",
-      "name": "🐯┃虎牙┃直播┃采集",
+      "name": "虎牙直播┃采集",
       "playerType": 1,
       "type": 3,
       "api": "./libs/js/drpy2.min.js",
@@ -1187,7 +1143,7 @@
     },
     {
       "key": "py_cctv",
-      "name": "❤️┃央视┃py┃采集",
+      "name": "❤央视py┃采集",
       "type": 3,
       "api": "py_cctv",
       "searchable": 0,
@@ -1197,7 +1153,7 @@
     },
     {
       "key": "csp_XPath_企鹅体育",
-      "name": "🐧企鹅┃直播┃采集",
+      "name": "企鹅直播┃采集",
       "type": 3,
       "api": "csp_XPath",
       "style": {
@@ -1212,7 +1168,7 @@
     },
     {
       "key": "alllive",
-      "name": "📽️┃一直播┃LIVE┃采集",
+      "name": "一直播LIVE┃采集",
       "type": 3,
       "api": "csp_AllliveGuard",
       "playerType": 2,
@@ -1234,7 +1190,7 @@
     },
     {
       "key": "MyDrive",
-      "name": "🗂我的云盘┃我配置┃采集",
+      "name": "我的云盘┃我配置┃采集",
       "type": 3,
       "api": "csp_MyDriveGuard",
       "changeable": 0,
@@ -1250,7 +1206,7 @@
     },
     {
       "key": "push_agent",
-      "name": "🛴手机┃推送┃采集",
+      "name": "手机┃推送┃采集",
       "type": 3,
       "api": "csp_Push",
       "searchable": 0,
@@ -2011,20 +1967,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "fmys┃直播合集",
-      "type": 0,
-      "url": "http://fmys.top/lib/tvlive.txt",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-    },
-    {
-      "name": "fmys┃电信专线",
-      "type": 0,
-      "url": "http://fmys.top/lib/live.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-    },
-    {
       "name": "fmys┃移动专线",
       "type": 0,
       "url": "http://fmys.top/lib/yidong.m3u",
@@ -2068,33 +2010,9 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
     },
     {
-      "name": "B站直播",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/bililive.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "ua": "okHttp/Mod-1.4.0.0"
-    },
-    {
-      "name": "斗鱼一起看",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "ua": "okHttp/Mod-1.4.0.0"
-    },
-    {
       "name": "虎牙一起看",
       "type": 0,
       "url": "https://sub.ottiptv.cc/huyayqk.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "ua": "okHttp/Mod-1.4.0.0"
-    },
-    {
-      "name": "YY轮播",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "ua": "okHttp/Mod-1.4.0.0"
