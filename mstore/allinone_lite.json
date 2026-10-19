@@ -231,17 +231,6 @@
    "ext": "./libs/c/评书.json"
   },
   {
-   "key": "csp_555电影",
-   "name": "📯┃555┃电影 [spider_2026]",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-   "ext": "./libs/hccx/555电影.json"
-  },
-  {
    "key": "csp_AList",
    "name": "小雅┃云盘 [pg_2026]",
    "type": 3,

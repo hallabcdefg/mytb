@@ -732,48 +732,15 @@
    "ext": "./libs/xyq/VS影院.json"
   },
   {
-   "key": "csp_nkdyw",
-   "name": "南柯┃采集 [spider_2026]",
+   "key": "csp_繁光",
+   "name": "繁光┃采集 [spider_2026]",
    "type": 3,
    "api": "csp_XBPQ",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-   "ext": "./libs/hccx/nkdyw.json"
-  },
-  {
-   "key": "csp_蘑菇",
-   "name": "蘑菇┃采集 [spider_2026]",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-   "ext": "./libs/hccx/蘑菇.json"
-  },
-  {
-   "key": "csp_达龟",
-   "name": "达龟┃采集 [spider_2026]",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-   "ext": "./libs/hccx/达达龟影视.json"
-  },
-  {
-   "key": "csp_黑狐",
-   "name": "黑狐┃采集 [spider_2026]",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
-   "ext": "./libs/hccx/黑狐影视.json"
+   "ext": "./libs/hccx/繁光影院.json"
   },
   {
    "key": "央视经典",
@@ -986,17 +953,6 @@
    "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
   },
   {
-   "key": "南风短剧",
-   "name": "☢南风┃采集 [duoduo]",
-   "type": 3,
-   "api": "csp_Nfdj",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
-  },
-  {
    "key": "星芽短剧",
    "name": "星芽┃采集 [duoduo]",
    "type": 3,
@@ -1005,16 +961,6 @@
     "type": "rect",
     "ratio": 1.433
    },
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "jar": "https://20328.kstore.space/mstore/jars/duoduo.jar;md5;946f8772261df60fe5f4dc30965a3bb7"
-  },
-  {
-   "key": "樱花动漫",
-   "name": "樱花┃采集 [duoduo]",
-   "type": 3,
-   "api": "csp_Yhdm",
    "searchable": 1,
    "quickSearch": 0,
    "changeable": 0,
@@ -1092,13 +1038,6 @@
    "api": "csp_FourK",
    "ext": "https://www.4kvm.tv",
    "jar": "https://20328.kstore.space/mstore/jars/feimao.jar;md5;31857bf0273d28fe583978d9f693e571"
-  },
-  {
-   "key": "csp_SuBaiBai",
-   "name": "🏳素白┃采集 [guangge]",
-   "type": 3,
-   "api": "csp_SuBaiBai",
-   "jar": "https://20328.kstore.space/mstore/jars/guangge.jar;md5;39b9af40488a540364c5993b9afe574a"
   },
   {
    "key": "csp_XYQBiu_斗鱼",
