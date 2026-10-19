@@ -1189,7 +1189,7 @@
    "key": "py_cctv",
    "name": "❤️┃央视┃py┃采集",
    "type": 3,
-   "api": "py_cctv",
+   "api": "https://20328.kstore.space/mstore/py/py_cctv.py",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
