@@ -83,7 +83,7 @@
     "type": "rect",
     "ratio": 3.8
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "Bili",
@@ -98,7 +98,7 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": "./libs/bilibili.json",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "MTV",
@@ -143,7 +143,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "Tgsou",
@@ -177,7 +177,7 @@
    "type": 3,
    "playerType": 1,
    "api": "csp_XYQHiker",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/xyq/港口.json"
   },
   {
@@ -216,7 +216,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/c/相声.json"
   },
   {
@@ -227,7 +227,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/c/评书.json"
   },
   {
@@ -238,7 +238,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/555电影.json"
   },
   {
@@ -304,7 +304,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/bili.json"
   },
   {
@@ -315,7 +315,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/搭配.json"
   },
   {
@@ -326,7 +326,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/初中.json"
   },
   {
@@ -337,7 +337,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/搭讪.json"
   },
   {
@@ -348,7 +348,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/高中.json"
   },
   {
@@ -359,7 +359,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/美食合集.json"
   },
   {
@@ -370,7 +370,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/相声.json"
   },
   {
@@ -381,7 +381,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/小学.json"
   },
   {
@@ -392,7 +392,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/戏曲.json"
   },
   {
@@ -403,7 +403,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/歌手.json"
   },
   {
@@ -414,7 +414,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/幼儿.json"
   },
   {
@@ -425,7 +425,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/中医.json"
   },
   {
@@ -436,7 +436,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/xyq/Bili短剧.json"
   },
   {
@@ -445,7 +445,7 @@
    "type": 3,
    "api": "csp_Gz360",
    "playerType": 2,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "csp_Ikanbot",
@@ -456,7 +456,7 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "[排序:lz线路,kuaik]",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "csp_MeijuMi",
@@ -465,7 +465,7 @@
    "api": "csp_MeijuMi",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "filterable": 1
   },
   {
@@ -475,7 +475,7 @@
    "api": "csp_Xunlei8",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "filterable": 1
   },
   {
@@ -486,7 +486,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/七新影视.json"
   },
   {
@@ -497,7 +497,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/七月影视.json"
   },
   {
@@ -508,7 +508,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/五五影视.json"
   },
   {
@@ -519,7 +519,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/好戏影视.json"
   },
   {
@@ -530,7 +530,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/348影视.json"
   },
   {
@@ -541,7 +541,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/苹果影视.json"
   },
   {
@@ -552,7 +552,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/量子资源网.json"
   },
   {
@@ -563,7 +563,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/非凡资源网.json"
   },
   {
@@ -591,7 +591,7 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "xzso",
@@ -641,7 +641,7 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": "./libs/初中课堂.json",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "多多影音",
@@ -682,7 +682,7 @@
      "https://ogkk.nxog.fun"
     ]
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "夸搜",
@@ -712,7 +712,7 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": "./libs/小学课堂.json",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "少儿教育",
@@ -727,7 +727,7 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": "./libs/少儿教育.json",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "抠搜",
@@ -883,7 +883,7 @@
      }
     ]
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "雷鲸天翼",
@@ -905,7 +905,7 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "高中教育",
@@ -920,7 +920,7 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": "./libs/高中课堂.json",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "py_cctv_少儿",
@@ -1081,7 +1081,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   }
  ],
  "parses": [

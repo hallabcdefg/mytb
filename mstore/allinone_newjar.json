@@ -721,7 +721,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "cc_热播之家",
@@ -731,7 +731,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/c/热播之家.json"
   },
   {
@@ -739,7 +739,7 @@
    "name": "📺┃360┃官源┃采集",
    "type": 3,
    "api": "csp_SP360",
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "csp_XYQHiker_VSYY",
@@ -749,7 +749,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/xyq/VS影院.json"
   },
   {
@@ -760,7 +760,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/nkdyw.json"
   },
   {
@@ -771,7 +771,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/奇优影院.json"
   },
   {
@@ -782,7 +782,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/蘑菇.json"
   },
   {
@@ -793,7 +793,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/达达龟影视.json"
   },
   {
@@ -804,7 +804,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/黑狐影视.json"
   },
   {
@@ -815,7 +815,7 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0",
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc",
    "ext": "./libs/hccx/哔哩经典.json"
   },
   {
@@ -829,7 +829,7 @@
    "ext": {
     "url": "http://v.rbotv.cn"
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "Lib",
@@ -1259,7 +1259,7 @@
     "Cloud-drive": "tvfan/Cloud-drive.txt",
     "from": "4k|auto"
    },
-   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bca2498f2d40c694b285471062748cf0"
+   "jar": "https://20328.kstore.space/mstore/jars/spider_2026.jar;md5;bbb5214a2ba3724821c5f8d2db5071dc"
   },
   {
    "key": "本地",
