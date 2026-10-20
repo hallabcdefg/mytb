@@ -1,0 +1,119 @@
+{
+  "作者": "TVBox",
+  "站名": "繁光影院",
+  "主页url": "https://www.fagmn.com",
+  "分类url": "https://www.fagmn.com/channel/{cateId}?page={catePg}&year={year}&sort={by}&status={class}",
+  "分类": "电影$movie#电视剧$tv#综艺$variety#动漫$anime#伦理$ethics",
+  "数组": "class=\"poster-card\"&&</article>",
+  "标题": "data-movie-title=\"&&\"",
+  "副标题": "class=\"score\">&&</span>",
+  "图片": "data-movie-poster=\"&&\"",
+  "链接": "data-movie-url=\"&&\"",
+  "搜索url": "https://www.fagmn.com/search?q={wd}",
+  "搜索数组": "class=\"poster-card\"&&</article>",
+  "搜索标题": "data-movie-title=\"&&\"",
+  "搜索副标题": "class=\"score\">&&</span>",
+  "搜索图片": "data-movie-poster=\"&&\"",
+  "搜索链接": "data-movie-url=\"&&\"",
+  "线路数组": "<button type=\"button\" data-detail-source=&&</button>",
+  "线路标题": "data-source-name=\"&&\"",
+  "播放数组": "<button type=\"button\" data-detail-source=&&</button>",
+  "播放列表": "{&#34;n&#34;:&&}",
+  "播放标题": "&#34;t&#34;:&#34;&&&#34;",
+  "播放链接": "&#34;u&#34;:&#34;&&&#34;[替换:/watch>>https://www.fagmn.com/watch]",
+  "类型": "class=\"eyebrow\">&&</span>",
+  "年份": "<dt>年份</dt><dd>&&</dd>",
+  "地区": "<dt>地区</dt><dd>&&</dd>",
+  "简介": "name=\"description\" content=\"&&\"",
+  "筛选": {
+    "movie": [
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "2026", "v": "2026"},
+          {"n": "2025", "v": "2025"},
+          {"n": "2024", "v": "2024"},
+          {"n": "2023", "v": "2023"},
+          {"n": "2022", "v": "2022"},
+          {"n": "2021", "v": "2021"},
+          {"n": "2020", "v": "2020"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "默认", "v": ""},
+          {"n": "热门", "v": "popular"},
+          {"n": "评分", "v": "rating"}
+        ]
+      },
+      {
+        "key": "class",
+        "name": "状态",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "已完结", "v": "completed"},
+          {"n": "更新中", "v": "updating"}
+        ]
+      }
+    ],
+    "tv": [
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "2026", "v": "2026"},
+          {"n": "2025", "v": "2025"},
+          {"n": "2024", "v": "2024"},
+          {"n": "2023", "v": "2023"},
+          {"n": "2022", "v": "2022"},
+          {"n": "2021", "v": "2021"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "默认", "v": ""},
+          {"n": "热门", "v": "popular"},
+          {"n": "评分", "v": "rating"}
+        ]
+      },
+      {
+        "key": "class",
+        "name": "状态",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "已完结", "v": "completed"},
+          {"n": "更新中", "v": "updating"}
+        ]
+      }
+    ],
+    "anime": [
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "2026", "v": "2026"},
+          {"n": "2025", "v": "2025"},
+          {"n": "2024", "v": "2024"},
+          {"n": "2023", "v": "2023"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "默认", "v": ""},
+          {"n": "热门", "v": "popular"},
+          {"n": "评分", "v": "rating"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "last_md5": "c9024ccf34209d26eb556c728c3f07fa",
+  "last_check": "2026-10-15T16:29:25.635007",
+  "jars": {
+    "FTY fan.txt": "25f4460aed52987f02865f02a1e83aa8",
+    "spider.jar(2026)": "bf32cf121ae92e49326a9fed7a82b76b",
+    "pg_upgraded(2026-08)": "e58c3a2975d24db4978065ab895cf297",
+    "FTY unified(1.jpg)": "e959d9455533a04af01a15c4eb1b78ea"
+  },
+  "last_good_upstream": {
+    "FTY fan.txt": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt"
+  },
+  "obs": {
+    "FTY fan.txt": {
+      "size": 1279598,
+      "classes": 75,
+      "md5": "25f4460aed52987f02865f02a1e83aa8"
+    }
+  }
+}

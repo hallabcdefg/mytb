@@ -1,0 +1,109 @@
+[2026-10-15 00:20:40] === FTY jar 同步开始 ===
+[2026-10-15 00:23:40]   第 1 次下载失败(The read operation timed out)，重试…
+[2026-10-15 00:25:50]   第 2 次下载失败(<urlopen error _ssl.c:975: The handshake operation timed out>)，重试…
+[2026-10-15 00:27:29]   第 3 次下载失败(The read operation timed out)，重试…
+[2026-10-15 00:29:11]   第 4 次下载失败(The read operation timed out)，重试…
+[2026-10-15 00:30:57] === FTY jar 同步开始 ===
+[2026-10-15 00:32:14]   镜像 1 下载成功: raw.githubusercontent.com（1254922 bytes）
+[2026-10-15 00:32:14] 上游 jar 下载成功: 1254922 bytes, md5=c9024ccf34209d26eb556c728c3f07fa
+[2026-10-15 00:32:14]   读取线上 jar 失败: IncompleteRead(0 bytes read, 1254922 more expected)
+[2026-10-15 00:32:14] 检测到新版本: None -> c9024ccf34209d26eb556c728c3f07fa
+[2026-10-15 00:32:14] 新 jar 解析: spider 类 75 个，其中 Guard 类 45 个
+[2026-10-15 00:32:14] --dry-run: 跳过上传（本应更新为 c9024ccf34209d26eb556c728c3f07fa）
+[2026-10-15 00:32:14]   [预演] fty.json: 36 站，将剔除 0 
+[2026-10-15 00:32:52] === FTY jar 同步开始 ===
+[2026-10-15 00:33:05]   镜像 1 下载成功: raw.githubusercontent.com（1254922 bytes）
+[2026-10-15 00:33:05] 上游 jar 下载成功: 1254922 bytes, md5=c9024ccf34209d26eb556c728c3f07fa
+[2026-10-15 00:33:05] 初始化基准 md5（来自配置声明）: c9024ccf34209d26eb556c728c3f07fa
+[2026-10-15 00:33:05] 无更新（线上已是最新 c9024ccf34209d26eb556c728c3f07fa），退出
+[2026-10-15 02:20:00] === jar 同步开始 ===
+[2026-10-15 02:20:00] ---- 检查 [FTY fan.txt] ----
+[2026-10-15 02:20:02]   镜像 1 下载成功（1254922 bytes）
+[2026-10-15 02:20:02]   上游: 1254922 bytes, md5=c9024ccf34209d26eb556c728c3f07fa, 类 75 (Guard 45)
+[2026-10-15 02:20:02]   基准 md5（来自配置声明）: c9024ccf34209d26eb556c728c3f07fa
+[2026-10-15 02:20:02]   无更新，跳过
+[2026-10-15 02:20:02] ---- 检查 [spider.jar(2026)] ----
+[2026-10-15 02:20:04]   镜像 1 下载成功（1863956 bytes）
+[2026-10-15 02:20:04]   上游: 1863956 bytes, md5=bf32cf121ae92e49326a9fed7a82b76b, 类 2987 (Guard 0)
+[2026-10-15 02:20:05]   读取线上失败: IncompleteRead(0 bytes read, 1863956 more expected)
+[2026-10-15 02:20:05]   发现新版本: None -> bf32cf12
+[2026-10-15 02:20:05]   --dry-run: 跳过上传
+[2026-10-15 02:20:05] === 同步结束（有变更: 否）===
+[2026-10-15 02:21:32] === jar 同步开始 ===
+[2026-10-15 02:21:32] ---- 检查 [FTY fan.txt] ----
+[2026-10-15 02:21:34]   镜像 1 下载成功（1254922 bytes）
+[2026-10-15 02:21:34]   上游: 1254922 bytes, md5=c9024ccf34209d26eb556c728c3f07fa, 类 75 (Guard 45)
+[2026-10-15 02:21:34]   无更新，跳过
+[2026-10-15 02:21:34] ---- 检查 [spider.jar(2026)] ----
+[2026-10-15 02:24:35]   镜像 1 第 1 次失败(The read operation timed out)
+[2026-10-15 02:24:38]   镜像 1 下载成功（1863956 bytes）
+[2026-10-15 02:24:38]   上游: 1863956 bytes, md5=bf32cf121ae92e49326a9fed7a82b76b, 类 2987 (Guard 0)
+[2026-10-15 02:24:39]   基准 md5（当前线上）: bf32cf121ae92e49326a9fed7a82b76b
+[2026-10-15 02:24:39]   无更新，跳过
+[2026-10-15 02:24:39] === 同步结束（有变更: 否）===
+[2026-10-15 11:08:37] === jar 同步开始 ===
+[2026-10-15 11:08:37] ---- 检查 [FTY fan.txt] ----
+[2026-10-15 11:09:41]   镜像 1 第 1 次失败(The read operation timed out)
+[2026-10-15 11:12:51]   镜像 1 第 2 次失败(The read operation timed out)
+[2026-10-15 11:13:17]   镜像 2 下载成功（1254922 bytes）
+[2026-10-15 11:13:17]   上游: 1254922 bytes, md5=c9024ccf34209d26eb556c728c3f07fa, 类 75 (Guard 45)
+[2026-10-15 11:13:17]   无更新，跳过
+[2026-10-15 11:13:17] ---- 检查 [spider.jar(2026)] ----
+[2026-10-15 11:14:12]   镜像 1 下载成功（1863956 bytes）
+[2026-10-15 11:14:12]   上游: 1863956 bytes, md5=bf32cf121ae92e49326a9fed7a82b76b, 类 2987 (Guard 0)
+[2026-10-15 11:14:12]   无更新，跳过
+[2026-10-15 11:14:12] ---- 检查 [pg_upgraded(2026-08)] ----
+[2026-10-15 11:17:16]   镜像 1 下载成功（2912031 bytes）
+[2026-10-15 11:17:16]   上游: 2912031 bytes, md5=e58c3a2975d24db4978065ab895cf297, 类 1070 (Guard 0)
+[2026-10-15 11:17:31]   基准 md5（当前线上）: e58c3a2975d24db4978065ab895cf297
+[2026-10-15 11:17:31]   无更新，跳过
+[2026-10-15 11:17:31] ---- 检查 [FTY unified(1.jpg)] ----
+[2026-10-15 11:17:38]   镜像 1 下载成功（1113588 bytes）
+[2026-10-15 11:17:38]   上游: 1113588 bytes, md5=e959d9455533a04af01a15c4eb1b78ea, 类 75 (Guard 45)
+[2026-10-15 11:17:38]   ✓ 守护版 jar 校验通过（资源 5 项）
+[2026-10-15 11:17:38]   基准 md5（来自配置声明）: e959d9455533a04af01a15c4eb1b78ea
+[2026-10-15 11:17:38]   无更新，跳过
+[2026-10-15 11:17:38] === 同步结束（有变更: 否）===
+[2026-10-15 16:13:05] === jar 同步开始 ===
+[2026-10-15 16:13:05] ---- 检查 [FTY fan.txt] ----
+[2026-10-15 16:14:02]   镜像 1 下载成功（1279598 bytes）
+[2026-10-15 16:14:02]   上游: 1279598 bytes, md5=25f4460aed52987f02865f02a1e83aa8, 类 75 (Guard 45)
+[2026-10-15 16:14:02]   发现新版本: c9024ccf -> 25f4460a
+[2026-10-15 16:14:02]   --dry-run: 跳过上传
+[2026-10-15 16:14:02] ---- 检查 [spider.jar(2026)] ----
+[2026-10-15 16:17:31]   镜像 1 下载成功（1863956 bytes）
+[2026-10-15 16:17:31]   上游: 1863956 bytes, md5=bf32cf121ae92e49326a9fed7a82b76b, 类 2987 (Guard 0)
+[2026-10-15 16:17:31]   无更新，跳过
+[2026-10-15 16:17:31] ---- 检查 [pg_upgraded(2026-08)] ----
+[2026-10-15 16:18:58] === jar 同步开始 ===
+[2026-10-15 16:18:58] 没有匹配 --only=nonexist 的目标
+[2026-10-15 16:19:01] === jar 同步开始 ===
+[2026-10-15 16:19:01] ---- 检查 [FTY fan.txt] ----
+[2026-10-15 16:22:02]   源 1 第 1 次失败(URLError: <urlopen error _ssl.c:975: The handshake operation timed out>)
+[2026-10-15 16:23:24]   源 1 第 2 次失败(TimeoutError: The read operation timed out)
+[2026-10-15 16:24:26]   源 2 第 1 次失败(URLError: <urlopen error [Errno 101] Network is unreachable>)
+[2026-10-15 16:25:28]   源 2 第 2 次失败(URLError: <urlopen error [Errno 101] Network is unreachable>)
+[2026-10-15 16:25:45]   源 3 下载成功（1279598 bytes）
+[2026-10-15 16:25:45]   上游: 1279598 bytes, md5=25f4460aed52987f02865f02a1e83aa8, 类 75 (Guard 45)
+[2026-10-15 16:25:45]   发现新版本: c9024ccf -> 25f4460a
+[2026-10-15 16:25:45]   --dry-run: 跳过上传
+[2026-10-15 16:25:45] ---- 检查 [spider.jar(2026)] ----
+[2026-10-15 16:29:20] === jar 同步开始 ===
+[2026-10-15 16:29:20] ---- 检查 [FTY fan.txt] ----
+[2026-10-15 16:29:24]   源 1 下载成功（1279598 bytes）
+[2026-10-15 16:29:24]   上游: 1279598 bytes, md5=25f4460aed52987f02865f02a1e83aa8, 类 75 (Guard 45)
+[2026-10-15 16:29:24]   发现新版本: c9024ccf -> 25f4460a
+[2026-10-15 16:29:24]   上传完成 (HTTP 204)
+[2026-10-15 16:29:25]   线上校验通过
+[2026-10-15 16:29:25]   已备份 -> logs/config_backup/fty.json.20261015-162925.json
+[2026-10-15 16:29:25]   fty.json: 36 站（改写 md5 0 / 补写 md5 0 / 剔除 0 ）
+[2026-10-15 16:29:25]   已上传 mstore/qist/fty.json
+[2026-10-15 16:29:25]   已备份 -> logs/config_backup/evergreen.json.20261015-162925.json
+[2026-10-15 16:29:25]   evergreen.json: 89 站（改写 md5 0 / 补写 md5 0 / 剔除 0 ）
+[2026-10-15 16:29:25]   已上传 mstore/evergreen.json
+[2026-10-15 16:31:40] === 同步结束（有变更: 是 / 失败: 无）===
+[2026-10-15 16:31:40] SUMMARY_JSON {"finished_at": "2026-10-15T16:31:40.610443", "changed": true, "results": [{"name": "FTY fan.txt", "status": "updated"}], "failed": []}
+[2026-10-15 16:31:58]   已备份 -> logs/config_backup/allinone.json.20261015-163158.json
+[2026-10-15 16:31:58]   allinone.json: 111 站（改写 md5 0 / 补写 md5 65 / 剔除 65 ['1905', 'Aid', 'Bili', 'Biliych', 'PanSou', 'XYQH_JOJO', 'XYQH_电影港', 'cc_shdy2', 'cc_热播之家', 'cc_相声', 'cc_评书', 'csp_555电影', 'csp_Bili', 'csp_Bili_FBqx', 'csp_Bili_MTV', 'csp_Bili_Meinvw', 'csp_Bili_Nvtuan', 'csp_Bili_TYjs', 'csp_Bili_Yinl2', 'csp_Bili__dapei', 'csp_Bili_czxx', 'csp_Bili_dashan', 'csp_Bili_gaozxx', 'csp_Bili_meishi', 'csp_Bili_xiangsh', 'csp_Bili_xiaoxue', 'csp_Bili_xuqu1', 'csp_Bili_yanchh', 'csp_Bili_youer', 'csp_Bili_zyy', 'csp_Bili短剧', 'csp_Gz360', 'csp_Ikanbot', 'csp_MeijuMi', 'csp_SP360', 'csp_XYQHiker_VSYY', 'csp_Xunlei8', 'csp_nkdyw', 'csp_七新', 'csp_七月', 'csp_午舞', 'csp_奇优', 'csp_好戏', 'csp_日后', 'csp_爱看', 'csp_胖虎', 'csp_苹果', 'csp_蘑菇', 'csp_达龟', 'csp_酷奇', 'csp_量子', 'csp_非凡', 'csp_黑狐', 'push_agent', 'xgapp', '初中课堂', '央视经典', '夸快夸快', '小学课堂', '少儿教育', '干饭', '热播影视', '酷狗', '骑骑影院', '高中教育']）
+[2026-10-15 16:32:14]   !! 单次剔除 65 站（共 176，阈值 17），超过熔断阈值，已中止本次配置写入（原文件未动）
+[2026-10-15 16:32:14]   !! 被剔除清单: 1905,Aid,Bili,Biliych,PanSou,XYQH_JOJO,XYQH_电影港,cc_shdy2,cc_热播之家,cc_相声,cc_评书,csp_555电影,csp_Bili,csp_Bili_FBqx,csp_Bili_MTV,csp_Bili_Meinvw,csp_Bili_Nvtuan,csp_Bili_TYjs,csp_Bili_Yinl2,csp_Bili__dapei,csp_Bili_czxx,csp_Bili_dashan,csp_Bili_gaozxx,csp_Bili_meishi,csp_Bili_xiangsh,csp_Bili_xiaoxue,csp_Bili_xuqu1,csp_Bili_yanchh,csp_Bili_youer,csp_Bili_zyy

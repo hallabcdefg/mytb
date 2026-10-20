@@ -1,0 +1,29 @@
+{
+  "修复时间": "2026-10-16",
+  "原站点数": 212,
+  "修复后站点数": 203,
+  "删除站点": {
+    "蘑菇影视(T3)": "www.moguys.work 双DNS无A记录",
+    "奶狗影视(T3)": "ds.naigou88.top 双DNS无A记录",
+    "皮皮虾[自](T3)": "www.ppxyes.com 双DNS无A记录",
+    "清风DJ(T3)": "www.vvvdj.com 双DNS无A记录",
+    "刷剧网(T3)": "www.shuajuw.com 双DNS无A记录",
+    "速播小屋(T3)": "vzjkqi.subowu22.com 双DNS无A记录",
+    "无忧影视(T3)": "www.wyys.cf 双DNS无A记录",
+    "星河影视(T3)": "www.hldol.com 双DNS无A记录",
+    "易点看影院[自](T3)": "www.edktv.com 双DNS无A记录"
+  },
+  "保留但标注": {
+    "猫视界(T3)": "源站 msjtv.com 解析到 ghs.google.com, 国内电视直连可能不通",
+    "饭团影视(T3)": "源站 sjz42.net 在 Cloudflare, 国内直连可能不通"
+  },
+  "保留说明": {
+    "误杀嫌疑站(有IPv4但沙箱不可达)": "爱你短剧/策驰影院/九牛电影/看戏网/来看点播0/来看点播1/你好帅/七新电影网/三集电影/网飞TV/星月/一起看/影视大全1/追剧兔/最新4K 等, 电视端大概率可开",
+    "csp_引擎站112个": "配套 FongMi spider.jar 信任保留, 黑盒无法沙箱验证",
+    "type=1直连站7个": "5个实测ac=list正常, 光速/快车待真机确认"
+  },
+  "待办": [
+    "EdgeOne Pages 部署拿到域名后, 全量替换 git.yylx.win 代理路径为 EdgeOne 域名",
+    "电视端实测保留站, 按站名报障再迭代"
+  ]
+}
